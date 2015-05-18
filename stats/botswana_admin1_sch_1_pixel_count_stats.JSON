@@ -1,0 +1,231 @@
+jsonCallback([
+{
+    "admin1_sch_I": [
+        {
+            "Central": [
+                {
+                    "lc": "Forestland,10352500,16467765"
+                },
+                {
+                    "lc": "Grassland,133828593,121910669"
+                },
+                {
+                    "lc": "Cropland,2185565,2166775"
+                },
+                {
+                    "lc": "Wetland,8154568,10035809"
+                },
+                {
+                    "lc": "Setlement,303876"
+                },
+                {
+                    "lc": "Otherland,82881,3865624"
+                },
+                {
+                    "lc": "No data,0"
+                }
+            ]
+        },
+        {
+            "Ghanzi": [
+                {
+                    "lc": "Forestland,252524,2712398"
+                },
+                {
+                    "lc": "Grassland,120995816,115055517"
+                },
+                {
+                    "lc": "Wetland,26702,46645"
+                },
+                {
+                    "lc": "Setlement,14269"
+                },
+                {
+                    "lc": "Otherland,116595,3579238"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Cropland,0,0"
+                }
+            ]
+        },
+        {
+            "Kgalagadi": [
+                {
+                    "lc": "Forestland,317477,178252"
+                },
+                {
+                    "lc": "Grassland,105465100,108491494"
+                },
+                {
+                    "lc": "Cropland,5232,9632"
+                },
+                {
+                    "lc": "Wetland,200412,338545"
+                },
+                {
+                    "lc": "Setlement,11655"
+                },
+                {
+                    "lc": "Otherland,7758569,4717946"
+                },
+                {
+                    "lc": "No data,0"
+                }
+            ]
+        },
+        {
+            "Kgatleng": [
+                {
+                    "lc": "Forestland,642649,1854758"
+                },
+                {
+                    "lc": "Grassland,7487175,6355705"
+                },
+                {
+                    "lc": "Cropland,152883,70389"
+                },
+                {
+                    "lc": "Wetland,59212,41644"
+                },
+                {
+                    "lc": "Setlement,70175"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Otherland,0,18098"
+                }
+            ]
+        },
+        {
+            "Kweneng": [
+                {
+                    "lc": "Forestland,1003698,922151"
+                },
+                {
+                    "lc": "Grassland,37800811,36575000"
+                },
+                {
+                    "lc": "Cropland,740565,425246"
+                },
+                {
+                    "lc": "Wetland,11033,21187"
+                },
+                {
+                    "lc": "Setlement,70549"
+                },
+                {
+                    "lc": "Otherland,18650,1548456"
+                },
+                {
+                    "lc": "No data,0"
+                }
+            ]
+        },
+        {
+            "North_East": [
+                {
+                    "lc": "Forestland,996062,1149132"
+                },
+                {
+                    "lc": "Grassland,3988845,3275714"
+                },
+                {
+                    "lc": "Cropland,531636,1019685"
+                },
+                {
+                    "lc": "Wetland,28275,28058"
+                },
+                {
+                    "lc": "Setlement,73772"
+                },
+                {
+                    "lc": "Otherland,1138,9102"
+                },
+                {
+                    "lc": "No data,0"
+                }
+            ]
+        },
+        {
+            "North_West": [
+                {
+                    "lc": "Forestland,16583090,17011346"
+                },
+                {
+                    "lc": "Grassland,111730038,109357952"
+                },
+                {
+                    "lc": "Cropland,297848,321377"
+                },
+                {
+                    "lc": "Wetland,8571645,7900315"
+                },
+                {
+                    "lc": "Setlement,19608"
+                },
+                {
+                    "lc": "Otherland,621565,3144879"
+                },
+                {
+                    "lc": "No data,0"
+                }
+            ]
+        },
+        {
+            "South_East": [
+                {
+                    "lc": "Forestland,481103,568692"
+                },
+                {
+                    "lc": "Grassland,1487095,1406670"
+                },
+                {
+                    "lc": "Cropland,30901,18463"
+                },
+                {
+                    "lc": "Wetland,28616,27724"
+                },
+                {
+                    "lc": "Setlement,153110"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Otherland,0,0"
+                }
+            ]
+        },
+        {
+            "Southern": [
+                {
+                    "lc": "Forestland,632421,1012287"
+                },
+                {
+                    "lc": "Grassland,28251416,27152963"
+                },
+                {
+                    "lc": "Cropland,537352,523303"
+                },
+                {
+                    "lc": "Wetland,13349,22247"
+                },
+                {
+                    "lc": "Setlement,139990"
+                },
+                {
+                    "lc": "Otherland,42824,750777"
+                },
+                {
+                    "lc": "No data,0"
+                }
+            ]
+        }
+    ]
+}
+ ]);

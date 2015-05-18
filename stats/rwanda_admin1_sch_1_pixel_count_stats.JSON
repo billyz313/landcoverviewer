@@ -1,0 +1,131 @@
+jsonCallback([
+{
+    "admin1_sch_I": [
+        {
+            "TOWN_OF_KIGALI": [
+                {
+                    "lc": "Forestland,365765,352468,287459"
+                },
+                {
+                    "lc": " Grassland,84046"
+                },
+                {
+                    "lc": "Cropland,213910,323625,354421"
+                },
+                {
+                    "lc": "Wetland,58655,32997,44845"
+                },
+                {
+                    "lc": "Settlement,90502,96995"
+                },
+                {
+                    "lc": "Unclassified,0"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        },
+        {
+            "SOUTHERN_PROVINCE": [
+                {
+                    "lc": "nodata,231,231,231"
+                },
+                {
+                    "lc": "Forestland,3151179,2375651,2136540"
+                },
+                {
+                    "lc": " Grassland,171648"
+                },
+                {
+                    "lc": "Cropland,3147356,3896301,3996026"
+                },
+                {
+                    "lc": "Wetland,155247,131652,158057"
+                },
+                {
+                    "lc": "Settlement,10948,31331"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        },
+        {
+            "WESTERN_PROVINCE": [
+                {
+                    "lc": "nodata,540,540,540"
+                },
+                {
+                    "lc": "Forestland,3872776,3065298,2820130"
+                },
+                {
+                    "lc": " Grassland,248125"
+                },
+                {
+                    "lc": "Cropland,1280153,2131324,2232619"
+                },
+                {
+                    "lc": "Wetland,1132962,1142440,1149627"
+                },
+                {
+                    "lc": "Settlement,6560,22073"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        },
+        {
+            "NORTHERN_PROVINCE": [
+                {
+                    "lc": "nodata,94,94,94"
+                },
+                {
+                    "lc": "Forestland,2078418,931894,1410132"
+                },
+                {
+                    "lc": " Grassland,243027"
+                },
+                {
+                    "lc": "Cropland,1164986,2502754,2003291"
+                },
+                {
+                    "lc": "Wetland,157925,161654,162788"
+                },
+                {
+                    "lc": "Settlement,2050,10670"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        },
+        {
+            "EASTERN_PROVINCE": [
+                {
+                    "lc": "nodata,2275,2275,2275"
+                },
+                {
+                    "lc": "Forestland,2877783,1701996,1718326"
+                },
+                {
+                    "lc": " Grassland,4972959"
+                },
+                {
+                    "lc": "Cropland,1184609,3731332,3879829"
+                },
+                {
+                    "lc": "Wetland,1488790,1125458,1380035"
+                },
+                {
+                    "lc": "Settlement,19187,68302"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        }
+    ]
+}
+]);

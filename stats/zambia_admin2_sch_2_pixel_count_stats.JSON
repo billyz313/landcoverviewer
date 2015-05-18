@@ -1,0 +1,49 @@
+jsonCallback([
+{
+    "admin0_sch_II": [
+        {
+            "Zambia": [
+                {
+                    "lc": "nodata,16186,13693"
+                },
+                {
+                    "lc": "Moderate Dense Forest,47543388"
+                },
+                {
+                    "lc": "Low Dense Forest,231511912,333482585"
+                },
+                {
+                    "lc": "Open Dense Forest,135019429,93348947"
+                },
+                {
+                    "lc": "Closed Grassland,1139125,41974"
+                },
+                {
+                    "lc": "Open Grassland,55859662,25157869"
+                },
+                {
+                    "lc": "Closed Shrubland,48037168,44453791"
+                },
+                {
+                    "lc": "Open Shrubland,196286415,130961695"
+                },
+                {
+                    "lc": "Cropland,50419688,87782926"
+                },
+                {
+                    "lc": "Wetland,29050486,42561096"
+                },
+                {
+                    "lc": "Water Body,16036598,16883985"
+                },
+                {
+                    "lc": "Settlement,1219349,1792372"
+                },
+                {
+                    "lc": "Otherland,823064,1570673"
+                }
+            ]
+        }
+    ]
+}
+]);

@@ -1,0 +1,1826 @@
+jsonCallback([
+{
+    "admin1_sch_II": [
+        {
+            "Arusha": [
+                {
+                    "lc": "Dense Forest,325281,549248"
+                },
+                {
+                    "lc": "Moderate Forest,952146,1280704"
+                },
+                {
+                    "lc": "Sparse Forest,5687864,2677592"
+                },
+                {
+                    "lc": "Planted Forest,57247,20044"
+                },
+                {
+                    "lc": "Woodland,68041,0"
+                },
+                {
+                    "lc": "Closed Grassland,2183309,5315066"
+                },
+                {
+                    "lc": "Open Grassland,13664053,8205830"
+                },
+                {
+                    "lc": "Closed Bushland,3259605,1741454"
+                },
+                {
+                    "lc": "Open Bushland,8224646,9333840"
+                },
+                {
+                    "lc": "Perennial Cropland,75879,74672"
+                },
+                {
+                    "lc": "Annual Cropland,3204019,6050439"
+                },
+                {
+                    "lc": "Wetland,698837,600889"
+                },
+                {
+                    "lc": "Water Body,2061372,1687313"
+                },
+                {
+                    "lc": "Settlement,18422,38265"
+                },
+                {
+                    "lc": "Bare Soil,3345162,6034725"
+                },
+                {
+                    "lc": "Ice Cap,1"
+                },
+                {
+                    "lc": "Cloud,17987,133602"
+                },
+                {
+                    "lc": "Shadow,24654,109303"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,15539"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Dar_Es_Salaam": [
+                {
+                    "lc": "Moderate Forest,196540,19910"
+                },
+                {
+                    "lc": "Sparse Forest,593510,264953"
+                },
+                {
+                    "lc": "Mangrove Forest,4005,29305"
+                },
+                {
+                    "lc": "Open Grassland,155,111059"
+                },
+                {
+                    "lc": "Closed Bushland,1800,142607"
+                },
+                {
+                    "lc": "Open Bushland,451744,97106"
+                },
+                {
+                    "lc": "Water Body,20829,6059"
+                },
+                {
+                    "lc": "Settlement,539396,984689"
+                },
+                {
+                    "lc": "Bare Soil,985,4871"
+                },
+                {
+                    "lc": "Salt Crust,1885"
+                },
+                {
+                    "lc": "Cloud,3901,27284"
+                },
+                {
+                    "lc": "Shadow,3589,15514"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Dense Forest,0,302"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,866"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Annual Cropland,0,109782"
+                },
+                {
+                    "lc": "Wetland,0,4032"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                }
+            ]
+        },
+        {
+            "Dodoma": [
+                {
+                    "lc": "Dense Forest,172529,190"
+                },
+                {
+                    "lc": "Moderate Forest,436896,196376"
+                },
+                {
+                    "lc": "Sparse Forest,2609931,1233100"
+                },
+                {
+                    "lc": "Woodland,130552,0"
+                },
+                {
+                    "lc": "Closed Grassland,375189,81610"
+                },
+                {
+                    "lc": "Open Grassland,5390183,7825683"
+                },
+                {
+                    "lc": "Closed Bushland,5954169,8672697"
+                },
+                {
+                    "lc": "Open Bushland,17501700,11766842"
+                },
+                {
+                    "lc": "Annual Cropland,6968137,13390245"
+                },
+                {
+                    "lc": "Wetland,31478,277507"
+                },
+                {
+                    "lc": "Water Body,610320,531392"
+                },
+                {
+                    "lc": "Settlement,72835,91294"
+                },
+                {
+                    "lc": "Bare Soil,6797634,2427343"
+                },
+                {
+                    "lc": "Cloud,16586,333300"
+                },
+                {
+                    "lc": "Shadow,12733,253261"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,32"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Iringa": [
+                {
+                    "lc": "Dense Forest,402340,213821"
+                },
+                {
+                    "lc": "Moderate Forest,2570763,4467160"
+                },
+                {
+                    "lc": "Sparse Forest,14409184,14917278"
+                },
+                {
+                    "lc": "Planted Forest,459096,628983"
+                },
+                {
+                    "lc": "Closed Grassland,65452,52361"
+                },
+                {
+                    "lc": "Open Grassland,13916364,7559065"
+                },
+                {
+                    "lc": "Closed Bushland,4055114,8296588"
+                },
+                {
+                    "lc": "Open Bushland,17612702,17584032"
+                },
+                {
+                    "lc": "Perennial Cropland,84082,120730"
+                },
+                {
+                    "lc": "Annual Cropland,8241222,13420325"
+                },
+                {
+                    "lc": "Wetland,154414,239450"
+                },
+                {
+                    "lc": "Water Body,306705,213540"
+                },
+                {
+                    "lc": "Settlement,89396,92947"
+                },
+                {
+                    "lc": "Bare Soil,2084014,665893"
+                },
+                {
+                    "lc": "Cloud,3098490,464157"
+                },
+                {
+                    "lc": "Shadow,1485326,98334"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Kagera": [
+                {
+                    "lc": "Dense Forest,539293,704592"
+                },
+                {
+                    "lc": "Moderate Forest,343077,132601"
+                },
+                {
+                    "lc": "Sparse Forest,6655959,5955462"
+                },
+                {
+                    "lc": "Planted Forest,1795,1560"
+                },
+                {
+                    "lc": "Woodland,205437,0"
+                },
+                {
+                    "lc": "Open Grassland,2471516,6453392"
+                },
+                {
+                    "lc": "Closed Bushland,4063005,993515"
+                },
+                {
+                    "lc": "Open Bushland,12614155,6035543"
+                },
+                {
+                    "lc": "Annual Cropland,3619963,8997198"
+                },
+                {
+                    "lc": "Wetland,1236953,1950144"
+                },
+                {
+                    "lc": "Water Body,12064203,12061483"
+                },
+                {
+                    "lc": "Settlement,4392,14603"
+                },
+                {
+                    "lc": "Bare Soil,386731,1018971"
+                },
+                {
+                    "lc": "Cloud,136101,16644"
+                },
+                {
+                    "lc": "Shadow,26477,8773"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,23160"
+                },
+                {
+                    "lc": "Perennial Cropland,0,1416"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Kaskazini_Pemba": [
+                {
+                    "lc": "Moderate Forest,533,0"
+                },
+                {
+                    "lc": "Sparse Forest,168348,107446"
+                },
+                {
+                    "lc": "Mangrove Forest,26985,24370"
+                },
+                {
+                    "lc": "Open Grassland,85241,12246"
+                },
+                {
+                    "lc": "Open Bushland,52952,680"
+                },
+                {
+                    "lc": "Water Body,69082,20150"
+                },
+                {
+                    "lc": "Settlement,2423,2416"
+                },
+                {
+                    "lc": "Bare Soil,27717,26609"
+                },
+                {
+                    "lc": "Cloud,128345,383000"
+                },
+                {
+                    "lc": "Shadow,59984,42748"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Dense Forest,0,1898"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Closed Bushland,0,47"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Annual Cropland,0,0"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Kaskazini_Unguja": [
+                {
+                    "lc": "Moderate Forest,839,0"
+                },
+                {
+                    "lc": "Sparse Forest,184654,182749"
+                },
+                {
+                    "lc": "Mangrove Forest,3110,8683"
+                },
+                {
+                    "lc": "Open Grassland,37902,1102"
+                },
+                {
+                    "lc": "Open Bushland,184802,120794"
+                },
+                {
+                    "lc": "Water Body,2953,26659"
+                },
+                {
+                    "lc": "Bare Soil,613,0"
+                },
+                {
+                    "lc": "Cloud,64897,2069"
+                },
+                {
+                    "lc": "Shadow,47574,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Dense Forest,0,185"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Closed Bushland,0,151718"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Annual Cropland,0,28814"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                },
+                {
+                    "lc": "Settlement,0,4571"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Kigoma": [
+                {
+                    "lc": "nodata,892,890"
+                },
+                {
+                    "lc": "Dense Forest,29384,515"
+                },
+                {
+                    "lc": "Moderate Forest,299314,208682"
+                },
+                {
+                    "lc": "Sparse Forest,13581366,15945604"
+                },
+                {
+                    "lc": "Planted Forest,4,0"
+                },
+                {
+                    "lc": "Woodland,7689,0"
+                },
+                {
+                    "lc": "Open Grassland,4440958,6324752"
+                },
+                {
+                    "lc": "Closed Bushland,7384341,2475309"
+                },
+                {
+                    "lc": "Open Bushland,12584752,11810024"
+                },
+                {
+                    "lc": "Perennial Cropland,39786,40924"
+                },
+                {
+                    "lc": "Annual Cropland,1043489,3499731"
+                },
+                {
+                    "lc": "Wetland,636477,1039695"
+                },
+                {
+                    "lc": "Water Body,9354788,9297679"
+                },
+                {
+                    "lc": "Settlement,27190,30185"
+                },
+                {
+                    "lc": "Bare Soil,1872451,752239"
+                },
+                {
+                    "lc": "Cloud,94043,0"
+                },
+                {
+                    "lc": "Shadow,29305,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Kilimanjaro": [
+                {
+                    "lc": "Dense Forest,596708,530756"
+                },
+                {
+                    "lc": "Moderate Forest,711836,415257"
+                },
+                {
+                    "lc": "Sparse Forest,1225373,1315890"
+                },
+                {
+                    "lc": "Planted Forest,76319,177203"
+                },
+                {
+                    "lc": "Woodland,132162,0"
+                },
+                {
+                    "lc": "Closed Grassland,81274,264736"
+                },
+                {
+                    "lc": "Open Grassland,1851890,2407187"
+                },
+                {
+                    "lc": "Closed Bushland,925731,2318576"
+                },
+                {
+                    "lc": "Open Bushland,6712270,3123750"
+                },
+                {
+                    "lc": "Perennial Cropland,167017,190792"
+                },
+                {
+                    "lc": "Annual Cropland,1576142,2273726"
+                },
+                {
+                    "lc": "Wetland,24391,19843"
+                },
+                {
+                    "lc": "Water Body,126916,159097"
+                },
+                {
+                    "lc": "Settlement,47179,56024"
+                },
+                {
+                    "lc": "Bare Soil,561389,785638"
+                },
+                {
+                    "lc": "Rock Outcrop,31929,75940"
+                },
+                {
+                    "lc": "Ice Cap,6026"
+                },
+                {
+                    "lc": "Cloud,11210,566615"
+                },
+                {
+                    "lc": "Shadow,9842,194574"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Kusini_Pemba": [
+                {
+                    "lc": "Moderate Forest,589,0"
+                },
+                {
+                    "lc": "Sparse Forest,150001,161565"
+                },
+                {
+                    "lc": "Mangrove Forest,24677,35820"
+                },
+                {
+                    "lc": "Open Grassland,51160,49"
+                },
+                {
+                    "lc": "Open Bushland,44747,11516"
+                },
+                {
+                    "lc": "Water Body,69383,61897"
+                },
+                {
+                    "lc": "Settlement,2358,2340"
+                },
+                {
+                    "lc": "Bare Soil,29094,0"
+                },
+                {
+                    "lc": "Cloud,142346,254933"
+                },
+                {
+                    "lc": "Shadow,51298,21370"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Dense Forest,0,440"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Closed Bushland,0,13246"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Annual Cropland,0,2477"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Lindi": [
+                {
+                    "lc": "Dense Forest,154224,359651"
+                },
+                {
+                    "lc": "Moderate Forest,3906133,5542322"
+                },
+                {
+                    "lc": "Sparse Forest,26589534,29197754"
+                },
+                {
+                    "lc": "Mangrove Forest,234671,261405"
+                },
+                {
+                    "lc": "Woodland,74488,71387"
+                },
+                {
+                    "lc": "Open Grassland,5148367,2139803"
+                },
+                {
+                    "lc": "Closed Bushland,10466271,5306698"
+                },
+                {
+                    "lc": "Open Bushland,23850058,29255336"
+                },
+                {
+                    "lc": "Perennial Cropland,46442,67285"
+                },
+                {
+                    "lc": "Annual Cropland,713049,1460575"
+                },
+                {
+                    "lc": "Wetland,102381,87720"
+                },
+                {
+                    "lc": "Water Body,232076,202297"
+                },
+                {
+                    "lc": "Settlement,53837,67519"
+                },
+                {
+                    "lc": "Bare Soil,1268130,353018"
+                },
+                {
+                    "lc": "Rock Outcrop,324,95504"
+                },
+                {
+                    "lc": "Salt Crust,3532"
+                },
+                {
+                    "lc": "Cloud,1184113,82794"
+                },
+                {
+                    "lc": "Shadow,620621,52411"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Planted Forest,0,2059"
+                },
+                {
+                    "lc": "Closed Grassland,0,42713"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                }
+            ]
+        },
+        {
+            "Manyara": [
+                {
+                    "lc": "Dense Forest,497523,74955"
+                },
+                {
+                    "lc": "Moderate Forest,642440,567719"
+                },
+                {
+                    "lc": "Sparse Forest,4352128,1874273"
+                },
+                {
+                    "lc": "Woodland,63427,0"
+                },
+                {
+                    "lc": "Closed Grassland,460416,427329"
+                },
+                {
+                    "lc": "Open Grassland,5624876,8877666"
+                },
+                {
+                    "lc": "Closed Bushland,10343556,13229756"
+                },
+                {
+                    "lc": "Open Bushland,20635127,13149694"
+                },
+                {
+                    "lc": "Perennial Cropland,2856,2755"
+                },
+                {
+                    "lc": "Annual Cropland,4962002,9428681"
+                },
+                {
+                    "lc": "Wetland,100203,117196"
+                },
+                {
+                    "lc": "Water Body,222086,265594"
+                },
+                {
+                    "lc": "Settlement,1202,2166"
+                },
+                {
+                    "lc": "Bare Soil,2271946,1845348"
+                },
+                {
+                    "lc": "Cloud,806,148800"
+                },
+                {
+                    "lc": "Shadow,1733,117658"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Planted Forest,0,52200"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,537"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Mara": [
+                {
+                    "lc": "Sparse Forest,2205826,968601"
+                },
+                {
+                    "lc": "Closed Grassland,766542,1057111"
+                },
+                {
+                    "lc": "Open Grassland,9584030,4165136"
+                },
+                {
+                    "lc": "Closed Bushland,181947,1091608"
+                },
+                {
+                    "lc": "Open Bushland,5905858,7892558"
+                },
+                {
+                    "lc": "Annual Cropland,4036214,6634805"
+                },
+                {
+                    "lc": "Wetland,282265,478739"
+                },
+                {
+                    "lc": "Water Body,9261611,9234059"
+                },
+                {
+                    "lc": "Settlement,15510,25455"
+                },
+                {
+                    "lc": "Bare Soil,88200,520769"
+                },
+                {
+                    "lc": "Shadow,1,20903"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Dense Forest,0,10633"
+                },
+                {
+                    "lc": "Moderate Forest,0,8"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                },
+                {
+                    "lc": "Cloud,0,227619"
+                }
+            ]
+        },
+        {
+            "Mbeya": [
+                {
+                    "lc": "Dense Forest,86914,15620"
+                },
+                {
+                    "lc": "Moderate Forest,2393039,6672269"
+                },
+                {
+                    "lc": "Sparse Forest,23550635,19252168"
+                },
+                {
+                    "lc": "Open Grassland,2720255,6254157"
+                },
+                {
+                    "lc": "Closed Bushland,11808174,11211332"
+                },
+                {
+                    "lc": "Open Bushland,13115882,6224348"
+                },
+                {
+                    "lc": "Perennial Cropland,42671,42196"
+                },
+                {
+                    "lc": "Annual Cropland,5763047,10809073"
+                },
+                {
+                    "lc": "Wetland,374332,1011125"
+                },
+                {
+                    "lc": "Water Body,1818450,1940429"
+                },
+                {
+                    "lc": "Settlement,17990,54380"
+                },
+                {
+                    "lc": "Bare Soil,2976023,582103"
+                },
+                {
+                    "lc": "Cloud,12356,523819"
+                },
+                {
+                    "lc": "Shadow,3174,34395"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Planted Forest,0,55305"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,223"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Morogoro": [
+                {
+                    "lc": "Dense Forest,816233,795804"
+                },
+                {
+                    "lc": "Moderate Forest,5404856,5335207"
+                },
+                {
+                    "lc": "Sparse Forest,26798593,25708641"
+                },
+                {
+                    "lc": "Planted Forest,12678,15595"
+                },
+                {
+                    "lc": "Woodland,28855,17318"
+                },
+                {
+                    "lc": "Closed Grassland,227450,66796"
+                },
+                {
+                    "lc": "Open Grassland,10240571,5632852"
+                },
+                {
+                    "lc": "Closed Bushland,8547194,9708925"
+                },
+                {
+                    "lc": "Open Bushland,14596529,17620181"
+                },
+                {
+                    "lc": "Perennial Cropland,247684,272054"
+                },
+                {
+                    "lc": "Annual Cropland,3942927,7690184"
+                },
+                {
+                    "lc": "Wetland,771924,1249951"
+                },
+                {
+                    "lc": "Water Body,160874,188186"
+                },
+                {
+                    "lc": "Settlement,12814,34078"
+                },
+                {
+                    "lc": "Bare Soil,2133843,301838"
+                },
+                {
+                    "lc": "Cloud,1010403,422877"
+                },
+                {
+                    "lc": "Shadow,255436,148377"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Mtwara": [
+                {
+                    "lc": "Dense Forest,47808,2019"
+                },
+                {
+                    "lc": "Moderate Forest,236749,385654"
+                },
+                {
+                    "lc": "Sparse Forest,8643545,3452421"
+                },
+                {
+                    "lc": "Mangrove Forest,90989,94605"
+                },
+                {
+                    "lc": "Open Grassland,297066,670611"
+                },
+                {
+                    "lc": "Closed Bushland,1235816,959243"
+                },
+                {
+                    "lc": "Open Bushland,6537731,8908682"
+                },
+                {
+                    "lc": "Perennial Cropland,1757,1746"
+                },
+                {
+                    "lc": "Annual Cropland,2145687,4500354"
+                },
+                {
+                    "lc": "Wetland,15092,15379"
+                },
+                {
+                    "lc": "Water Body,70692,164365"
+                },
+                {
+                    "lc": "Settlement,194187,223394"
+                },
+                {
+                    "lc": "Bare Soil,287040,273750"
+                },
+                {
+                    "lc": "Rock Outcrop,30139,53753"
+                },
+                {
+                    "lc": "Salt Crust,4451"
+                },
+                {
+                    "lc": "Cloud,5584,35538"
+                },
+                {
+                    "lc": "Shadow,8325,56215"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Planted Forest,0,529"
+                },
+                {
+                    "lc": "Woodland,0,49218"
+                },
+                {
+                    "lc": "Closed Grassland,0,5182"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                }
+            ]
+        },
+        {
+            "Mwanza": [
+                {
+                    "lc": "Dense Forest,143979,536175"
+                },
+                {
+                    "lc": "Moderate Forest,19650,32590"
+                },
+                {
+                    "lc": "Sparse Forest,1540690,654600"
+                },
+                {
+                    "lc": "Planted Forest,25265,2503"
+                },
+                {
+                    "lc": "Closed Grassland,519,0"
+                },
+                {
+                    "lc": "Open Grassland,1899373,1062948"
+                },
+                {
+                    "lc": "Closed Bushland,867610,1157895"
+                },
+                {
+                    "lc": "Open Bushland,4034219,898386"
+                },
+                {
+                    "lc": "Annual Cropland,12115521,16414881"
+                },
+                {
+                    "lc": "Wetland,226801,333130"
+                },
+                {
+                    "lc": "Water Body,17646695,17586154"
+                },
+                {
+                    "lc": "Settlement,85858,162889"
+                },
+                {
+                    "lc": "Bare Soil,291191,55189"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                },
+                {
+                    "lc": "Cloud,0,31"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Pwani": [
+                {
+                    "lc": "Dense Forest,8273,90526"
+                },
+                {
+                    "lc": "Moderate Forest,8539228,2102909"
+                },
+                {
+                    "lc": "Sparse Forest,12166150,12986324"
+                },
+                {
+                    "lc": "Mangrove Forest,355872,658255"
+                },
+                {
+                    "lc": "Woodland,5131,0"
+                },
+                {
+                    "lc": "Open Grassland,520205,1741117"
+                },
+                {
+                    "lc": "Closed Bushland,2746540,6105625"
+                },
+                {
+                    "lc": "Open Bushland,10357428,9819862"
+                },
+                {
+                    "lc": "Perennial Cropland,359,315"
+                },
+                {
+                    "lc": "Annual Cropland,8223,496398"
+                },
+                {
+                    "lc": "Wetland,3547,37279"
+                },
+                {
+                    "lc": "Water Body,474486,262193"
+                },
+                {
+                    "lc": "Settlement,32258,194821"
+                },
+                {
+                    "lc": "Bare Soil,271088,53925"
+                },
+                {
+                    "lc": "Salt Crust,2852"
+                },
+                {
+                    "lc": "Cloud,17026,873515"
+                },
+                {
+                    "lc": "Shadow,18079,71989"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,31692"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                }
+            ]
+        },
+        {
+            "Rukwa": [
+                {
+                    "lc": "Dense Forest,27,0"
+                },
+                {
+                    "lc": "Moderate Forest,544164,3671166"
+                },
+                {
+                    "lc": "Sparse Forest,26452662,25293099"
+                },
+                {
+                    "lc": "Open Grassland,3253945,4275013"
+                },
+                {
+                    "lc": "Closed Bushland,16298482,9961042"
+                },
+                {
+                    "lc": "Open Bushland,17080728,18003618"
+                },
+                {
+                    "lc": "Perennial Cropland,23250,22670"
+                },
+                {
+                    "lc": "Annual Cropland,6006128,9954166"
+                },
+                {
+                    "lc": "Wetland,61823,212089"
+                },
+                {
+                    "lc": "Water Body,10833752,10675797"
+                },
+                {
+                    "lc": "Settlement,18597,27524"
+                },
+                {
+                    "lc": "Bare Soil,2649594,1271669"
+                },
+                {
+                    "lc": "Cloud,98099,35921"
+                },
+                {
+                    "lc": "Shadow,96611,14088"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Ruvuma": [
+                {
+                    "lc": "Dense Forest,6354,120229"
+                },
+                {
+                    "lc": "Moderate Forest,3406032,4279584"
+                },
+                {
+                    "lc": "Sparse Forest,27914385,24312156"
+                },
+                {
+                    "lc": "Planted Forest,2591,0"
+                },
+                {
+                    "lc": "Woodland,150940,343487"
+                },
+                {
+                    "lc": "Closed Grassland,20,4174"
+                },
+                {
+                    "lc": "Open Grassland,2103232,2033295"
+                },
+                {
+                    "lc": "Closed Bushland,8048456,5674510"
+                },
+                {
+                    "lc": "Open Bushland,21120078,27003870"
+                },
+                {
+                    "lc": "Perennial Cropland,56091,68715"
+                },
+                {
+                    "lc": "Annual Cropland,3491946,5024200"
+                },
+                {
+                    "lc": "Wetland,2798,44481"
+                },
+                {
+                    "lc": "Water Body,367009,351597"
+                },
+                {
+                    "lc": "Settlement,121463,130137"
+                },
+                {
+                    "lc": "Bare Soil,1268799,955676"
+                },
+                {
+                    "lc": "Rock Outcrop,48932,7797"
+                },
+                {
+                    "lc": "Salt Crust,2509"
+                },
+                {
+                    "lc": "Cloud,2745984,714059"
+                },
+                {
+                    "lc": "Shadow,482433,272085"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                }
+            ]
+        },
+        {
+            "Shinyanga": [
+                {
+                    "lc": "Dense Forest,42,38058"
+                },
+                {
+                    "lc": "Moderate Forest,71,3160"
+                },
+                {
+                    "lc": "Sparse Forest,8840825,5702524"
+                },
+                {
+                    "lc": "Planted Forest,132,0"
+                },
+                {
+                    "lc": "Woodland,3143,0"
+                },
+                {
+                    "lc": "Closed Grassland,2490412,2738985"
+                },
+                {
+                    "lc": "Open Grassland,11383365,4227408"
+                },
+                {
+                    "lc": "Closed Bushland,2583041,4915526"
+                },
+                {
+                    "lc": "Open Bushland,8804341,9492004"
+                },
+                {
+                    "lc": "Annual Cropland,18977071,27436500"
+                },
+                {
+                    "lc": "Wetland,399192,502173"
+                },
+                {
+                    "lc": "Water Body,13304,13714"
+                },
+                {
+                    "lc": "Settlement,25946,38700"
+                },
+                {
+                    "lc": "Bare Soil,2428274,840288"
+                },
+                {
+                    "lc": "Shadow,3,28"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                },
+                {
+                    "lc": "Cloud,0,94"
+                }
+            ]
+        },
+        {
+            "Singida": [
+                {
+                    "lc": "Dense Forest,1228,4275"
+                },
+                {
+                    "lc": "Moderate Forest,113316,50714"
+                },
+                {
+                    "lc": "Sparse Forest,4046118,2792003"
+                },
+                {
+                    "lc": "Woodland,89045,0"
+                },
+                {
+                    "lc": "Open Grassland,4713658,3592538"
+                },
+                {
+                    "lc": "Closed Bushland,14937564,20798299"
+                },
+                {
+                    "lc": "Open Bushland,17842906,10542611"
+                },
+                {
+                    "lc": "Annual Cropland,6679327,15240570"
+                },
+                {
+                    "lc": "Wetland,297314,279029"
+                },
+                {
+                    "lc": "Water Body,475320,519707"
+                },
+                {
+                    "lc": "Settlement,1861,30860"
+                },
+                {
+                    "lc": "Bare Soil,5174809,515530"
+                },
+                {
+                    "lc": "Cloud,51,1685"
+                },
+                {
+                    "lc": "Shadow,95,4599"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,192"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Tabora": [
+                {
+                    "lc": "Moderate Forest,401970,2820021"
+                },
+                {
+                    "lc": "Sparse Forest,22740475,22530192"
+                },
+                {
+                    "lc": "Woodland,6637,0"
+                },
+                {
+                    "lc": "Open Grassland,5489687,5498564"
+                },
+                {
+                    "lc": "Closed Bushland,23156517,16233919"
+                },
+                {
+                    "lc": "Open Bushland,14161838,14119691"
+                },
+                {
+                    "lc": "Annual Cropland,14015492,21630307"
+                },
+                {
+                    "lc": "Wetland,1189551,1717339"
+                },
+                {
+                    "lc": "Water Body,152308,243846"
+                },
+                {
+                    "lc": "Settlement,29164,35022"
+                },
+                {
+                    "lc": "Bare Soil,3548386,340160"
+                },
+                {
+                    "lc": "Cloud,221670,508"
+                },
+                {
+                    "lc": "Shadow,77342,2001"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Dense Forest,0,19467"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Mangrove Forest,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Tanga": [
+                {
+                    "lc": "Dense Forest,158594,175367"
+                },
+                {
+                    "lc": "Moderate Forest,1884555,638264"
+                },
+                {
+                    "lc": "Sparse Forest,7186371,6810344"
+                },
+                {
+                    "lc": "Mangrove Forest,55538,142036"
+                },
+                {
+                    "lc": "Woodland,143689,0"
+                },
+                {
+                    "lc": "Closed Grassland,35622,22651"
+                },
+                {
+                    "lc": "Open Grassland,1056006,1467169"
+                },
+                {
+                    "lc": "Closed Bushland,10604054,11190591"
+                },
+                {
+                    "lc": "Open Bushland,9016039,6976506"
+                },
+                {
+                    "lc": "Perennial Cropland,145800,244014"
+                },
+                {
+                    "lc": "Annual Cropland,1098471,3598291"
+                },
+                {
+                    "lc": "Wetland,6909,28925"
+                },
+                {
+                    "lc": "Water Body,110516,121599"
+                },
+                {
+                    "lc": "Settlement,36608,70338"
+                },
+                {
+                    "lc": "Bare Soil,67346,57180"
+                },
+                {
+                    "lc": "Cloud,21842,12424"
+                },
+                {
+                    "lc": "Shadow,12225,29103"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Planted Forest,0,55383"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Zanzibar_South_and_Central": [
+                {
+                    "lc": "Moderate Forest,3662,1162"
+                },
+                {
+                    "lc": "Sparse Forest,458555,628451"
+                },
+                {
+                    "lc": "Mangrove Forest,521,29287"
+                },
+                {
+                    "lc": "Open Grassland,24482,23"
+                },
+                {
+                    "lc": "Open Bushland,205017,110321"
+                },
+                {
+                    "lc": "Water Body,2680,94176"
+                },
+                {
+                    "lc": "Settlement,1,10662"
+                },
+                {
+                    "lc": "Bare Soil,935,0"
+                },
+                {
+                    "lc": "Cloud,160896,272"
+                },
+                {
+                    "lc": "Shadow,162964,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Dense Forest,0,37"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Closed Bushland,0,135735"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Annual Cropland,0,9587"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        },
+        {
+            "Zanzibar_West": [
+                {
+                    "lc": "Moderate Forest,1045,43"
+                },
+                {
+                    "lc": "Sparse Forest,82242,96582"
+                },
+                {
+                    "lc": "Mangrove Forest,2715,3712"
+                },
+                {
+                    "lc": "Open Grassland,4705,42"
+                },
+                {
+                    "lc": "Open Bushland,47059,26276"
+                },
+                {
+                    "lc": "Water Body,3848,22530"
+                },
+                {
+                    "lc": "Settlement,38625,98476"
+                },
+                {
+                    "lc": "Bare Soil,313,0"
+                },
+                {
+                    "lc": "Cloud,49796,290"
+                },
+                {
+                    "lc": "Shadow,44064,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Dense Forest,0,78"
+                },
+                {
+                    "lc": "Planted Forest,0,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Closed Bushland,0,23751"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Annual Cropland,0,2632"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Ice Cap,0"
+                },
+                {
+                    "lc": "Salt Crust,0"
+                }
+            ]
+        }
+    ]
+}
+ ]);

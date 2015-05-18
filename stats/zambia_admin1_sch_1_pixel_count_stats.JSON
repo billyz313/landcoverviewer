@@ -1,0 +1,231 @@
+jsonCallback([
+{
+    "admin1_sch_I": [
+        {
+            "Luapula": [
+                {
+                    "lc": "nodata,13814,13821"
+                },
+                {
+                    "lc": "Forestland,25851868,25164767"
+                },
+                {
+                    "lc": "Grassland,12891777,9230570"
+                },
+                {
+                    "lc": "Cropland,3840718,4313539"
+                },
+                {
+                    "lc": "Wetland,10229820,14091396"
+                },
+                {
+                    "lc": "Settlement,94426,122894"
+                },
+                {
+                    "lc": "Otherland,24929,10432"
+                }
+            ]
+        },
+        {
+            "Lusaka": [
+                {
+                    "lc": "nodata,1026"
+                },
+                {
+                    "lc": "Forestland,9866570,15588859"
+                },
+                {
+                    "lc": "Grassland,12452969,5020399"
+                },
+                {
+                    "lc": "Cropland,1053108,2765093"
+                },
+                {
+                    "lc": "Wetland,451174,310440"
+                },
+                {
+                    "lc": "Settlement,218123,349762"
+                },
+                {
+                    "lc": "Otherland,26649,35095"
+                }
+            ]
+        },
+        {
+            "Northern": [
+                {
+                    "lc": "nodata,1156"
+                },
+                {
+                    "lc": "Forestland,82556752,83163373"
+                },
+                {
+                    "lc": "Grassland,53008315,37227948"
+                },
+                {
+                    "lc": "Cropland,9618293,18871355"
+                },
+                {
+                    "lc": "Wetland,11796982,17707273"
+                },
+                {
+                    "lc": "Settlement,111975,103421"
+                },
+                {
+                    "lc": "Otherland,387708,408036"
+                }
+            ]
+        },
+        {
+            "NorthWestern": [
+                {
+                    "lc": "nodata,135"
+                },
+                {
+                    "lc": "Forestland,86174060,94817909"
+                },
+                {
+                    "lc": "Grassland,43160983,33309632"
+                },
+                {
+                    "lc": "Cropland,2731273,3770684"
+                },
+                {
+                    "lc": "Wetland,1980523,1950463"
+                },
+                {
+                    "lc": "Settlement,49987,126854"
+                },
+                {
+                    "lc": "Otherland,11646,133259"
+                }
+            ]
+        },
+        {
+            "Southern": [
+                {
+                    "lc": "nodata,2"
+                },
+                {
+                    "lc": "Forestland,27060433,34913314"
+                },
+                {
+                    "lc": "Grassland,51682114,30152634"
+                },
+                {
+                    "lc": "Cropland,8165195,20415704"
+                },
+                {
+                    "lc": "Wetland,7335399,8691221"
+                },
+                {
+                    "lc": "Settlement,72048,134009"
+                },
+                {
+                    "lc": "Otherland,2532,10973"
+                }
+            ]
+        },
+        {
+            "Western": [
+                {
+                    "lc": "Forestland,77463419,84740173"
+                },
+                {
+                    "lc": "Grassland,47759227,36807334"
+                },
+                {
+                    "lc": "Cropland,4486187,7408885"
+                },
+                {
+                    "lc": "Wetland,9098776,9392113"
+                },
+                {
+                    "lc": "Settlement,76471,13502"
+                },
+                {
+                    "lc": "Otherland,185770,708042"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Central": [
+                {
+                    "lc": "nodata,154"
+                },
+                {
+                    "lc": "Forestland,45891558,54683218"
+                },
+                {
+                    "lc": "Grassland,43602550,25703812"
+                },
+                {
+                    "lc": "Cropland,9664940,15484042"
+                },
+                {
+                    "lc": "Wetland,3226728,6400422"
+                },
+                {
+                    "lc": "Settlement,109555,216132"
+                },
+                {
+                    "lc": "Otherland,56849,64829"
+                }
+            ]
+        },
+        {
+            "Copperbelt": [
+                {
+                    "lc": "Forestland,22551085,22647443"
+                },
+                {
+                    "lc": "Grassland,8929965,7864997"
+                },
+                {
+                    "lc": "Cropland,1521215,2296647"
+                },
+                {
+                    "lc": "Wetland,603886,636848"
+                },
+                {
+                    "lc": "Settlement,279613,458164"
+                },
+                {
+                    "lc": "Otherland,20414,2135"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Eastern": [
+                {
+                    "lc": "nodata,31,11"
+                },
+                {
+                    "lc": "Forestland,36660392,46022624"
+                },
+                {
+                    "lc": "Grassland,27832157,15297550"
+                },
+                {
+                    "lc": "Cropland,9338644,12458941"
+                },
+                {
+                    "lc": "Wetland,364874,265959"
+                },
+                {
+                    "lc": "Settlement,207117,267722"
+                },
+                {
+                    "lc": "Otherland,106608,197135"
+                }
+            ]
+        }
+    ]
+}
+]);

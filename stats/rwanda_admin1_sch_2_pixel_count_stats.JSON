@@ -1,0 +1,251 @@
+jsonCallback([
+{
+    "admin1_sch_II": [
+        {
+            "TOWN_OF_KIGALI": [
+                {
+                    "lc": "Moderate Forest,11270,29492,21462"
+                },
+                {
+                    "lc": "Sparse Forest,354495,321685,265929"
+                },
+                {
+                    "lc": "Closed Grassland,9,0,15"
+                },
+                {
+                    "lc": "Open Grassland,337,11138,174"
+                },
+                {
+                    "lc": "Closed Shrubland,58,0,2967"
+                },
+                {
+                    "lc": "Open Shrubland,83642,266,26002"
+                },
+                {
+                    "lc": "Annual Cropland,213910,323625,354421"
+                },
+                {
+                    "lc": "Wetland,49983,26597,38681"
+                },
+                {
+                    "lc": "Water Body,8672,6400,6164"
+                },
+                {
+                    "lc": "Urban Settlement,90502"
+                },
+                {
+                    "lc": "Unclassified,0"
+                },
+                {
+                    "lc": "Dense Forest,0,115,0"
+                },
+                {
+                    "lc": "Woodland,0,1176,68"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        },
+        {
+            "SOUTHERN_PROVINCE": [
+                {
+                    "lc": "nodata,231,231,231"
+                },
+                {
+                    "lc": "Dense Forest,384392,315095,307435"
+                },
+                {
+                    "lc": "Moderate Forest,123100,447235,450844"
+                },
+                {
+                    "lc": "Sparse Forest,2643687,1612601,1378261"
+                },
+                {
+                    "lc": "Closed Grassland,36,120,818"
+                },
+                {
+                    "lc": "Closed Shrubland,202,0,5437"
+                },
+                {
+                    "lc": "Open Shrubland,171410,194903,296974"
+                },
+                {
+                    "lc": "Perennial Cropland,30629,33808"
+                },
+                {
+                    "lc": "Annual Cropland,3116727,3862387,3962218"
+                },
+                {
+                    "lc": "Wetland,141206,114851,146271"
+                },
+                {
+                    "lc": "Water Body,14041,16801,11786"
+                },
+                {
+                    "lc": "Urban Settlement,10948"
+                },
+                {
+                    "lc": "Woodland,0,720,0"
+                },
+                {
+                    "lc": "Open Grassland,0,21506,7257"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        },
+        {
+            "WESTERN_PROVINCE": [
+                {
+                    "lc": "nodata,540,540,540"
+                },
+                {
+                    "lc": "Dense Forest,569146,366071,227943"
+                },
+                {
+                    "lc": "Moderate Forest,286960,762324,514740"
+                },
+                {
+                    "lc": "Sparse Forest,3016670,1936903,2077447"
+                },
+                {
+                    "lc": "Closed Grassland,43294,136957,134914"
+                },
+                {
+                    "lc": "Open Grassland,26,18838,3319"
+                },
+                {
+                    "lc": "Closed Shrubland,4341,0,1419"
+                },
+                {
+                    "lc": "Open Shrubland,200464,33909,175247"
+                },
+                {
+                    "lc": "Perennial Cropland,52489,52525"
+                },
+                {
+                    "lc": "Annual Cropland,1227664,2078457,2180094"
+                },
+                {
+                    "lc": "Wetland,1935,1344,456"
+                },
+                {
+                    "lc": "Water Body,1131027,1141096,1149171"
+                },
+                {
+                    "lc": "Urban Settlement,6560"
+                },
+                {
+                    "lc": "Woodland,0,0,0"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        },
+        {
+            "NORTHERN_PROVINCE": [
+                {
+                    "lc": "nodata,94,94,94"
+                },
+                {
+                    "lc": "Moderate Forest,126801,186773,175039"
+                },
+                {
+                    "lc": "Sparse Forest,1951617,726651,1233614"
+                },
+                {
+                    "lc": "Closed Grassland,3957,0,0"
+                },
+                {
+                    "lc": "Open Grassland,24,40472,2392"
+                },
+                {
+                    "lc": "Closed Shrubland,446,0,2982"
+                },
+                {
+                    "lc": "Open Shrubland,238600,1156,54151"
+                },
+                {
+                    "lc": "Perennial Cropland,35251,35729"
+                },
+                {
+                    "lc": "Annual Cropland,1129735,2466937,1967562"
+                },
+                {
+                    "lc": "Wetland,69413,68630,69027"
+                },
+                {
+                    "lc": "Water Body,88512,93024,93761"
+                },
+                {
+                    "lc": "Urban Settlement,2050"
+                },
+                {
+                    "lc": "Dense Forest,0,18319,1479"
+                },
+                {
+                    "lc": "Woodland,0,151,0"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        },
+        {
+            "EASTERN_PROVINCE": [
+                {
+                    "lc": "nodata,2275,2275,2275"
+                },
+                {
+                    "lc": "Moderate Forest,244069,228839,208677"
+                },
+                {
+                    "lc": "Sparse Forest,2523474,1385638,1504393"
+                },
+                {
+                    "lc": "Woodland,110240,86479,5179"
+                },
+                {
+                    "lc": "Closed Grassland,82,0,12939"
+                },
+                {
+                    "lc": "Open Grassland,785776,2501298,896506"
+                },
+                {
+                    "lc": "Closed Shrubland,925361,9390,384667"
+                },
+                {
+                    "lc": "Open Shrubland,3261740,1434421,2180391"
+                },
+                {
+                    "lc": "Annual Cropland,1184609,3731332,3879829"
+                },
+                {
+                    "lc": "Wetland,1024726,675983,908345"
+                },
+                {
+                    "lc": "Water Body,464064,449475,471690"
+                },
+                {
+                    "lc": "Urban Settlement,19187"
+                },
+                {
+                    "lc": "Dense Forest,0,1040,77"
+                },
+                {
+                    "lc": "Perennial Cropland,0,0"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        }
+    ]
+}
+ ]);

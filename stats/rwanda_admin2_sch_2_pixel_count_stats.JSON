@@ -1,0 +1,55 @@
+jsonCallback([
+{
+    "admin0_sch_II": [
+        {
+            "rwanda": [
+                {
+                    "lc": "nodata,3107,3107,3107"
+                },
+                {
+                    "lc": "Dense Forest,953693,700766,537045"
+                },
+                {
+                    "lc": "Moderate Forest,792294,1654625,1370627"
+                },
+                {
+                    "lc": "Sparse Forest,10489381,5982784,6458791"
+                },
+                {
+                    "lc": "Woodland,110240,88523,5247"
+                },
+                {
+                    "lc": "Closed Grassland,47376,137077,148686"
+                },
+                {
+                    "lc": "Open Grassland,786147,2593266,909589"
+                },
+                {
+                    "lc": "Closed Shrubland,930411,9402,397448"
+                },
+                {
+                    "lc": "Open Shrubland,3955626,1664875,2732821"
+                },
+                {
+                    "lc": "Perennial Cropland,118367,122057"
+                },
+                {
+                    "lc": "Annual Cropland,6872197,12462223,12343458"
+                },
+                {
+                    "lc": "Wetland,1288455,888229,1164344"
+                },
+                {
+                    "lc": "Water Body,1706165,1706852,1732613"
+                },
+                {
+                    "lc": "Urban Settlement,129251"
+                },
+                {
+                    "lc": "Other Land,0"
+                }
+            ]
+        }
+    ]
+}
+ ]);

@@ -1,0 +1,31 @@
+jsonCallback([
+{
+    "admin0_sch_I": [
+        {
+            "Botswana": [
+                {
+                    "lc": "Forestland,31262878,41877669"
+                },
+                {
+                    "lc": "Grassland,551029137,529576324"
+                },
+                {
+                    "lc": "Cropland,4482545,4555254"
+                },
+                {
+                    "lc": "Wetland,17095451,18465337"
+                },
+                {
+                    "lc": "Setlement,857571"
+                },
+                {
+                    "lc": "Otherland,8642109,17632660"
+                },
+                {
+                    "lc": "No data,0"
+                }
+            ]
+        }
+    ]
+}
+ ]);

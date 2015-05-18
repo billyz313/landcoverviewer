@@ -1,0 +1,52 @@
+jsonCallback([
+{
+    "admin0_sch_II": [
+        {
+            "Botswana": [
+                {
+                    "lc": "Moderate Forest,1839810,7519779"
+                },
+                {
+                    "lc": "Sparse Forest,20183883,19751010"
+                },
+                {
+                    "lc": "Woodland,9239185,14606880"
+                },
+                {
+                    "lc": "Closed Grassland,316523,82829"
+                },
+                {
+                    "lc": "Open Grassland,88434109,76368036"
+                },
+                {
+                    "lc": "Closed Shrubland,165881874,192087909"
+                },
+                {
+                    "lc": "Open Shrubland,296396631,261037550"
+                },
+                {
+                    "lc": "Cropland,4482545,4555254"
+                },
+                {
+                    "lc": "Wetland,7489802,5536300"
+                },
+                {
+                    "lc": "Water Body,1287979,2497502"
+                },
+                {
+                    "lc": "Setlement,857571"
+                },
+                {
+                    "lc": "Otherland,8642109,17632660"
+                },
+                {
+                    "lc": "Pan,8317670,10431535"
+                },
+                {
+                    "lc": "No data,0"
+                }
+            ]
+        }
+    ]
+}
+]);

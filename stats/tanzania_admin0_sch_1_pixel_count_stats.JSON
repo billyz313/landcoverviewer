@@ -1,0 +1,4222 @@
+jsonCallback([
+{
+    "admin2_sch_I": [
+        {
+            "Arumeru": [
+                {
+                    "lc": "Forestland,863373,590681"
+                },
+                {
+                    "lc": "Grassland,1235939,422839"
+                },
+                {
+                    "lc": "Cropland,1032037,1878124"
+                },
+                {
+                    "lc": "Wetland,14511,12110"
+                },
+                {
+                    "lc": "Settlement,103,772"
+                },
+                {
+                    "lc": "Otherland,34618,183284"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,59818"
+                },
+                {
+                    "lc": "Shadow,0,32953"
+                }
+            ]
+        },
+        {
+            "Arusha": [
+                {
+                    "lc": "Forestland,37075,17259"
+                },
+                {
+                    "lc": "Grassland,18010,10248"
+                },
+                {
+                    "lc": "Cropland,54018,68224"
+                },
+                {
+                    "lc": "Wetland,1108,322"
+                },
+                {
+                    "lc": "Settlement,10441,24593"
+                },
+                {
+                    "lc": "Otherland,185,28"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,151"
+                },
+                {
+                    "lc": "Shadow,0,12"
+                }
+            ]
+        },
+        {
+            "Karatu": [
+                {
+                    "lc": "Forestland,800240,683073"
+                },
+                {
+                    "lc": "Grassland,1702489,1774052"
+                },
+                {
+                    "lc": "Cropland,622718,1054692"
+                },
+                {
+                    "lc": "Wetland,1303372,1028046"
+                },
+                {
+                    "lc": "Settlement,4643,8509"
+                },
+                {
+                    "lc": "Otherland,402630,287017"
+                },
+                {
+                    "lc": "Shadow,53,279"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,477"
+                }
+            ]
+        },
+        {
+            "Monduli": [
+                {
+                    "lc": "Forestland,1843208,498283"
+                },
+                {
+                    "lc": "Grassland,11790992,9819964"
+                },
+                {
+                    "lc": "Cropland,1442878,2866762"
+                },
+                {
+                    "lc": "Wetland,990305,889897"
+                },
+                {
+                    "lc": "Settlement,2958,4334"
+                },
+                {
+                    "lc": "Otherland,1832643,3691898"
+                },
+                {
+                    "lc": "Cloud,3463,65469"
+                },
+                {
+                    "lc": "Shadow,3020,72860"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Ngorongoro": [
+                {
+                    "lc": "Forestland,3581388,2837865"
+                },
+                {
+                    "lc": "Grassland,12027967,11946460"
+                },
+                {
+                    "lc": "Cropland,42353,160674"
+                },
+                {
+                    "lc": "Wetland,451276,358114"
+                },
+                {
+                    "lc": "Otherland,1016929,1842599"
+                },
+                {
+                    "lc": "Cloud,14944,7726"
+                },
+                {
+                    "lc": "Shadow,21818,3237"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Simanjiro": [
+                {
+                    "lc": "Forestland,588613,144037"
+                },
+                {
+                    "lc": "Grassland,18586175,18101538"
+                },
+                {
+                    "lc": "Cropland,1542669,2378606"
+                },
+                {
+                    "lc": "Wetland,75511,68808"
+                },
+                {
+                    "lc": "Otherland,1061334,1140624"
+                },
+                {
+                    "lc": "Cloud,552,11032"
+                },
+                {
+                    "lc": "Shadow,1262,11471"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Ilala": [
+                {
+                    "lc": "Forestland,169397,21216"
+                },
+                {
+                    "lc": "Grassland,40419,10647"
+                },
+                {
+                    "lc": "Wetland,1217,926"
+                },
+                {
+                    "lc": "Settlement,160485,335894"
+                },
+                {
+                    "lc": "Otherland,45,185"
+                },
+                {
+                    "lc": "Cloud,3341,8103"
+                },
+                {
+                    "lc": "Shadow,2072,5"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,0"
+                }
+            ]
+        },
+        {
+            "Kinondoni": [
+                {
+                    "lc": "Forestland,312808,127268"
+                },
+                {
+                    "lc": "Grassland,92547,72563"
+                },
+                {
+                    "lc": "Wetland,5046,5777"
+                },
+                {
+                    "lc": "Settlement,195897,400822"
+                },
+                {
+                    "lc": "Otherland,2760,2445"
+                },
+                {
+                    "lc": "Cloud,85,508"
+                },
+                {
+                    "lc": "Shadow,388,148"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,0"
+                }
+            ]
+        },
+        {
+            "Temeke": [
+                {
+                    "lc": "Forestland,311149,166082"
+                },
+                {
+                    "lc": "Grassland,326961,268786"
+                },
+                {
+                    "lc": "Wetland,13977,3428"
+                },
+                {
+                    "lc": "Settlement,177907,247473"
+                },
+                {
+                    "lc": "Otherland,169,2253"
+                },
+                {
+                    "lc": "Cloud,547,18709"
+                },
+                {
+                    "lc": "Shadow,1189,15331"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,109837"
+                }
+            ]
+        },
+        {
+            "Dodoma_Rural": [
+                {
+                    "lc": "Forestland,669703,205581"
+                },
+                {
+                    "lc": "Grassland,10071261,10556804"
+                },
+                {
+                    "lc": "Cropland,2602237,3963195"
+                },
+                {
+                    "lc": "Wetland,549267,570090"
+                },
+                {
+                    "lc": "Settlement,1395,4145"
+                },
+                {
+                    "lc": "Otherland,2561139,882956"
+                },
+                {
+                    "lc": "Cloud,3619,166209"
+                },
+                {
+                    "lc": "Shadow,2243,111884"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Dodoma_Urban": [
+                {
+                    "lc": "Forestland,76772,24367"
+                },
+                {
+                    "lc": "Grassland,1033620,1855894"
+                },
+                {
+                    "lc": "Cropland,300442,546846"
+                },
+                {
+                    "lc": "Wetland,7026,25998"
+                },
+                {
+                    "lc": "Settlement,62068,67582"
+                },
+                {
+                    "lc": "Otherland,1384051,342395"
+                },
+                {
+                    "lc": "Cloud,216,614"
+                },
+                {
+                    "lc": "Shadow,100,599"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Kondoa": [
+                {
+                    "lc": "Forestland,680255,258596"
+                },
+                {
+                    "lc": "Grassland,9890145,8685146"
+                },
+                {
+                    "lc": "Cropland,2476505,4850639"
+                },
+                {
+                    "lc": "Wetland,11604,89968"
+                },
+                {
+                    "lc": "Otherland,2143247,1104311"
+                },
+                {
+                    "lc": "Cloud,9440,134335"
+                },
+                {
+                    "lc": "Shadow,7762,95963"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Kongwa": [
+                {
+                    "lc": "Forestland,245884,104522"
+                },
+                {
+                    "lc": "Grassland,2991165,1910256"
+                },
+                {
+                    "lc": "Cropland,798011,2204744"
+                },
+                {
+                    "lc": "Wetland,5,9166"
+                },
+                {
+                    "lc": "Settlement,6658,15016"
+                },
+                {
+                    "lc": "Otherland,245761,20059"
+                },
+                {
+                    "lc": "Cloud,975,14697"
+                },
+                {
+                    "lc": "Shadow,789,10788"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Mpwapwa": [
+                {
+                    "lc": "Forestland,1703560,836408"
+                },
+                {
+                    "lc": "Grassland,5071234,5339268"
+                },
+                {
+                    "lc": "Cropland,935255,1823819"
+                },
+                {
+                    "lc": "Wetland,74570,114789"
+                },
+                {
+                    "lc": "Settlement,2442,4551"
+                },
+                {
+                    "lc": "Otherland,454666,77218"
+                },
+                {
+                    "lc": "Cloud,3820,17462"
+                },
+                {
+                    "lc": "Shadow,2002,34034"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Iringa_Rural": [
+                {
+                    "lc": "Forestland,2210181,2112066"
+                },
+                {
+                    "lc": "Grassland,17269857,18152194"
+                },
+                {
+                    "lc": "Cropland,2414607,3155548"
+                },
+                {
+                    "lc": "Wetland,187114,234201"
+                },
+                {
+                    "lc": "Settlement,5103,5125"
+                },
+                {
+                    "lc": "Otherland,1852965,283571"
+                },
+                {
+                    "lc": "Cloud,2402,621"
+                },
+                {
+                    "lc": "Shadow,4565,3468"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Iringa_Urban": [
+                {
+                    "lc": "Forestland,17503,5534"
+                },
+                {
+                    "lc": "Grassland,69174,78737"
+                },
+                {
+                    "lc": "Cropland,51887,54003"
+                },
+                {
+                    "lc": "Wetland,4,266"
+                },
+                {
+                    "lc": "Settlement,24351,24517"
+                },
+                {
+                    "lc": "Otherland,129,0"
+                },
+                {
+                    "lc": "Cloud,13,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Shadow,0,4"
+                }
+            ]
+        },
+        {
+            "Kilolo": [
+                {
+                    "lc": "Forestland,4577652,5762318"
+                },
+                {
+                    "lc": "Grassland,3734642,4427624"
+                },
+                {
+                    "lc": "Cropland,780667,1247615"
+                },
+                {
+                    "lc": "Wetland,30553,23232"
+                },
+                {
+                    "lc": "Otherland,123448,283"
+                },
+                {
+                    "lc": "Cloud,1620945,5025"
+                },
+                {
+                    "lc": "Shadow,603626,5436"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Ludewa": [
+                {
+                    "lc": "Forestland,2137168,2474230"
+                },
+                {
+                    "lc": "Grassland,3271864,2291000"
+                },
+                {
+                    "lc": "Cropland,702906,1004797"
+                },
+                {
+                    "lc": "Wetland,100568,88288"
+                },
+                {
+                    "lc": "Settlement,9816,10404"
+                },
+                {
+                    "lc": "Otherland,134380,218624"
+                },
+                {
+                    "lc": "Cloud,37088,254127"
+                },
+                {
+                    "lc": "Shadow,11691,64011"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Makete": [
+                {
+                    "lc": "Forestland,1532390,1511349"
+                },
+                {
+                    "lc": "Grassland,2361746,1880088"
+                },
+                {
+                    "lc": "Cropland,508337,1010354"
+                },
+                {
+                    "lc": "Wetland,5355,1343"
+                },
+                {
+                    "lc": "Otherland,383,16280"
+                },
+                {
+                    "lc": "Cloud,33461,34211"
+                },
+                {
+                    "lc": "Shadow,18925,6972"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Mufindi": [
+                {
+                    "lc": "Forestland,2572119,3286696"
+                },
+                {
+                    "lc": "Grassland,3656542,3083893"
+                },
+                {
+                    "lc": "Cropland,1407217,2604409"
+                },
+                {
+                    "lc": "Wetland,112711,78338"
+                },
+                {
+                    "lc": "Settlement,18250,18459"
+                },
+                {
+                    "lc": "Otherland,424,10093"
+                },
+                {
+                    "lc": "Cloud,825286,0"
+                },
+                {
+                    "lc": "Shadow,489339,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Njombe": [
+                {
+                    "lc": "Forestland,3978471,5078022"
+                },
+                {
+                    "lc": "Grassland,6003862,3575781"
+                },
+                {
+                    "lc": "Cropland,2492130,4465035"
+                },
+                {
+                    "lc": "Wetland,38991,26119"
+                },
+                {
+                    "lc": "Settlement,31167,34453"
+                },
+                {
+                    "lc": "Otherland,58283,136886"
+                },
+                {
+                    "lc": "Cloud,554276,170337"
+                },
+                {
+                    "lc": "Shadow,347887,18434"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Biharamulo": [
+                {
+                    "lc": "Forestland,2931714,2651327"
+                },
+                {
+                    "lc": "Grassland,6218454,4194098"
+                },
+                {
+                    "lc": "Cropland,1988915,4125447"
+                },
+                {
+                    "lc": "Wetland,172293,267257"
+                },
+                {
+                    "lc": "Settlement,4168,5896"
+                },
+                {
+                    "lc": "Otherland,2270,80447"
+                },
+                {
+                    "lc": "Cloud,7340,534"
+                },
+                {
+                    "lc": "Shadow,63,211"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Bukoba_Rural": [
+                {
+                    "lc": "Forestland,1295359,635159"
+                },
+                {
+                    "lc": "Grassland,2260977,1900918"
+                },
+                {
+                    "lc": "Cropland,587950,1348929"
+                },
+                {
+                    "lc": "Wetland,735650,964074"
+                },
+                {
+                    "lc": "Otherland,89536,146586"
+                },
+                {
+                    "lc": "Cloud,25101,672"
+                },
+                {
+                    "lc": "Shadow,4179,2414"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Bukoba_Urban": [
+                {
+                    "lc": "Forestland,21729,5099"
+                },
+                {
+                    "lc": "Grassland,14508,24509"
+                },
+                {
+                    "lc": "Cropland,38979,48149"
+                },
+                {
+                    "lc": "Wetland,12427,14321"
+                },
+                {
+                    "lc": "Otherland,11517,23"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,7059"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Karagwe": [
+                {
+                    "lc": "Forestland,1772786,1030896"
+                },
+                {
+                    "lc": "Grassland,5544378,4007447"
+                },
+                {
+                    "lc": "Cropland,454159,2142695"
+                },
+                {
+                    "lc": "Wetland,683027,856193"
+                },
+                {
+                    "lc": "Otherland,21885,544524"
+                },
+                {
+                    "lc": "Cloud,103561,14728"
+                },
+                {
+                    "lc": "Shadow,22149,5462"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Lake_Victoria": [
+                {
+                    "lc": "Forestland,321719,357648"
+                },
+                {
+                    "lc": "Grassland,495429,189713"
+                },
+                {
+                    "lc": "Cropland,518562,776176"
+                },
+                {
+                    "lc": "Wetland,36271727,36298329"
+                },
+                {
+                    "lc": "Settlement,807,1740"
+                },
+                {
+                    "lc": "Otherland,32326,16171"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,793"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Muleba": [
+                {
+                    "lc": "Forestland,721981,754283"
+                },
+                {
+                    "lc": "Grassland,2247319,1796033"
+                },
+                {
+                    "lc": "Cropland,368385,727051"
+                },
+                {
+                    "lc": "Wetland,302726,380632"
+                },
+                {
+                    "lc": "Otherland,246395,227518"
+                },
+                {
+                    "lc": "Cloud,1198,575"
+                },
+                {
+                    "lc": "Shadow,163,687"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,1388"
+                }
+            ]
+        },
+        {
+            "Ngara": [
+                {
+                    "lc": "Forestland,920104,1631817"
+                },
+                {
+                    "lc": "Grassland,2682552,1517206"
+                },
+                {
+                    "lc": "Cropland,153912,492054"
+                },
+                {
+                    "lc": "Wetland,12179,125006"
+                },
+                {
+                    "lc": "Otherland,16100,19116"
+                },
+                {
+                    "lc": "Cloud,472,134"
+                },
+                {
+                    "lc": "Shadow,14,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Micheweni": [
+                {
+                    "lc": "Forestland,80828,46701"
+                },
+                {
+                    "lc": "Grassland,66991,1396"
+                },
+                {
+                    "lc": "Wetland,39545,12998"
+                },
+                {
+                    "lc": "Otherland,13700,21734"
+                },
+                {
+                    "lc": "Cloud,66676,187084"
+                },
+                {
+                    "lc": "Shadow,21318,19145"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Wete": [
+                {
+                    "lc": "Forestland,113196,87048"
+                },
+                {
+                    "lc": "Grassland,75826,11583"
+                },
+                {
+                    "lc": "Wetland,26957,7256"
+                },
+                {
+                    "lc": "Settlement,2401,2416"
+                },
+                {
+                    "lc": "Otherland,15783,4797"
+                },
+                {
+                    "lc": "Cloud,60225,195875"
+                },
+                {
+                    "lc": "Shadow,38159,23572"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,0"
+                }
+            ]
+        },
+        {
+            "Kaskazini_A": [
+                {
+                    "lc": "Forestland,87074,71193"
+                },
+                {
+                    "lc": "Grassland,146780,170189"
+                },
+                {
+                    "lc": "Wetland,1506,17371"
+                },
+                {
+                    "lc": "Otherland,450,0"
+                },
+                {
+                    "lc": "Cloud,19353,1771"
+                },
+                {
+                    "lc": "Shadow,9813,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,4452"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Kaskazini_B": [
+                {
+                    "lc": "Forestland,100255,120419"
+                },
+                {
+                    "lc": "Grassland,77480,103393"
+                },
+                {
+                    "lc": "Wetland,1366,9529"
+                },
+                {
+                    "lc": "Otherland,147,0"
+                },
+                {
+                    "lc": "Cloud,44795,275"
+                },
+                {
+                    "lc": "Shadow,38521,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,24377"
+                },
+                {
+                    "lc": "Settlement,0,4571"
+                }
+            ]
+        },
+        {
+            "Kasulu": [
+                {
+                    "lc": "Forestland,1793256,3699897"
+                },
+                {
+                    "lc": "Grassland,6869226,4879954"
+                },
+                {
+                    "lc": "Cropland,303697,1053733"
+                },
+                {
+                    "lc": "Wetland,71393,96617"
+                },
+                {
+                    "lc": "Otherland,788447,95818"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Kibondo": [
+                {
+                    "lc": "Forestland,7607329,6166270"
+                },
+                {
+                    "lc": "Grassland,8521594,9041847"
+                },
+                {
+                    "lc": "Cropland,292280,1084617"
+                },
+                {
+                    "lc": "Wetland,510660,673521"
+                },
+                {
+                    "lc": "Settlement,1178,1586"
+                },
+                {
+                    "lc": "Otherland,319514,351174"
+                },
+                {
+                    "lc": "Cloud,53544,0"
+                },
+                {
+                    "lc": "Shadow,12916,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Kigoma_Rural": [
+                {
+                    "lc": "Forestland,3602610,6178659"
+                },
+                {
+                    "lc": "Grassland,9449724,6495699"
+                },
+                {
+                    "lc": "Cropland,504516,1283323"
+                },
+                {
+                    "lc": "Wetland,641895,798480"
+                },
+                {
+                    "lc": "Settlement,3617,4629"
+                },
+                {
+                    "lc": "Otherland,798383,296792"
+                },
+                {
+                    "lc": "Cloud,40711,0"
+                },
+                {
+                    "lc": "Shadow,16126,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Kigoma_Urban": [
+                {
+                    "lc": "Forestland,28081,38541"
+                },
+                {
+                    "lc": "Grassland,93606,33390"
+                },
+                {
+                    "lc": "Cropland,12126,70296"
+                },
+                {
+                    "lc": "Wetland,101638,106577"
+                },
+                {
+                    "lc": "Settlement,20983,22462"
+                },
+                {
+                    "lc": "Otherland,15522,690"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Lake_Tanganyika": [
+                {
+                    "lc": "nodata,943,941"
+                },
+                {
+                    "lc": "Forestland,43343,70333"
+                },
+                {
+                    "lc": "Grassland,210730,158975"
+                },
+                {
+                    "lc": "Cropland,18105,48549"
+                },
+                {
+                    "lc": "Wetland,8661978,8663611"
+                },
+                {
+                    "lc": "Settlement,1208,1492"
+                },
+                {
+                    "lc": "Otherland,14715,7685"
+                },
+                {
+                    "lc": "Shadow,564,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                }
+            ]
+        },
+        {
+            "Hai": [
+                {
+                    "lc": "Forestland,1000035,541789"
+                },
+                {
+                    "lc": "Grassland,791434,386663"
+                },
+                {
+                    "lc": "Cropland,586557,960307"
+                },
+                {
+                    "lc": "Wetland,2260,2540"
+                },
+                {
+                    "lc": "Settlement,10824,14036"
+                },
+                {
+                    "lc": "Otherland,70857,194900"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,276775"
+                },
+                {
+                    "lc": "Shadow,0,84957"
+                }
+            ]
+        },
+        {
+            "Moshi_Rural": [
+                {
+                    "lc": "Forestland,598156,507147"
+                },
+                {
+                    "lc": "Grassland,384101,229625"
+                },
+                {
+                    "lc": "Cropland,552120,724407"
+                },
+                {
+                    "lc": "Wetland,17577,15125"
+                },
+                {
+                    "lc": "Otherland,15309,6228"
+                },
+                {
+                    "lc": "Cloud,36,59503"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,7094"
+                },
+                {
+                    "lc": "Shadow,0,18170"
+                }
+            ]
+        },
+        {
+            "Moshi_Urban": [
+                {
+                    "lc": "Forestland,20955,4909"
+                },
+                {
+                    "lc": "Grassland,14953,1173"
+                },
+                {
+                    "lc": "Cropland,30728,31560"
+                },
+                {
+                    "lc": "Wetland,52,34"
+                },
+                {
+                    "lc": "Otherland,57,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,28320"
+                },
+                {
+                    "lc": "Cloud,0,436"
+                },
+                {
+                    "lc": "Shadow,0,313"
+                }
+            ]
+        },
+        {
+            "Mwanga": [
+                {
+                    "lc": "Forestland,98401,220982"
+                },
+                {
+                    "lc": "Grassland,1792717,1444698"
+                },
+                {
+                    "lc": "Cropland,116970,133344"
+                },
+                {
+                    "lc": "Wetland,119854,136058"
+                },
+                {
+                    "lc": "Otherland,27538,108285"
+                },
+                {
+                    "lc": "Cloud,1530,83806"
+                },
+                {
+                    "lc": "Shadow,1128,30965"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Rombo": [
+                {
+                    "lc": "Forestland,629292,563619"
+                },
+                {
+                    "lc": "Grassland,357223,360526"
+                },
+                {
+                    "lc": "Cropland,306879,396567"
+                },
+                {
+                    "lc": "Wetland,4632,4162"
+                },
+                {
+                    "lc": "Otherland,223023,136973"
+                },
+                {
+                    "lc": "Shadow,7,1868"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Cloud,0,57341"
+                }
+            ]
+        },
+        {
+            "Same": [
+                {
+                    "lc": "Forestland,399478,600442"
+                },
+                {
+                    "lc": "Grassland,6252028,5690747"
+                },
+                {
+                    "lc": "Cropland,151024,219187"
+                },
+                {
+                    "lc": "Wetland,7365,21318"
+                },
+                {
+                    "lc": "Settlement,1780,6560"
+                },
+                {
+                    "lc": "Otherland,270359,415203"
+                },
+                {
+                    "lc": "Cloud,9510,88666"
+                },
+                {
+                    "lc": "Shadow,8822,58243"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Chakechake": [
+                {
+                    "lc": "Forestland,85369,67644"
+                },
+                {
+                    "lc": "Grassland,64061,8278"
+                },
+                {
+                    "lc": "Wetland,21651,19007"
+                },
+                {
+                    "lc": "Settlement,2314,2340"
+                },
+                {
+                    "lc": "Otherland,10244,0"
+                },
+                {
+                    "lc": "Cloud,52822,146259"
+                },
+                {
+                    "lc": "Shadow,20207,12848"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,292"
+                }
+            ]
+        },
+        {
+            "Mkoani": [
+                {
+                    "lc": "Forestland,87961,130285"
+                },
+                {
+                    "lc": "Grassland,35764,16592"
+                },
+                {
+                    "lc": "Wetland,45854,42885"
+                },
+                {
+                    "lc": "Otherland,20443,0"
+                },
+                {
+                    "lc": "Cloud,88400,108679"
+                },
+                {
+                    "lc": "Shadow,30737,8533"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,2185"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Kilwa": [
+                {
+                    "lc": "Forestland,7488221,7748771"
+                },
+                {
+                    "lc": "Grassland,7521434,7182264"
+                },
+                {
+                    "lc": "Cropland,10854,160963"
+                },
+                {
+                    "lc": "Wetland,207442,119396"
+                },
+                {
+                    "lc": "Settlement,5511,6241"
+                },
+                {
+                    "lc": "Otherland,133792,146966"
+                },
+                {
+                    "lc": "Cloud,332,2533"
+                },
+                {
+                    "lc": "Shadow,424,876"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Lindi_Rural": [
+                {
+                    "lc": "Forestland,5570710,3741764"
+                },
+                {
+                    "lc": "Grassland,1318931,2952235"
+                },
+                {
+                    "lc": "Cropland,218423,447974"
+                },
+                {
+                    "lc": "Wetland,76852,104950"
+                },
+                {
+                    "lc": "Settlement,16605,18674"
+                },
+                {
+                    "lc": "Otherland,88924,26000"
+                },
+                {
+                    "lc": "Cloud,1274,2445"
+                },
+                {
+                    "lc": "Shadow,2584,261"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Lindi_Urban": [
+                {
+                    "lc": "Forestland,123483,54021"
+                },
+                {
+                    "lc": "Grassland,107078,179595"
+                },
+                {
+                    "lc": "Cropland,6535,13440"
+                },
+                {
+                    "lc": "Wetland,4200,10111"
+                },
+                {
+                    "lc": "Settlement,9596,10977"
+                },
+                {
+                    "lc": "Otherland,17921,613"
+                },
+                {
+                    "lc": "Cloud,136,239"
+                },
+                {
+                    "lc": "Shadow,47,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Liwale": [
+                {
+                    "lc": "Forestland,12150707,20505361"
+                },
+                {
+                    "lc": "Grassland,26537389,20623522"
+                },
+                {
+                    "lc": "Cropland,255049,347183"
+                },
+                {
+                    "lc": "Wetland,43540,55894"
+                },
+                {
+                    "lc": "Settlement,4466,7724"
+                },
+                {
+                    "lc": "Otherland,1071381,241443"
+                },
+                {
+                    "lc": "Cloud,1177817,49390"
+                },
+                {
+                    "lc": "Shadow,612460,22292"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Nachingwea": [
+                {
+                    "lc": "Forestland,1859680,1574098"
+                },
+                {
+                    "lc": "Grassland,4625935,4676826"
+                },
+                {
+                    "lc": "Cropland,284926,438454"
+                },
+                {
+                    "lc": "Settlement,10322,14998"
+                },
+                {
+                    "lc": "Cloud,2899,26739"
+                },
+                {
+                    "lc": "Shadow,3867,27320"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Wetland,0,2"
+                },
+                {
+                    "lc": "Otherland,0,29192"
+                }
+            ]
+        },
+        {
+            "Ruangwa": [
+                {
+                    "lc": "Forestland,1886553,1809140"
+                },
+                {
+                    "lc": "Grassland,1139274,1130975"
+                },
+                {
+                    "lc": "Cropland,44152,119978"
+                },
+                {
+                    "lc": "Settlement,6541,8896"
+                },
+                {
+                    "lc": "Otherland,16,4504"
+                },
+                {
+                    "lc": "Cloud,28,1434"
+                },
+                {
+                    "lc": "Shadow,39,1652"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Wetland,0,24"
+                }
+            ]
+        },
+        {
+            "Babati": [
+                {
+                    "lc": "Forestland,1076584,538236"
+                },
+                {
+                    "lc": "Grassland,2921580,2988282"
+                },
+                {
+                    "lc": "Cropland,917158,1486054"
+                },
+                {
+                    "lc": "Wetland,164079,143732"
+                },
+                {
+                    "lc": "Otherland,553544,419304"
+                },
+                {
+                    "lc": "Cloud,135,30842"
+                },
+                {
+                    "lc": "Shadow,26,26656"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Hanang": [
+                {
+                    "lc": "Forestland,473654,163904"
+                },
+                {
+                    "lc": "Grassland,2423515,2114345"
+                },
+                {
+                    "lc": "Cropland,1000775,1754670"
+                },
+                {
+                    "lc": "Wetland,68680,87018"
+                },
+                {
+                    "lc": "Otherland,160194,6740"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Cloud,0,10"
+                },
+                {
+                    "lc": "Shadow,0,131"
+                }
+            ]
+        },
+        {
+            "Karatu": [
+                {
+                    "lc": "Forestland,800240,683073"
+                },
+                {
+                    "lc": "Grassland,1702489,1774052"
+                },
+                {
+                    "lc": "Cropland,622718,1054692"
+                },
+                {
+                    "lc": "Wetland,1303372,1028046"
+                },
+                {
+                    "lc": "Settlement,4643,8509"
+                },
+                {
+                    "lc": "Otherland,402630,287017"
+                },
+                {
+                    "lc": "Shadow,53,279"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,477"
+                }
+            ]
+        },
+        {
+            "Kiteto": [
+                {
+                    "lc": "Forestland,2214741,1225297"
+                },
+                {
+                    "lc": "Grassland,11611591,11353200"
+                },
+                {
+                    "lc": "Cropland,776687,1971204"
+                },
+                {
+                    "lc": "Wetland,8925,26786"
+                },
+                {
+                    "lc": "Settlement,1184,2166"
+                },
+                {
+                    "lc": "Otherland,449648,307420"
+                },
+                {
+                    "lc": "Cloud,260,106785"
+                },
+                {
+                    "lc": "Shadow,535,70713"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Mbulu": [
+                {
+                    "lc": "Forestland,1126736,398842"
+                },
+                {
+                    "lc": "Grassland,2029721,1749098"
+                },
+                {
+                    "lc": "Cropland,846949,1936716"
+                },
+                {
+                    "lc": "Wetland,5540,56615"
+                },
+                {
+                    "lc": "Otherland,158488,17421"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Cloud,0,77"
+                },
+                {
+                    "lc": "Shadow,0,8665"
+                }
+            ]
+        },
+        {
+            "Simanjiro": [
+                {
+                    "lc": "Forestland,588613,144037"
+                },
+                {
+                    "lc": "Grassland,18586175,18101538"
+                },
+                {
+                    "lc": "Cropland,1542669,2378606"
+                },
+                {
+                    "lc": "Wetland,75511,68808"
+                },
+                {
+                    "lc": "Otherland,1061334,1140624"
+                },
+                {
+                    "lc": "Cloud,552,11032"
+                },
+                {
+                    "lc": "Shadow,1262,11471"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Bunda": [
+                {
+                    "lc": "Forestland,267594,51503"
+                },
+                {
+                    "lc": "Grassland,2220873,1698459"
+                },
+                {
+                    "lc": "Cropland,510618,1055685"
+                },
+                {
+                    "lc": "Wetland,148811,145287"
+                },
+                {
+                    "lc": "Settlement,111,198"
+                },
+                {
+                    "lc": "Otherland,23973,219482"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,1366"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Lake_Victoria": [
+                {
+                    "lc": "Forestland,321719,357648"
+                },
+                {
+                    "lc": "Grassland,495429,189713"
+                },
+                {
+                    "lc": "Cropland,518562,776176"
+                },
+                {
+                    "lc": "Wetland,36271727,36298329"
+                },
+                {
+                    "lc": "Settlement,807,1740"
+                },
+                {
+                    "lc": "Otherland,32326,16171"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,793"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Musoma_Rural": [
+                {
+                    "lc": "Forestland,629595,306114"
+                },
+                {
+                    "lc": "Grassland,1984465,1150922"
+                },
+                {
+                    "lc": "Cropland,904148,1675395"
+                },
+                {
+                    "lc": "Wetland,650065,836223"
+                },
+                {
+                    "lc": "Otherland,20736,166972"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,6"
+                },
+                {
+                    "lc": "Cloud,0,53377"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Musoma_Urban": [
+                {
+                    "lc": "Forestland,1961,3006"
+                },
+                {
+                    "lc": "Grassland,23772,5893"
+                },
+                {
+                    "lc": "Cropland,39574,49793"
+                },
+                {
+                    "lc": "Wetland,6274,6151"
+                },
+                {
+                    "lc": "Settlement,12215,18997"
+                },
+                {
+                    "lc": "Otherland,51,7"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Serengeti": [
+                {
+                    "lc": "Forestland,934792,246161"
+                },
+                {
+                    "lc": "Grassland,9987189,9847668"
+                },
+                {
+                    "lc": "Cropland,1029217,1658546"
+                },
+                {
+                    "lc": "Wetland,20348,52299"
+                },
+                {
+                    "lc": "Settlement,455,1028"
+                },
+                {
+                    "lc": "Otherland,39765,50791"
+                },
+                {
+                    "lc": "Shadow,2,20903"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,134372"
+                }
+            ]
+        },
+        {
+            "Tarime": [
+                {
+                    "lc": "Forestland,1269780,363941"
+                },
+                {
+                    "lc": "Grassland,2050246,1491696"
+                },
+                {
+                    "lc": "Cropland,864914,2163731"
+                },
+                {
+                    "lc": "Wetland,50429,104911"
+                },
+                {
+                    "lc": "Settlement,2634,5204"
+                },
+                {
+                    "lc": "Otherland,11810,82611"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,37719"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Chunya": [
+                {
+                    "lc": "Forestland,13952494,17819633"
+                },
+                {
+                    "lc": "Grassland,13982530,9016393"
+                },
+                {
+                    "lc": "Cropland,1085372,2310287"
+                },
+                {
+                    "lc": "Wetland,1548505,1718159"
+                },
+                {
+                    "lc": "Settlement,1152,3808"
+                },
+                {
+                    "lc": "Otherland,355680,36429"
+                },
+                {
+                    "lc": "Cloud,1,11082"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Shadow,0,9943"
+                }
+            ]
+        },
+        {
+            "Ileje": [
+                {
+                    "lc": "Forestland,1259413,551711"
+                },
+                {
+                    "lc": "Grassland,381008,783707"
+                },
+                {
+                    "lc": "Cropland,551179,849491"
+                },
+                {
+                    "lc": "Wetland,962,2599"
+                },
+                {
+                    "lc": "Otherland,50,1726"
+                },
+                {
+                    "lc": "Cloud,3174,7545"
+                },
+                {
+                    "lc": "Shadow,1332,339"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Kyela": [
+                {
+                    "lc": "Forestland,453210,234768"
+                },
+                {
+                    "lc": "Grassland,59493,45735"
+                },
+                {
+                    "lc": "Cropland,294733,524581"
+                },
+                {
+                    "lc": "Wetland,12208,11283"
+                },
+                {
+                    "lc": "Cloud,40,250"
+                },
+                {
+                    "lc": "Shadow,53,901"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,1648"
+                },
+                {
+                    "lc": "Otherland,0,571"
+                }
+            ]
+        },
+        {
+            "Mbarali": [
+                {
+                    "lc": "Forestland,3727999,3106312"
+                },
+                {
+                    "lc": "Grassland,8208455,9335554"
+                },
+                {
+                    "lc": "Cropland,600126,1354870"
+                },
+                {
+                    "lc": "Wetland,374528,820097"
+                },
+                {
+                    "lc": "Otherland,2153058,443598"
+                },
+                {
+                    "lc": "Cloud,215,3920"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Shadow,0,30"
+                }
+            ]
+        },
+        {
+            "Mbeya_Rural": [
+                {
+                    "lc": "Forestland,1238867,884688"
+                },
+                {
+                    "lc": "Grassland,1422007,1171544"
+                },
+                {
+                    "lc": "Cropland,402289,964975"
+                },
+                {
+                    "lc": "Wetland,6806,10883"
+                },
+                {
+                    "lc": "Settlement,1226,3182"
+                },
+                {
+                    "lc": "Otherland,17188,55660"
+                },
+                {
+                    "lc": "Cloud,3675,2587"
+                },
+                {
+                    "lc": "Shadow,1663,202"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Mbeya_Urban": [
+                {
+                    "lc": "Forestland,65992,65061"
+                },
+                {
+                    "lc": "Grassland,168408,88022"
+                },
+                {
+                    "lc": "Cropland,27244,75074"
+                },
+                {
+                    "lc": "Wetland,1176,221"
+                },
+                {
+                    "lc": "Settlement,14829,42303"
+                },
+                {
+                    "lc": "Otherland,644,7641"
+                },
+                {
+                    "lc": "Cloud,32,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Shadow,0,3"
+                }
+            ]
+        },
+        {
+            "Mbozi": [
+                {
+                    "lc": "Forestland,2534938,2503616"
+                },
+                {
+                    "lc": "Grassland,4056577,3007967"
+                },
+                {
+                    "lc": "Cropland,2678082,4046119"
+                },
+                {
+                    "lc": "Wetland,253224,384675"
+                },
+                {
+                    "lc": "Settlement,591,3426"
+                },
+                {
+                    "lc": "Otherland,461533,35518"
+                },
+                {
+                    "lc": "Cloud,6,1614"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Shadow,0,2016"
+                }
+            ]
+        },
+        {
+            "Rungwe": [
+                {
+                    "lc": "Forestland,1693674,829667"
+                },
+                {
+                    "lc": "Grassland,415319,240252"
+                },
+                {
+                    "lc": "Cropland,196741,725713"
+                },
+                {
+                    "lc": "Wetland,7248,4738"
+                },
+                {
+                    "lc": "Settlement,32,30"
+                },
+                {
+                    "lc": "Otherland,637,978"
+                },
+                {
+                    "lc": "Cloud,5183,496678"
+                },
+                {
+                    "lc": "Shadow,160,20938"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Kilombero": [
+                {
+                    "lc": "Forestland,5355751,4585469"
+                },
+                {
+                    "lc": "Grassland,6951138,7086349"
+                },
+                {
+                    "lc": "Cropland,1327056,2184471"
+                },
+                {
+                    "lc": "Wetland,380535,648838"
+                },
+                {
+                    "lc": "Otherland,157320,37623"
+                },
+                {
+                    "lc": "Cloud,236575,4231"
+                },
+                {
+                    "lc": "Shadow,141789,3183"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Kilosa": [
+                {
+                    "lc": "Forestland,5990090,5899975"
+                },
+                {
+                    "lc": "Grassland,5660433,5075193"
+                },
+                {
+                    "lc": "Cropland,1424451,2456951"
+                },
+                {
+                    "lc": "Wetland,12049,122491"
+                },
+                {
+                    "lc": "Settlement,5509,13185"
+                },
+                {
+                    "lc": "Otherland,389715,56426"
+                },
+                {
+                    "lc": "Cloud,152678,21055"
+                },
+                {
+                    "lc": "Shadow,29547,19196"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Morogoro_Rural": [
+                {
+                    "lc": "Forestland,6527355,6128621"
+                },
+                {
+                    "lc": "Grassland,7167103,6941629"
+                },
+                {
+                    "lc": "Cropland,403768,1019889"
+                },
+                {
+                    "lc": "Wetland,6730,23685"
+                },
+                {
+                    "lc": "Otherland,260958,8055"
+                },
+                {
+                    "lc": "Cloud,118461,303564"
+                },
+                {
+                    "lc": "Shadow,27561,86418"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,75"
+                }
+            ]
+        },
+        {
+            "Morogoro_Urban": [
+                {
+                    "lc": "Forestland,65063,48291"
+                },
+                {
+                    "lc": "Grassland,308032,266990"
+                },
+                {
+                    "lc": "Cropland,166242,239163"
+                },
+                {
+                    "lc": "Wetland,2572,3807"
+                },
+                {
+                    "lc": "Otherland,53910,0"
+                },
+                {
+                    "lc": "Cloud,1977,30981"
+                },
+                {
+                    "lc": "Shadow,329,8893"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Mvomero": [
+                {
+                    "lc": "Forestland,2600461,2321613"
+                },
+                {
+                    "lc": "Grassland,3791410,3646126"
+                },
+                {
+                    "lc": "Cropland,357079,841518"
+                },
+                {
+                    "lc": "Wetland,3869,104017"
+                },
+                {
+                    "lc": "Settlement,3326,11222"
+                },
+                {
+                    "lc": "Otherland,180312,21434"
+                },
+                {
+                    "lc": "Cloud,20353,12480"
+                },
+                {
+                    "lc": "Shadow,15564,13964"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Ulanga": [
+                {
+                    "lc": "Forestland,11218637,12891404"
+                },
+                {
+                    "lc": "Grassland,10968248,10008837"
+                },
+                {
+                    "lc": "Cropland,510342,1222049"
+                },
+                {
+                    "lc": "Wetland,522426,534847"
+                },
+                {
+                    "lc": "Settlement,3771,9597"
+                },
+                {
+                    "lc": "Otherland,1158747,177644"
+                },
+                {
+                    "lc": "Cloud,475072,50679"
+                },
+                {
+                    "lc": "Shadow,54604,16790"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Masasi": [
+                {
+                    "lc": "Forestland,3087437,625077"
+                },
+                {
+                    "lc": "Grassland,6447510,7442574"
+                },
+                {
+                    "lc": "Cropland,800713,2075332"
+                },
+                {
+                    "lc": "Wetland,30755,32828"
+                },
+                {
+                    "lc": "Settlement,32367,41507"
+                },
+                {
+                    "lc": "Otherland,158535,259619"
+                },
+                {
+                    "lc": "Cloud,4288,34303"
+                },
+                {
+                    "lc": "Shadow,5145,55510"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Mtwara_Rural": [
+                {
+                    "lc": "Forestland,2689628,2255537"
+                },
+                {
+                    "lc": "Grassland,1102869,1413031"
+                },
+                {
+                    "lc": "Cropland,270489,389186"
+                },
+                {
+                    "lc": "Wetland,31636,105965"
+                },
+                {
+                    "lc": "Settlement,17656,22206"
+                },
+                {
+                    "lc": "Otherland,107554,34284"
+                },
+                {
+                    "lc": "Cloud,439,686"
+                },
+                {
+                    "lc": "Shadow,1146,522"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Mtwara_Urban": [
+                {
+                    "lc": "Forestland,136287,64875"
+                },
+                {
+                    "lc": "Grassland,27055,100599"
+                },
+                {
+                    "lc": "Cropland,18520,20203"
+                },
+                {
+                    "lc": "Wetland,782,5582"
+                },
+                {
+                    "lc": "Settlement,23144,26166"
+                },
+                {
+                    "lc": "Otherland,11880,89"
+                },
+                {
+                    "lc": "Cloud,3,190"
+                },
+                {
+                    "lc": "Shadow,52,19"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Newala": [
+                {
+                    "lc": "Forestland,1259714,483854"
+                },
+                {
+                    "lc": "Grassland,381471,856890"
+                },
+                {
+                    "lc": "Cropland,663218,965528"
+                },
+                {
+                    "lc": "Wetland,2354,4974"
+                },
+                {
+                    "lc": "Settlement,64915,71523"
+                },
+                {
+                    "lc": "Otherland,17818,8830"
+                },
+                {
+                    "lc": "Cloud,1038,351"
+                },
+                {
+                    "lc": "Shadow,1594,172"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Tandahimba": [
+                {
+                    "lc": "Forestland,1445278,555496"
+                },
+                {
+                    "lc": "Grassland,445040,730640"
+                },
+                {
+                    "lc": "Cropland,452469,1051947"
+                },
+                {
+                    "lc": "Wetland,19494,30153"
+                },
+                {
+                    "lc": "Settlement,53028,62000"
+                },
+                {
+                    "lc": "Otherland,38453,24414"
+                },
+                {
+                    "lc": "Cloud,47,7"
+                },
+                {
+                    "lc": "Shadow,850,2"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Geita": [
+                {
+                    "lc": "Forestland,1056935,460816"
+                },
+                {
+                    "lc": "Grassland,1808802,1304413"
+                },
+                {
+                    "lc": "Cropland,3926677,5018242"
+                },
+                {
+                    "lc": "Wetland,347230,342179"
+                },
+                {
+                    "lc": "Settlement,1921,2270"
+                },
+                {
+                    "lc": "Otherland,802,14447"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Ilemela": [
+                {
+                    "lc": "Forestland,10388,53464"
+                },
+                {
+                    "lc": "Grassland,224899,31995"
+                },
+                {
+                    "lc": "Cropland,76999,173142"
+                },
+                {
+                    "lc": "Wetland,71674,75898"
+                },
+                {
+                    "lc": "Settlement,46027,95437"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Otherland,0,51"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Kwimba": [
+                {
+                    "lc": "Forestland,3527,29471"
+                },
+                {
+                    "lc": "Grassland,1449329,609491"
+                },
+                {
+                    "lc": "Cropland,2001797,2929029"
+                },
+                {
+                    "lc": "Wetland,49,5457"
+                },
+                {
+                    "lc": "Settlement,2011,3332"
+                },
+                {
+                    "lc": "Otherland,120583,516"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Lake_Victoria": [
+                {
+                    "lc": "Forestland,321719,357648"
+                },
+                {
+                    "lc": "Grassland,495429,189713"
+                },
+                {
+                    "lc": "Cropland,518562,776176"
+                },
+                {
+                    "lc": "Wetland,36271727,36298329"
+                },
+                {
+                    "lc": "Settlement,807,1740"
+                },
+                {
+                    "lc": "Otherland,32326,16171"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,793"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Magu": [
+                {
+                    "lc": "Forestland,21770,75175"
+                },
+                {
+                    "lc": "Grassland,1512753,392388"
+                },
+                {
+                    "lc": "Cropland,1378083,2397477"
+                },
+                {
+                    "lc": "Wetland,443450,472637"
+                },
+                {
+                    "lc": "Settlement,15076,26813"
+                },
+                {
+                    "lc": "Otherland,8184,14811"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,15"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Misungwi": [
+                {
+                    "lc": "Forestland,68032,40080"
+                },
+                {
+                    "lc": "Grassland,992472,392315"
+                },
+                {
+                    "lc": "Cropland,1649716,2326950"
+                },
+                {
+                    "lc": "Wetland,93670,105785"
+                },
+                {
+                    "lc": "Settlement,2203,4770"
+                },
+                {
+                    "lc": "Otherland,64069,262"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Nyamagana": [
+                {
+                    "lc": "Forestland,1391,1320"
+                },
+                {
+                    "lc": "Grassland,15572,2622"
+                },
+                {
+                    "lc": "Cropland,5178,7413"
+                },
+                {
+                    "lc": "Wetland,1114,1086"
+                },
+                {
+                    "lc": "Settlement,17633,28441"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Otherland,0,6"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Sengerema": [
+                {
+                    "lc": "Forestland,273563,253178"
+                },
+                {
+                    "lc": "Grassland,760342,258412"
+                },
+                {
+                    "lc": "Cropland,1996171,2522333"
+                },
+                {
+                    "lc": "Wetland,310379,303574"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Otherland,0,2958"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Ukerewe": [
+                {
+                    "lc": "Forestland,86745,48650"
+                },
+                {
+                    "lc": "Grassland,20410,15148"
+                },
+                {
+                    "lc": "Cropland,297548,409335"
+                },
+                {
+                    "lc": "Wetland,282415,286291"
+                },
+                {
+                    "lc": "Otherland,80641,7830"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,505"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Bagamoyo": [
+                {
+                    "lc": "Forestland,5566639,4638449"
+                },
+                {
+                    "lc": "Grassland,3904724,4624085"
+                },
+                {
+                    "lc": "Cropland,814,43404"
+                },
+                {
+                    "lc": "Wetland,75730,37847"
+                },
+                {
+                    "lc": "Settlement,3198,16849"
+                },
+                {
+                    "lc": "Otherland,5340,11851"
+                },
+                {
+                    "lc": "Cloud,3939,191323"
+                },
+                {
+                    "lc": "Shadow,6229,2805"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Kibaha": [
+                {
+                    "lc": "Forestland,1398883,761339"
+                },
+                {
+                    "lc": "Grassland,635359,1142848"
+                },
+                {
+                    "lc": "Cropland,2474,2363"
+                },
+                {
+                    "lc": "Wetland,5241,837"
+                },
+                {
+                    "lc": "Settlement,11009,35408"
+                },
+                {
+                    "lc": "Otherland,449,9728"
+                },
+                {
+                    "lc": "Cloud,2395,89917"
+                },
+                {
+                    "lc": "Shadow,2322,15692"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Kisarawe": [
+                {
+                    "lc": "Forestland,4203424,2175117"
+                },
+                {
+                    "lc": "Grassland,1227254,2671377"
+                },
+                {
+                    "lc": "Wetland,7898,3736"
+                },
+                {
+                    "lc": "Settlement,2100,66038"
+                },
+                {
+                    "lc": "Otherland,57,961"
+                },
+                {
+                    "lc": "Cloud,1202,515942"
+                },
+                {
+                    "lc": "Shadow,3035,11799"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,0"
+                }
+            ]
+        },
+        {
+            "Mafia": [
+                {
+                    "lc": "Forestland,242744,274363"
+                },
+                {
+                    "lc": "Grassland,211775,251684"
+                },
+                {
+                    "lc": "Cropland,16,3"
+                },
+                {
+                    "lc": "Wetland,34629,6922"
+                },
+                {
+                    "lc": "Settlement,1237,1781"
+                },
+                {
+                    "lc": "Otherland,38613,176"
+                },
+                {
+                    "lc": "Cloud,5712,1953"
+                },
+                {
+                    "lc": "Shadow,2156,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Mkuranga": [
+                {
+                    "lc": "Forestland,2480930,1898001"
+                },
+                {
+                    "lc": "Grassland,560403,788720"
+                },
+                {
+                    "lc": "Wetland,23224,6955"
+                },
+                {
+                    "lc": "Settlement,10001,66318"
+                },
+                {
+                    "lc": "Otherland,2215,15418"
+                },
+                {
+                    "lc": "Cloud,443,54194"
+                },
+                {
+                    "lc": "Shadow,854,33298"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,215166"
+                }
+            ]
+        },
+        {
+            "Rufiji": [
+                {
+                    "lc": "Forestland,7030474,6090688"
+                },
+                {
+                    "lc": "Grassland,7239062,8220163"
+                },
+                {
+                    "lc": "Cropland,6731,235741"
+                },
+                {
+                    "lc": "Wetland,322467,243193"
+                },
+                {
+                    "lc": "Settlement,4386,8058"
+                },
+                {
+                    "lc": "Otherland,230481,15813"
+                },
+                {
+                    "lc": "Cloud,4515,20142"
+                },
+                {
+                    "lc": "Shadow,4082,8400"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Mpanda": [
+                {
+                    "lc": "Forestland,15921401,22507692"
+                },
+                {
+                    "lc": "Grassland,30921719,23375467"
+                },
+                {
+                    "lc": "Cropland,1637901,2858834"
+                },
+                {
+                    "lc": "Wetland,1274931,1303418"
+                },
+                {
+                    "lc": "Settlement,7441,10265"
+                },
+                {
+                    "lc": "Otherland,1292345,1171326"
+                },
+                {
+                    "lc": "Cloud,99696,12645"
+                },
+                {
+                    "lc": "Shadow,95902,11689"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Nkasi": [
+                {
+                    "lc": "Forestland,2717621,3284260"
+                },
+                {
+                    "lc": "Grassland,5281895,4209068"
+                },
+                {
+                    "lc": "Cropland,1420702,2429889"
+                },
+                {
+                    "lc": "Wetland,8783923,8774102"
+                },
+                {
+                    "lc": "Settlement,1163,1339"
+                },
+                {
+                    "lc": "Otherland,543391,49939"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,98"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Sumbawanga_Rural": [
+                {
+                    "lc": "Forestland,2515565,2975347"
+                },
+                {
+                    "lc": "Grassland,5420954,4164305"
+                },
+                {
+                    "lc": "Cropland,2284616,3760786"
+                },
+                {
+                    "lc": "Wetland,836529,806297"
+                },
+                {
+                    "lc": "Settlement,908,1164"
+                },
+                {
+                    "lc": "Otherland,725317,50460"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,23144"
+                },
+                {
+                    "lc": "Shadow,0,2386"
+                }
+            ]
+        },
+        {
+            "Sumbawanga_Urban": [
+                {
+                    "lc": "Forestland,308048,198071"
+                },
+                {
+                    "lc": "Grassland,418495,492431"
+                },
+                {
+                    "lc": "Cropland,692938,927616"
+                },
+                {
+                    "lc": "Wetland,2532,1047"
+                },
+                {
+                    "lc": "Settlement,8934,14756"
+                },
+                {
+                    "lc": "Otherland,203099,82"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,34"
+                },
+                {
+                    "lc": "Shadow,0,9"
+                }
+            ]
+        },
+        {
+            "Mbinga": [
+                {
+                    "lc": "Forestland,3447621,2424032"
+                },
+                {
+                    "lc": "Grassland,3393703,3331056"
+                },
+                {
+                    "lc": "Cropland,1713949,2034106"
+                },
+                {
+                    "lc": "Wetland,225186,222197"
+                },
+                {
+                    "lc": "Settlement,26837,28733"
+                },
+                {
+                    "lc": "Otherland,152454,579611"
+                },
+                {
+                    "lc": "Cloud,7146,309207"
+                },
+                {
+                    "lc": "Shadow,13865,51819"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Namtumbo": [
+                {
+                    "lc": "Forestland,10763925,12991934"
+                },
+                {
+                    "lc": "Grassland,11535912,10193627"
+                },
+                {
+                    "lc": "Cropland,453201,803505"
+                },
+                {
+                    "lc": "Wetland,54401,74080"
+                },
+                {
+                    "lc": "Settlement,16669,18241"
+                },
+                {
+                    "lc": "Otherland,501959,122340"
+                },
+                {
+                    "lc": "Cloud,811713,34849"
+                },
+                {
+                    "lc": "Shadow,108650,7854"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Songea_Rural": [
+                {
+                    "lc": "Forestland,7287249,6831976"
+                },
+                {
+                    "lc": "Grassland,5184905,7224597"
+                },
+                {
+                    "lc": "Cropland,822277,1215196"
+                },
+                {
+                    "lc": "Wetland,12324,26239"
+                },
+                {
+                    "lc": "Settlement,15810,18088"
+                },
+                {
+                    "lc": "Otherland,189573,113662"
+                },
+                {
+                    "lc": "Cloud,1660542,90291"
+                },
+                {
+                    "lc": "Shadow,364824,17455"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Songea_Urban": [
+                {
+                    "lc": "Forestland,83142,87983"
+                },
+                {
+                    "lc": "Grassland,133096,97685"
+                },
+                {
+                    "lc": "Cropland,103814,157963"
+                },
+                {
+                    "lc": "Settlement,30018,31239"
+                },
+                {
+                    "lc": "Otherland,24963,11704"
+                },
+                {
+                    "lc": "Cloud,8230,332"
+                },
+                {
+                    "lc": "Shadow,3650,7"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                }
+            ]
+        },
+        {
+            "Tunduru": [
+                {
+                    "lc": "Forestland,9005385,6720066"
+                },
+                {
+                    "lc": "Grassland,11797362,13868001"
+                },
+                {
+                    "lc": "Cropland,453621,882013"
+                },
+                {
+                    "lc": "Wetland,73594,74548"
+                },
+                {
+                    "lc": "Settlement,30543,33836"
+                },
+                {
+                    "lc": "Otherland,578799,136042"
+                },
+                {
+                    "lc": "Cloud,248239,279070"
+                },
+                {
+                    "lc": "Shadow,795,194762"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Bariadi": [
+                {
+                    "lc": "Forestland,268126,395577"
+                },
+                {
+                    "lc": "Grassland,8169383,6689063"
+                },
+                {
+                    "lc": "Cropland,2860907,4195914"
+                },
+                {
+                    "lc": "Wetland,1742,40804"
+                },
+                {
+                    "lc": "Settlement,2695,3635"
+                },
+                {
+                    "lc": "Otherland,24137,1957"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,40"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Bukombe": [
+                {
+                    "lc": "Forestland,4982538,3658016"
+                },
+                {
+                    "lc": "Grassland,3121576,3179087"
+                },
+                {
+                    "lc": "Cropland,2580475,3758191"
+                },
+                {
+                    "lc": "Wetland,244555,318091"
+                },
+                {
+                    "lc": "Settlement,3187,6576"
+                },
+                {
+                    "lc": "Otherland,14430,26800"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Kahama": [
+                {
+                    "lc": "Forestland,2942946,1135850"
+                },
+                {
+                    "lc": "Grassland,2167756,2183048"
+                },
+                {
+                    "lc": "Cropland,4373783,6215918"
+                },
+                {
+                    "lc": "Wetland,15647,19690"
+                },
+                {
+                    "lc": "Settlement,6737,9360"
+                },
+                {
+                    "lc": "Otherland,65790,8793"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Kishapu": [
+                {
+                    "lc": "Forestland,5195,34775"
+                },
+                {
+                    "lc": "Grassland,2149884,1511983"
+                },
+                {
+                    "lc": "Cropland,1552224,2857420"
+                },
+                {
+                    "lc": "Wetland,84375,57642"
+                },
+                {
+                    "lc": "Otherland,959044,288902"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Maswa": [
+                {
+                    "lc": "Forestland,1455,24224"
+                },
+                {
+                    "lc": "Grassland,1510837,594884"
+                },
+                {
+                    "lc": "Cropland,2826701,3713188"
+                },
+                {
+                    "lc": "Wetland,479,4059"
+                },
+                {
+                    "lc": "Otherland,3738,6855"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Meatu": [
+                {
+                    "lc": "Forestland,568615,472964"
+                },
+                {
+                    "lc": "Grassland,6874179,6247487"
+                },
+                {
+                    "lc": "Cropland,2029241,3030249"
+                },
+                {
+                    "lc": "Wetland,29210,43650"
+                },
+                {
+                    "lc": "Settlement,2635,3334"
+                },
+                {
+                    "lc": "Otherland,788187,494313"
+                },
+                {
+                    "lc": "Shadow,12,28"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,54"
+                }
+            ]
+        },
+        {
+            "Shinyanga_Rural": [
+                {
+                    "lc": "Forestland,34985,20871"
+                },
+                {
+                    "lc": "Grassland,1418204,880577"
+                },
+                {
+                    "lc": "Cropland,2053100,3166393"
+                },
+                {
+                    "lc": "Wetland,40804,29361"
+                },
+                {
+                    "lc": "Settlement,759,1178"
+                },
+                {
+                    "lc": "Otherland,559462,8934"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Shinyanga_Urban": [
+                {
+                    "lc": "Forestland,1107,279"
+                },
+                {
+                    "lc": "Grassland,226396,88258"
+                },
+                {
+                    "lc": "Cropland,365424,501171"
+                },
+                {
+                    "lc": "Wetland,1313,1620"
+                },
+                {
+                    "lc": "Settlement,9802,14617"
+                },
+                {
+                    "lc": "Otherland,5598,3695"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Iramba": [
+                {
+                    "lc": "Forestland,525485,111464"
+                },
+                {
+                    "lc": "Grassland,4163321,2800217"
+                },
+                {
+                    "lc": "Cropland,2217605,5201355"
+                },
+                {
+                    "lc": "Wetland,112772,194285"
+                },
+                {
+                    "lc": "Otherland,1602426,314140"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,148"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Manyoni": [
+                {
+                    "lc": "Forestland,2817092,2459506"
+                },
+                {
+                    "lc": "Grassland,25062685,26052614"
+                },
+                {
+                    "lc": "Cropland,1832944,3171388"
+                },
+                {
+                    "lc": "Wetland,484787,435937"
+                },
+                {
+                    "lc": "Settlement,640,27732"
+                },
+                {
+                    "lc": "Otherland,2091265,137399"
+                },
+                {
+                    "lc": "Cloud,53,1685"
+                },
+                {
+                    "lc": "Shadow,98,3303"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Singida_Rural": [
+                {
+                    "lc": "Forestland,924469,275458"
+                },
+                {
+                    "lc": "Grassland,7909951,6031877"
+                },
+                {
+                    "lc": "Cropland,2308217,6234988"
+                },
+                {
+                    "lc": "Wetland,178201,153796"
+                },
+                {
+                    "lc": "Otherland,1424731,48154"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,1296"
+                }
+            ]
+        },
+        {
+            "Singida_Urban": [
+                {
+                    "lc": "Forestland,5163,846"
+                },
+                {
+                    "lc": "Grassland,270851,48783"
+                },
+                {
+                    "lc": "Cropland,283891,631795"
+                },
+                {
+                    "lc": "Wetland,12322,15346"
+                },
+                {
+                    "lc": "Settlement,1213,2980"
+                },
+                {
+                    "lc": "Otherland,142449,16139"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Igunga": [
+                {
+                    "lc": "Forestland,382903,191278"
+                },
+                {
+                    "lc": "Grassland,2819693,2777878"
+                },
+                {
+                    "lc": "Cropland,2851606,4293519"
+                },
+                {
+                    "lc": "Wetland,315058,330352"
+                },
+                {
+                    "lc": "Settlement,1271,1345"
+                },
+                {
+                    "lc": "Otherland,1422936,199095"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "n_a_1081": [
+                {
+                    "lc": "Forestland,4421,4123"
+                },
+                {
+                    "lc": "Grassland,49294,93527"
+                },
+                {
+                    "lc": "Cropland,120,1460"
+                },
+                {
+                    "lc": "Wetland,138773,155953"
+                },
+                {
+                    "lc": "Otherland,62455,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Nzega": [
+                {
+                    "lc": "Forestland,887667,1288991"
+                },
+                {
+                    "lc": "Grassland,3216322,1944777"
+                },
+                {
+                    "lc": "Cropland,4519370,5604427"
+                },
+                {
+                    "lc": "Wetland,63777,43654"
+                },
+                {
+                    "lc": "Settlement,5977,6275"
+                },
+                {
+                    "lc": "Otherland,196653,1642"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Sikonge": [
+                {
+                    "lc": "Forestland,4728465,11959515"
+                },
+                {
+                    "lc": "Grassland,23756412,17026368"
+                },
+                {
+                    "lc": "Cropland,1184349,1848568"
+                },
+                {
+                    "lc": "Wetland,3140,146698"
+                },
+                {
+                    "lc": "Otherland,1316594,5649"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,422"
+                },
+                {
+                    "lc": "Cloud,0,508"
+                },
+                {
+                    "lc": "Shadow,0,1232"
+                }
+            ]
+        },
+        {
+            "Tabora Urban": [
+                {
+                    "lc": "Forestland,213306,470016"
+                },
+                {
+                    "lc": "Grassland,701642,290319"
+                },
+                {
+                    "lc": "Cropland,715430,871450"
+                },
+                {
+                    "lc": "Wetland,15993,22829"
+                },
+                {
+                    "lc": "Settlement,20051,24544"
+                },
+                {
+                    "lc": "Otherland,13289,553"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,0"
+                }
+            ]
+        },
+        {
+            "Urambo": [
+                {
+                    "lc": "Forestland,11497767,9196231"
+                },
+                {
+                    "lc": "Grassland,8939855,9257448"
+                },
+                {
+                    "lc": "Cropland,1874972,3722028"
+                },
+                {
+                    "lc": "Wetland,517238,969042"
+                },
+                {
+                    "lc": "Settlement,904,1397"
+                },
+                {
+                    "lc": "Otherland,134267,116338"
+                },
+                {
+                    "lc": "Cloud,220506,0"
+                },
+                {
+                    "lc": "Shadow,76975,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Uyui": [
+                {
+                    "lc": "Forestland,2369092,2259168"
+                },
+                {
+                    "lc": "Grassland,6426628,4464048"
+                },
+                {
+                    "lc": "Cropland,2747696,5287858"
+                },
+                {
+                    "lc": "Wetland,307233,291727"
+                },
+                {
+                    "lc": "Settlement,678,1039"
+                },
+                {
+                    "lc": "Otherland,470181,16885"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cloud,0,0"
+                },
+                {
+                    "lc": "Shadow,0,783"
+                }
+            ]
+        },
+        {
+            "Handeni": [
+                {
+                    "lc": "Forestland,2814843,1901470"
+                },
+                {
+                    "lc": "Grassland,5913574,5739766"
+                },
+                {
+                    "lc": "Cropland,273483,1339689"
+                },
+                {
+                    "lc": "Wetland,1334,15948"
+                },
+                {
+                    "lc": "Settlement,2849,6856"
+                },
+                {
+                    "lc": "Otherland,146,3569"
+                },
+                {
+                    "lc": "Cloud,487,1"
+                },
+                {
+                    "lc": "Shadow,592,9"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Kilindi": [
+                {
+                    "lc": "Forestland,3214313,1704679"
+                },
+                {
+                    "lc": "Grassland,3622530,4477685"
+                },
+                {
+                    "lc": "Cropland,186694,793351"
+                },
+                {
+                    "lc": "Wetland,2636,39182"
+                },
+                {
+                    "lc": "Settlement,6,689"
+                },
+                {
+                    "lc": "Otherland,6424,17106"
+                },
+                {
+                    "lc": "Cloud,32,0"
+                },
+                {
+                    "lc": "Shadow,57,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Korogwe": [
+                {
+                    "lc": "Forestland,480236,804774"
+                },
+                {
+                    "lc": "Grassland,2828587,1865619"
+                },
+                {
+                    "lc": "Cropland,194542,813818"
+                },
+                {
+                    "lc": "Wetland,2414,6498"
+                },
+                {
+                    "lc": "Settlement,1600,3175"
+                },
+                {
+                    "lc": "Otherland,2888,15690"
+                },
+                {
+                    "lc": "Cloud,795,33"
+                },
+                {
+                    "lc": "Shadow,2429,3884"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Lushoto": [
+                {
+                    "lc": "Forestland,860313,1144793"
+                },
+                {
+                    "lc": "Grassland,3495906,3030189"
+                },
+                {
+                    "lc": "Cropland,221090,365514"
+                },
+                {
+                    "lc": "Wetland,1,2569"
+                },
+                {
+                    "lc": "Settlement,181,472"
+                },
+                {
+                    "lc": "Otherland,8094,9608"
+                },
+                {
+                    "lc": "Cloud,74,12072"
+                },
+                {
+                    "lc": "Shadow,2567,23009"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Muheza": [
+                {
+                    "lc": "Forestland,1248553,1476937"
+                },
+                {
+                    "lc": "Grassland,3047131,2819678"
+                },
+                {
+                    "lc": "Cropland,369527,429688"
+                },
+                {
+                    "lc": "Wetland,45487,34995"
+                },
+                {
+                    "lc": "Otherland,39673,11219"
+                },
+                {
+                    "lc": "Cloud,20048,0"
+                },
+                {
+                    "lc": "Shadow,6664,381"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,4185"
+                }
+            ]
+        },
+        {
+            "Pangani": [
+                {
+                    "lc": "Forestland,739033,655728"
+                },
+                {
+                    "lc": "Grassland,1245376,1268310"
+                },
+                {
+                    "lc": "Cropland,2046,66757"
+                },
+                {
+                    "lc": "Wetland,27083,24115"
+                },
+                {
+                    "lc": "Otherland,5821,0"
+                },
+                {
+                    "lc": "Cloud,418,318"
+                },
+                {
+                    "lc": "Shadow,420,1098"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Settlement,0,3871"
+                }
+            ]
+        },
+        {
+            "Tanga": [
+                {
+                    "lc": "Forestland,75186,133012"
+                },
+                {
+                    "lc": "Grassland,538072,454017"
+                },
+                {
+                    "lc": "Cropland,4729,33722"
+                },
+                {
+                    "lc": "Wetland,38887,28761"
+                },
+                {
+                    "lc": "Settlement,31826,51085"
+                },
+                {
+                    "lc": "Otherland,11844,0"
+                },
+                {
+                    "lc": "Cloud,599,0"
+                },
+                {
+                    "lc": "Shadow,151,697"
+                },
+                {
+                    "lc": "No Data,0,0"
+                }
+            ]
+        },
+        {
+            "Kusini": [
+                {
+                    "lc": "Forestland,198641,286037"
+                },
+                {
+                    "lc": "Grassland,99706,91325"
+                },
+                {
+                    "lc": "Wetland,489,62301"
+                },
+                {
+                    "lc": "Otherland,539,0"
+                },
+                {
+                    "lc": "Cloud,75917,143"
+                },
+                {
+                    "lc": "Shadow,65137,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,623"
+                },
+                {
+                    "lc": "Settlement,0,0"
+                }
+            ]
+        },
+        {
+            "Zansibar Central": [
+                {
+                    "lc": "Forestland,257319,372806"
+                },
+                {
+                    "lc": "Grassland,137162,155045"
+                },
+                {
+                    "lc": "Wetland,2151,31636"
+                },
+                {
+                    "lc": "Settlement,2,10699"
+                },
+                {
+                    "lc": "Otherland,432,0"
+                },
+                {
+                    "lc": "Cloud,83455,151"
+                },
+                {
+                    "lc": "Shadow,98767,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,8951"
+                }
+            ]
+        },
+        {
+            "Magharibi": [
+                {
+                    "lc": "Forestland,76138,98690"
+                },
+                {
+                    "lc": "Grassland,51263,49563"
+                },
+                {
+                    "lc": "Wetland,2674,21296"
+                },
+                {
+                    "lc": "Settlement,32728,84075"
+                },
+                {
+                    "lc": "Otherland,356,0"
+                },
+                {
+                    "lc": "Cloud,49259,290"
+                },
+                {
+                    "lc": "Shadow,44107,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,2611"
+                }
+            ]
+        },
+        {
+            "Mjini": [
+                {
+                    "lc": "Forestland,8564,1696"
+                },
+                {
+                    "lc": "Grassland,2093,466"
+                },
+                {
+                    "lc": "Wetland,1122,1274"
+                },
+                {
+                    "lc": "Settlement,5683,14441"
+                },
+                {
+                    "lc": "Otherland,3,0"
+                },
+                {
+                    "lc": "Cloud,6,0"
+                },
+                {
+                    "lc": "Shadow,428,0"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,22"
+                }
+            ]
+        }
+    ]
+}
+]);

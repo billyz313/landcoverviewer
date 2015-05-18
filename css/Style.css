@@ -1,0 +1,250 @@
+﻿html, body, #map {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+}
+
+.esriSimpleSlider {
+    border: none;
+}
+
+.esriSimpleSliderVertical .esriSimpleSliderIncrementButton {
+    border-bottom: 2px solid #ffffff;
+    color: #fff;
+    background-color: rgb(38,127,176);
+}
+
+.esriSimpleSliderVertical .esriSimpleSliderDecrementButton {
+    color: #fff;
+    background-color: rgb(38,127,176);
+}
+
+#opacity_control {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    z-index: 101;
+}
+
+.claro .dijitTitlePaneTitle {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+}
+
+.claro .dijitTitlePane .dijitClosed .dijitArrowNode {
+    display: none;
+}
+
+.claro .dijitTitlePane .dijitOpen .dijitArrowNode {
+    display: none;
+}
+
+.claro .dijitTitlePane .dijitTitlePaneTextNode {
+    color: #fff;
+}
+
+
+.LayerSwipe .vertical {
+    background-image: url(form/images/sliderVertical.png);
+    background-repeat: repeat-x;
+    background-position: 0 -20px;
+    border-color: #5FABF1;
+    background-color: #cfe5fa;
+}
+
+    .LayerSwipe .vertical .handle {
+        border-color: #5FABF1;
+        background-color: #cfe5fa;
+    }
+
+.LayerSwipe .horizontal {
+    background-image: url(form/images/sliderHorizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0 -20px;
+    border-color: #5FABF1;
+    background-color: #cfe5fa;
+}
+
+    .LayerSwipe .horizontal .handle {
+        border-color: #5FABF1;
+        background-color: #cfe5fa;
+    }
+
+
+
+.toggle-btn-grp {
+    margin: 3px 0;
+}
+
+.toggle-btn {
+    text-align: centre;
+    margin: 5px 2px;
+    padding: 0.4em 3em;
+    color: #000;
+    background-color: #FFF;
+    border-radius: 10px;
+    display: inline-block;
+    border: solid 1px #CCC;
+    cursor: pointer;
+}
+
+.toggle-btn-grp.joint-toggle .toggle-btn {
+    margin: 5px 0;
+    padding: 0.4em 2em;
+    border-radius: 0;
+    border-right-color: white;
+}
+
+    .toggle-btn-grp.joint-toggle .toggle-btn:first-child {
+        margin-left: 2px;
+        border-radius: 10px 0px 0px 10px;
+        color: #2143AF;
+    }
+
+    .toggle-btn-grp.joint-toggle .toggle-btn:last-child {
+        margin-right: 2px;
+        border-radius: 0px 10px 10px 0px;
+        border-right: solid 1px #CCC;
+        color: #2143AF;
+    }
+
+
+.toggle-btn:hover {
+    border: solid 1px #a0d5dc !important;
+    background: #f1fdfe;
+}
+
+
+.toggle-btn.success {
+    background: #cfe5fa;
+    border: solid 1px #5FABF1 !important;
+}
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+    .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
+
+#sb-player.html {
+    line-height: 22px;
+}
+
+#mobilefinder {
+    display: none;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+}
+#tinymobilefinder {
+    display: none;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+}
+
+#mapswitcher {
+    position: absolute;
+    right: 0px;
+    top: -3px;
+    z-index: 999;
+    color: #fff;
+    background-color: rgb(38,127,176);
+    box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+    -o-box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+    -webkit-box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+    -moz-box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+    -webkit-border-radius: 0 0 8px 8px;
+    border-radius: 0 0 8px 8px;
+    padding: 5px;
+    max-width: 100%;
+}
+ .mgrLabelWidth{width:130px;}
+
+
+@media only screen and (max-width : 1280px) /* desktop*/
+{
+}
+
+@media only screen and (max-width : 1024px) /* tablet landscape*/
+{
+}
+
+@media only screen and (max-width : 768px) /* tablet portrait*/
+{
+}
+
+@media only screen and (max-width : 800px) /* small tablet landscape*/
+{
+}
+
+@media only screen and (max-width : 650px) /* small tablet portrait*/
+{
+    #mobilefinder {
+        display: block;
+    }
+}
+
+@media only screen and (max-width : 480px) /* mobile landscape*/
+{
+    #mobilefinder {
+        display: block;
+    }
+   
+}
+@media only screen and (max-width : 350px) /* mobile landscape*/
+{
+     #mobilefinder {
+        display: block;
+    }
+    .toggle-btn-grp.joint-toggle .toggle-btn{
+        padding: 0.4em .75em;
+    }
+    .mgrLabelWidth{width:80px;}
+    #tinymobilefinder{display: block;}
+}
+
+@media only screen /*iPhone*/
+and (min-device-width : 320px) and (max-device-width : 480px) {
+    #mobilefinder {
+        display: block;
+    }
+    #tinymobilefinder{display: block;}
+    .toggle-btn-grp.joint-toggle .toggle-btn{
+        padding: 0.4em .75em;
+    }
+    .mgrLabelWidth{width:80px;}
+}
+
+@media only screen and (max-width : 320px) /* mobile portrait*/
+{
+    #mobilefinder {
+        display: block;
+    }
+    #tinymobilefinder{display: block;}
+     .toggle-btn-grp.joint-toggle .toggle-btn{
+        padding: 0.4em .75em;
+    }
+    .mgrLabelWidth{width:80px;}
+}
+	

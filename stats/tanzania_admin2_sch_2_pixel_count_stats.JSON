@@ -1,0 +1,76 @@
+jsonCallback([
+{
+    "admin0_sch_II": [
+        {
+            "Tanzania": [
+                {
+                    "lc": "nodata,797,795"
+                },
+                {
+                    "lc": "Dense Forest,3986669,4245581"
+                },
+                {
+                    "lc": "Moderate Forest,33009467,38825153"
+                },
+                {
+                    "lc": "Sparse Forest,248837824,225022710"
+                },
+                {
+                    "lc": "Planted Forest,635221,1011286"
+                },
+                {
+                    "lc": "Mangrove Forest,799708,1288346"
+                },
+                {
+                    "lc": "Woodland,1109245,481357"
+                },
+                {
+                    "lc": "Closed Grassland,6686181,10134871"
+                },
+                {
+                    "lc": "Open Grassland,105970879,90536582"
+                },
+                {
+                    "lc": "Closed Bushland,147472103,142513023"
+                },
+                {
+                    "lc": "Open Bushland,263293596,239931683"
+                },
+                {
+                    "lc": "Perennial Cropland,933647,1150233"
+                },
+                {
+                    "lc": "Annual Cropland,108608862,188104026"
+                },
+                {
+                    "lc": "Wetland,6614970,10243427"
+                },
+                {
+                    "lc": "Water Body,66523432,65941981"
+                },
+                {
+                    "lc": "Settlement,1489522,2523779"
+                },
+                {
+                    "lc": "Bare Soil,39834014,19683121"
+                },
+                {
+                    "lc": "Rock Outcrop,111341,249317"
+                },
+                {
+                    "lc": "Ice Cap,6027"
+                },
+                {
+                    "lc": "Salt Crust,15239"
+                },
+                {
+                    "lc": "Cloud,9243623,5261675"
+                },
+                {
+                    "lc": "Shadow,3534347,1567768"
+                }
+            ]
+        }
+    ]
+}
+ ]);

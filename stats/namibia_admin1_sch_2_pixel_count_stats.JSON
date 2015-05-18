@@ -1,0 +1,604 @@
+jsonCallback([
+{
+    "admin1_sch_II": [
+        {
+            "Caprivi": [
+                {
+                    "lc": "nodata,58845,61500"
+                },
+                {
+                    "lc": "Forestland,4368971,4069424"
+                },
+                {
+                    "lc": "Grassland,4857309,2626397"
+                },
+                {
+                    "lc": "Shrubland,755767,6706332"
+                },
+                {
+                    "lc": "Savanna Grassland,5327449,915041"
+                },
+                {
+                    "lc": "Cropland,251202,368331"
+                },
+                {
+                    "lc": "Wetland,565274,1060839"
+                },
+                {
+                    "lc": "Water Body,29080,474676"
+                },
+                {
+                    "lc": "Bare Soil,76119,0"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Settlement,0,7476"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Desert Dune,0,0"
+                },
+                {
+                    "lc": "Desert Sand,0,0"
+                }
+            ]
+        },
+        {
+            "Erongo": [
+                {
+                    "lc": "nodata,42349,49773"
+                },
+                {
+                    "lc": "Forestland,408420,156065"
+                },
+                {
+                    "lc": "Woodland,943624,23368"
+                },
+                {
+                    "lc": "Grassland,14452074,3318589"
+                },
+                {
+                    "lc": "Shrubland,1093284,2298221"
+                },
+                {
+                    "lc": "Savanna Grassland,23295556,14585559"
+                },
+                {
+                    "lc": "Water Body,20594,32763"
+                },
+                {
+                    "lc": "Settlement,79856,104630"
+                },
+                {
+                    "lc": "Rock Outcrop,12889564,16292736"
+                },
+                {
+                    "lc": "Bare Soil,2765405,30839282"
+                },
+                {
+                    "lc": "Desert Dune,1486213,1348035"
+                },
+                {
+                    "lc": "Desert Sand,13155641,1583559"
+                },
+                {
+                    "lc": "Cropland,0,0"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                }
+            ]
+        },
+        {
+            "Hardap": [
+                {
+                    "lc": "nodata,37672,38551"
+                },
+                {
+                    "lc": "Forestland,35921,1537"
+                },
+                {
+                    "lc": "Woodland,18616,2841"
+                },
+                {
+                    "lc": "Grassland,21497187,4425947"
+                },
+                {
+                    "lc": "Shrubland,6581343,14274941"
+                },
+                {
+                    "lc": "Savanna Grassland,45393816,63583676"
+                },
+                {
+                    "lc": "Water Body,195148,43590"
+                },
+                {
+                    "lc": "Settlement,3821,21575"
+                },
+                {
+                    "lc": "Rock Outcrop,12563403,7366888"
+                },
+                {
+                    "lc": "Bare Soil,7249894,3999702"
+                },
+                {
+                    "lc": "Desert Dune,16870280,19820397"
+                },
+                {
+                    "lc": "Desert Sand,11592258,8428456"
+                },
+                {
+                    "lc": "Cropland,0,31258"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                }
+            ]
+        },
+        {
+            "Karas": [
+                {
+                    "lc": "nodata,202127,212292"
+                },
+                {
+                    "lc": "Forestland,102,7262"
+                },
+                {
+                    "lc": "Grassland,26978630,12934482"
+                },
+                {
+                    "lc": "Shrubland,280079,3137951"
+                },
+                {
+                    "lc": "Savanna Grassland,35895164,64213612"
+                },
+                {
+                    "lc": "Cropland,53260,67011"
+                },
+                {
+                    "lc": "Water Body,116019,313203"
+                },
+                {
+                    "lc": "Settlement,40562,48987"
+                },
+                {
+                    "lc": "Rock Outcrop,32650194,26740436"
+                },
+                {
+                    "lc": "Bare Soil,34469180,31162977"
+                },
+                {
+                    "lc": "Desert Dune,19955749,20510293"
+                },
+                {
+                    "lc": "Desert Sand,28822893,20106621"
+                },
+                {
+                    "lc": "Woodland,0,0"
+                },
+                {
+                    "lc": "Wetland,0,8832"
+                }
+            ]
+        },
+        {
+            "Kavango": [
+                {
+                    "lc": "nodata,39086,41685"
+                },
+                {
+                    "lc": "Forestland,11417153,11876512"
+                },
+                {
+                    "lc": "Woodland,909057,2167167"
+                },
+                {
+                    "lc": "Grassland,3054871,730458"
+                },
+                {
+                    "lc": "Shrubland,3531093,15677034"
+                },
+                {
+                    "lc": "Savanna Grassland,33525974,21388495"
+                },
+                {
+                    "lc": "Cropland,1813548,2320998"
+                },
+                {
+                    "lc": "Wetland,64960,77504"
+                },
+                {
+                    "lc": "Water Body,29384,116117"
+                },
+                {
+                    "lc": "Settlement,2222,12799"
+                },
+                {
+                    "lc": "Bare Soil,21421,0"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Desert Dune,0,0"
+                },
+                {
+                    "lc": "Desert Sand,0,0"
+                }
+            ]
+        },
+        {
+            "Khomas": [
+                {
+                    "lc": "Forestland,56639,3"
+                },
+                {
+                    "lc": "Woodland,755661,115668"
+                },
+                {
+                    "lc": "Grassland,3695092,652719"
+                },
+                {
+                    "lc": "Shrubland,2326272,6594134"
+                },
+                {
+                    "lc": "Savanna Grassland,25115631,28317260"
+                },
+                {
+                    "lc": "Water Body,20142,11578"
+                },
+                {
+                    "lc": "Settlement,96139,97906"
+                },
+                {
+                    "lc": "Rock Outcrop,7664168,4677593"
+                },
+                {
+                    "lc": "Bare Soil,328149,575354"
+                },
+                {
+                    "lc": "Desert Dune,265828,90375"
+                },
+                {
+                    "lc": "Desert Sand,892298,62046"
+                },
+                {
+                    "lc": "No Data,0,0"
+                },
+                {
+                    "lc": "Cropland,0,21383"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                }
+            ]
+        },
+        {
+            "Kunene": [
+                {
+                    "lc": "nodata,98251,103118"
+                },
+                {
+                    "lc": "Forestland,8260828,8654442"
+                },
+                {
+                    "lc": "Woodland,4193708,3168414"
+                },
+                {
+                    "lc": "Grassland,14744695,4612384"
+                },
+                {
+                    "lc": "Shrubland,10419580,20509306"
+                },
+                {
+                    "lc": "Savanna Grassland,48123030,42805643"
+                },
+                {
+                    "lc": "Cropland,36645,7887"
+                },
+                {
+                    "lc": "Water Body,13762,55148"
+                },
+                {
+                    "lc": "Settlement,7832,13937"
+                },
+                {
+                    "lc": "Rock Outcrop,22611985,26135571"
+                },
+                {
+                    "lc": "Bare Soil,4591242,12558352"
+                },
+                {
+                    "lc": "Desert Dune,6786330,0"
+                },
+                {
+                    "lc": "Desert Sand,8238809,9502287"
+                },
+                {
+                    "lc": "Wetland,0,208"
+                }
+            ]
+        },
+        {
+            "Ohangwena": [
+                {
+                    "lc": "nodata,1543,1543"
+                },
+                {
+                    "lc": "Forestland,2802626,796927"
+                },
+                {
+                    "lc": "Woodland,39739,141"
+                },
+                {
+                    "lc": "Grassland,145580,1361871"
+                },
+                {
+                    "lc": "Shrubland,499681,3541688"
+                },
+                {
+                    "lc": "Savanna Grassland,6472926,3448213"
+                },
+                {
+                    "lc": "Cropland,1473949,2052297"
+                },
+                {
+                    "lc": "Water Body,29396,124802"
+                },
+                {
+                    "lc": "Settlement,11462,17580"
+                },
+                {
+                    "lc": "Bare Soil,358159,468570"
+                },
+                {
+                    "lc": "Wetland,0,21429"
+                },
+                {
+                    "lc": "Rock Outcrop,0,0"
+                },
+                {
+                    "lc": "Desert Dune,0,0"
+                },
+                {
+                    "lc": "Desert Sand,0,0"
+                }
+            ]
+        },
+        {
+            "Omaheke": [
+                {
+                    "lc": "nodata,50153,51886"
+                },
+                {
+                    "lc": "Forestland,5305996,911203"
+                },
+                {
+                    "lc": "Woodland,11142920,16111177"
+                },
+                {
+                    "lc": "Grassland,5943652,1322930"
+                },
+                {
+                    "lc": "Shrubland,15259912,22214672"
+                },
+                {
+                    "lc": "Savanna Grassland,53445920,53814432"
+                },
+                {
+                    "lc": "Cropland,1495,19001"
+                },
+                {
+                    "lc": "Water Body,9462,2983"
+                },
+                {
+                    "lc": "Settlement,11901,13140"
+                },
+                {
+                    "lc": "Rock Outcrop,58160,36605"
+                },
+                {
+                    "lc": "Bare Soil,2445798,94461"
+                },
+                {
+                    "lc": "Desert Dune,924171,1096"
+                },
+                {
+                    "lc": "Wetland,0,5954"
+                },
+                {
+                    "lc": "Desert Sand,0,0"
+                }
+            ]
+        },
+        {
+            "Omusati": [
+                {
+                    "lc": "nodata,31888,31899"
+                },
+                {
+                    "lc": "Forestland,302864,95004"
+                },
+                {
+                    "lc": "Woodland,187228,39021"
+                },
+                {
+                    "lc": "Grassland,2935052,4404975"
+                },
+                {
+                    "lc": "Shrubland,5466091,6823960"
+                },
+                {
+                    "lc": "Savanna Grassland,17798546,13657520"
+                },
+                {
+                    "lc": "Cropland,1423292,2389803"
+                },
+                {
+                    "lc": "Water Body,164727,477591"
+                },
+                {
+                    "lc": "Settlement,2859,2911"
+                },
+                {
+                    "lc": "Rock Outcrop,8165,0"
+                },
+                {
+                    "lc": "Bare Soil,1214696,1575027"
+                },
+                {
+                    "lc": "Wetland,0,37697"
+                },
+                {
+                    "lc": "Desert Dune,0,0"
+                },
+                {
+                    "lc": "Desert Sand,0,0"
+                }
+            ]
+        },
+        {
+            "Oshana": [
+                {
+                    "lc": "Forestland,249062,0"
+                },
+                {
+                    "lc": "Woodland,45557,253108"
+                },
+                {
+                    "lc": "Grassland,283661,2271591"
+                },
+                {
+                    "lc": "Shrubland,411565,1313858"
+                },
+                {
+                    "lc": "Savanna Grassland,5940565,2710716"
+                },
+                {
+                    "lc": "Cropland,309978,535099"
+                },
+                {
+                    "lc": "Water Body,741663,779756"
+                },
+                {
+                    "lc": "Settlement,26953,49985"
+                },
+                {
+                    "lc": "Rock Outcrop,441,0"
+                },
+                {
+                    "lc": "Bare Soil,1597846,1653627"
+                },
+                {
+                    "lc": "No Data,0"
+                },
+                {
+                    "lc": "Wetland,0,38386"
+                },
+                {
+                    "lc": "Desert Dune,0,0"
+                },
+                {
+                    "lc": "Desert Sand,0,0"
+                }
+            ]
+        },
+        {
+            "Oshikoto": [
+                {
+                    "lc": "Forestland,5215663,2847773"
+                },
+                {
+                    "lc": "Woodland,756148,2732959"
+                },
+                {
+                    "lc": "Grassland,991159,1900570"
+                },
+                {
+                    "lc": "Shrubland,957598,12699843"
+                },
+                {
+                    "lc": "Savanna Grassland,26423482,14870459"
+                },
+                {
+                    "lc": "Cropland,1397895,1931321"
+                },
+                {
+                    "lc": "Water Body,5832380,5501035"
+                },
+                {
+                    "lc": "Settlement,9783,19401"
+                },
+                {
+                    "lc": "Bare Soil,1365063,432756"
+                },
+                {
+                    "lc": "No Data,0"
+                },
+                {
+                    "lc": "Wetland,0,10615"
+                },
+                {
+                    "lc": "Rock Outcrop,0,384"
+                },
+                {
+                    "lc": "Desert Dune,0,0"
+                },
+                {
+                    "lc": "Desert Sand,0,0"
+                }
+            ]
+        },
+        {
+            "Otjozondjupa": [
+                {
+                    "lc": "Forestland,10377698,11474659"
+                },
+                {
+                    "lc": "Woodland,16721279,6395064"
+                },
+                {
+                    "lc": "Grassland,11151057,1968866"
+                },
+                {
+                    "lc": "Shrubland,8325288,27604684"
+                },
+                {
+                    "lc": "Savanna Grassland,68503649,68319574"
+                },
+                {
+                    "lc": "Cropland,242094,344789"
+                },
+                {
+                    "lc": "Wetland,283,1831"
+                },
+                {
+                    "lc": "Water Body,51997,32454"
+                },
+                {
+                    "lc": "Settlement,36461,38342"
+                },
+                {
+                    "lc": "Rock Outcrop,572448,62544"
+                },
+                {
+                    "lc": "Bare Soil,551320,292189"
+                },
+                {
+                    "lc": "Desert Sand,1754,0"
+                },
+                {
+                    "lc": "No Data,0"
+                },
+                {
+                    "lc": "Desert Dune,0,0"
+                }
+            ]
+        }
+    ]
+}
+]);

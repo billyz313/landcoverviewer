@@ -1,0 +1,420 @@
+jsonCallback([
+{
+    "admin1_sch_II": [
+        {
+            "Central": [
+                {
+                    "lc": "Moderate Forest,1006319,4578863"
+                },
+                {
+                    "lc": "Sparse Forest,5524040,5967349"
+                },
+                {
+                    "lc": "Woodland,3822141,5921553"
+                },
+                {
+                    "lc": "Open Grassland,13934151,11334584"
+                },
+                {
+                    "lc": "Closed Shrubland,52157450,47631491"
+                },
+                {
+                    "lc": "Open Shrubland,67736992,62944580"
+                },
+                {
+                    "lc": "Cropland,2185565,2166775"
+                },
+                {
+                    "lc": "Wetland,97407,2307"
+                },
+                {
+                    "lc": "Water Body,111552,129449"
+                },
+                {
+                    "lc": "Setlement,303876"
+                },
+                {
+                    "lc": "Otherland,82881,3865624"
+                },
+                {
+                    "lc": "Pan,7945609,9904053"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,14"
+                }
+            ]
+        },
+        {
+            "Ghanzi": [
+                {
+                    "lc": "Sparse Forest,17481,18229"
+                },
+                {
+                    "lc": "Woodland,235043,2694090"
+                },
+                {
+                    "lc": "Open Grassland,20001042,17964839"
+                },
+                {
+                    "lc": "Closed Shrubland,32737663,32811410"
+                },
+                {
+                    "lc": "Open Shrubland,68257111,64279230"
+                },
+                {
+                    "lc": "Water Body,1620,1500"
+                },
+                {
+                    "lc": "Setlement,14269"
+                },
+                {
+                    "lc": "Otherland,116595,3579238"
+                },
+                {
+                    "lc": "Pan,25082,43195"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Moderate Forest,0,79"
+                },
+                {
+                    "lc": "Closed Grassland,0,38"
+                },
+                {
+                    "lc": "Cropland,0,0"
+                },
+                {
+                    "lc": "Wetland,0,1950"
+                }
+            ]
+        },
+        {
+            "Kgalagadi": [
+                {
+                    "lc": "Sparse Forest,27736,112854"
+                },
+                {
+                    "lc": "Woodland,289741,65398"
+                },
+                {
+                    "lc": "Open Grassland,25451306,18497242"
+                },
+                {
+                    "lc": "Closed Shrubland,17440098,25132951"
+                },
+                {
+                    "lc": "Open Shrubland,62573696,64851281"
+                },
+                {
+                    "lc": "Cropland,5232,9632"
+                },
+                {
+                    "lc": "Wetland,92,0"
+                },
+                {
+                    "lc": "Water Body,5739,8297"
+                },
+                {
+                    "lc": "Setlement,11655"
+                },
+                {
+                    "lc": "Otherland,7758569,4717946"
+                },
+                {
+                    "lc": "Pan,194581,330248"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Moderate Forest,0,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,10020"
+                }
+            ]
+        },
+        {
+            "Kgatleng": [
+                {
+                    "lc": "Moderate Forest,10910,118367"
+                },
+                {
+                    "lc": "Sparse Forest,212071,244541"
+                },
+                {
+                    "lc": "Woodland,419668,1491850"
+                },
+                {
+                    "lc": "Open Grassland,101897,263487"
+                },
+                {
+                    "lc": "Closed Shrubland,3361044,4377150"
+                },
+                {
+                    "lc": "Open Shrubland,4024234,1715068"
+                },
+                {
+                    "lc": "Cropland,152883,70389"
+                },
+                {
+                    "lc": "Wetland,1047,0"
+                },
+                {
+                    "lc": "Water Body,58165,41644"
+                },
+                {
+                    "lc": "Setlement,70175"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Otherland,0,18098"
+                },
+                {
+                    "lc": "Pan,0,0"
+                }
+            ]
+        },
+        {
+            "Kweneng": [
+                {
+                    "lc": "Moderate Forest,28732,3663"
+                },
+                {
+                    "lc": "Sparse Forest,529279,364331"
+                },
+                {
+                    "lc": "Woodland,445687,554157"
+                },
+                {
+                    "lc": "Open Grassland,6619300,5620294"
+                },
+                {
+                    "lc": "Closed Shrubland,13815392,14546813"
+                },
+                {
+                    "lc": "Open Shrubland,17366119,16407520"
+                },
+                {
+                    "lc": "Cropland,740565,425246"
+                },
+                {
+                    "lc": "Wetland,448,2002"
+                },
+                {
+                    "lc": "Water Body,1502,5971"
+                },
+                {
+                    "lc": "Setlement,70549"
+                },
+                {
+                    "lc": "Otherland,18650,1548456"
+                },
+                {
+                    "lc": "Pan,9083,13214"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,373"
+                }
+            ]
+        },
+        {
+            "North_East": [
+                {
+                    "lc": "Moderate Forest,117329,532945"
+                },
+                {
+                    "lc": "Sparse Forest,816235,612414"
+                },
+                {
+                    "lc": "Woodland,62498,3773"
+                },
+                {
+                    "lc": "Open Grassland,94075,86239"
+                },
+                {
+                    "lc": "Closed Shrubland,1367696,1305138"
+                },
+                {
+                    "lc": "Open Shrubland,2527074,1884337"
+                },
+                {
+                    "lc": "Cropland,531636,1019685"
+                },
+                {
+                    "lc": "Wetland,511,0"
+                },
+                {
+                    "lc": "Water Body,27128,28058"
+                },
+                {
+                    "lc": "Setlement,73772"
+                },
+                {
+                    "lc": "Otherland,1138,9102"
+                },
+                {
+                    "lc": "Pan,636,0"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                }
+            ]
+        },
+        {
+            "North_West": [
+                {
+                    "lc": "Moderate Forest,525675,2285145"
+                },
+                {
+                    "lc": "Sparse Forest,12236353,11549124"
+                },
+                {
+                    "lc": "Woodland,3821062,3177077"
+                },
+                {
+                    "lc": "Closed Grassland,316509,72374"
+                },
+                {
+                    "lc": "Open Grassland,17526719,19340185"
+                },
+                {
+                    "lc": "Closed Shrubland,37685441,53311548"
+                },
+                {
+                    "lc": "Open Shrubland,56201369,36633845"
+                },
+                {
+                    "lc": "Cropland,297848,321377"
+                },
+                {
+                    "lc": "Wetland,7387513,5526853"
+                },
+                {
+                    "lc": "Water Body,1050337,2242505"
+                },
+                {
+                    "lc": "Setlement,19608"
+                },
+                {
+                    "lc": "Otherland,621565,3144879"
+                },
+                {
+                    "lc": "Pan,133795,130957"
+                },
+                {
+                    "lc": "No data,0"
+                }
+            ]
+        },
+        {
+            "South_East": [
+                {
+                    "lc": "Moderate Forest,88799,0"
+                },
+                {
+                    "lc": "Sparse Forest,347688,172805"
+                },
+                {
+                    "lc": "Woodland,44616,395887"
+                },
+                {
+                    "lc": "Open Grassland,3897,144749"
+                },
+                {
+                    "lc": "Closed Shrubland,594848,677128"
+                },
+                {
+                    "lc": "Open Shrubland,888350,584793"
+                },
+                {
+                    "lc": "Cropland,30901,18463"
+                },
+                {
+                    "lc": "Water Body,28616,27724"
+                },
+                {
+                    "lc": "Setlement,153110"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,0"
+                },
+                {
+                    "lc": "Wetland,0,0"
+                },
+                {
+                    "lc": "Otherland,0,0"
+                },
+                {
+                    "lc": "Pan,0,0"
+                }
+            ]
+        },
+        {
+            "Southern": [
+                {
+                    "lc": "Moderate Forest,61790,0"
+                },
+                {
+                    "lc": "Sparse Forest,471979,708703"
+                },
+                {
+                    "lc": "Woodland,98652,303584"
+                },
+                {
+                    "lc": "Open Grassland,4702162,3117433"
+                },
+                {
+                    "lc": "Closed Shrubland,6726439,12295075"
+                },
+                {
+                    "lc": "Open Shrubland,16822815,11740447"
+                },
+                {
+                    "lc": "Cropland,537352,523303"
+                },
+                {
+                    "lc": "Wetland,1465,2385"
+                },
+                {
+                    "lc": "Water Body,3002,9978"
+                },
+                {
+                    "lc": "Setlement,139990"
+                },
+                {
+                    "lc": "Otherland,42824,750777"
+                },
+                {
+                    "lc": "Pan,8882,9884"
+                },
+                {
+                    "lc": "No data,0"
+                },
+                {
+                    "lc": "Closed Grassland,0,8"
+                }
+            ]
+        }
+    ]
+}
+ ]);

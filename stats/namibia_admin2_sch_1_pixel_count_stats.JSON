@@ -1,0 +1,31 @@
+jsonCallback([
+{
+    "admin0_sch_I": [
+        {
+            "Namibia": [
+                {
+                    "lc": "nodata,568648,602720"
+                },
+                {
+                    "lc": "Forestland,84513370,40888039"
+                },
+                {
+                    "lc": "Grassland,561896864,42531867"
+                },
+                {
+                    "lc": "Cropland,7002442,10088310"
+                },
+                {
+                    "lc": "Wetland,7884496,1262902"
+                },
+                {
+                    "lc": "Settlement,329857,448668"
+                },
+                {
+                    "lc": "Otherland,255043457"
+                }
+            ]
+        }
+    ]
+}
+ ]);

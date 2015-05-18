@@ -1,0 +1,341 @@
+﻿ html, body, #map
+        {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map
+        {
+           /* border-top: 3px solid #CAED4D; */
+        }
+        .ui-autocomplete
+        {
+            max-height: 200px;
+            overflow-y: auto; /* prevent horizontal scrollbar */
+            overflow-x: hidden;
+        }
+        /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+        * html .ui-autocomplete
+        {
+            height: 200px;
+        }
+        .esriPopup
+        {
+            z-index: 110 !important;
+        }
+        .esriPopup .titleButton
+        {
+            position: absolute;
+            top: 2px;
+            cursor: pointer;
+            background: url("images/popup.png") no-repeat;
+        }
+        
+        .esriPopup .titleButton.next
+        {
+            right: 46px;
+            background-position: 0 -886px;
+            width: 18px;
+            height: 34px;
+        }
+        
+        .esriPopup .outerPointer.left
+        {
+            display: none;
+        }
+        
+        .esriPopup .outerPointer.right
+        {
+            display: none;
+        }
+        
+        .esriPopup .pointer.bottomLeft
+        {
+            display: none;
+        }
+        
+        .esriPopup .pointer.bottomRight
+        {
+            display: none;
+        }
+        
+        .esriPopup .pointer.topLeft
+        {
+            display: none;
+        }
+        
+        .esriPopup .pointer.topRight
+        {
+            display: none;
+        }
+        
+        .esriPopup .pointer.top
+        {
+            display: none;
+        }
+        
+        .esriPopup .pointer.bottom
+        {
+            display: none;
+        }
+        /*.esriPopup .titleButton.next:hover {
+                    right: 46px;
+                    background-position: 0 -886px;
+                    width: 18px;
+                    height: 34px;
+                    background-color: #CAED4D;
+                    color: rgb(38,127,176);
+                    box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+                    -o-box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+                    -webkit-box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+                    -moz-box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+                }*/
+        .esriPopup .titleButton.close
+        {
+            right: 3px;
+            background-position: 0 -342px;
+            width: 24px;
+            height: 34px;
+        }
+        
+        .esriPopup .titleButton.prev
+        {
+            right: 84px;
+            background-position: 0 -448px;
+            width: 18px;
+            height: 34px;
+        }
+        
+        /*.esriPopup .titleButton.prev:hover {
+                    right: 84px;
+                    background-position: 0 -448px;
+                    width: 18px;
+                    height: 34px;
+                    background-color: #CAED4D;
+                    color: rgb(38,127,176);
+                    box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+                    -o-box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+                    -webkit-box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+                    -moz-box-shadow: inset 1px 6px 12px #0093CA, inset -1px -10px 5px rgb(38,127,176), 1px 2px 1px transparent;
+                }*/
+        
+        .esriPopup .titleButton.maximize
+        {
+            display: none;
+        }
+        
+        .esriPopup .sizer
+        {
+            min-width: 350px;
+            width: auto;
+        }
+        
+        .esriPopup .titlePane
+        {
+            background-color: rgb(38,127,176);
+            color: #FFFFFF;
+            line-height: 20px;
+            padding-left: 6px;
+            border-radius: 5px 5px 0px 0px;
+            -moz-border-radius: 5px 5px 0px 0px;
+            -webkit-border-radius: 5px 5px 0px 0px;
+            -o-border-radius: 5px 5px 0px 0px;
+            cursor: default;
+            border: 2px solid transparent; /*2px solid #CAED4D;*/
+            border-bottom: none;
+            line-height: 45px;
+        }
+        
+        .esriPopup .contentPane
+        {
+            border: 2px solid transparent; /*2px solid #CAED4D;*/
+            border-top: none;
+            border-bottom: none;
+            max-height: 360px;
+        }
+        
+        .esriPopup .actionsPane
+        {
+            border: 2px solid transparent; /*2px solid #CAED4D;*/
+            border-top: none;
+            border-bottom-right-radius: 18px;
+            border-bottom-left-radius: 18px;
+            height: 8px;
+        }
+        
+        .esriPopup .esriPopupWrapper
+        {
+            border-bottom-right-radius: 18px;
+            border-bottom-left-radius: 18px;
+            height: 8px;
+        }
+        /* center the image in the popup */
+        .esriViewPopup .gallery
+        {
+            margin: 0 auto !important;
+        }
+        
+        #LayerManager
+        {
+            display: none;
+            position: absolute;
+            top: -3px;
+            left: 0px;
+            z-index: 99;
+            width: 0px;
+            height: 0px; /*background-color: red;*/
+            overflow: hidden;
+            /*border: 3px solid #CAED4D;*/
+            background-color: rgb(38,127,176);
+            -webkit-border-radius: 0 0 8px 8px;
+            border-radius: 0 0 8px 8px;
+            white-space: nowrap;
+            padding: 12px;
+           /* opacity: .85;*/
+        }
+        
+        #searchManager
+        {
+            display: none;
+            position: absolute;
+            top: -3px;
+            right: 0px;
+            z-index: 99;
+            width: 0px;
+            height: 0px; /*background-color: red;*/
+            overflow: hidden;
+            /*border: 3px solid #CAED4D;*/
+            background-color: rgb(38,127,176);
+            -webkit-border-radius: 0 0 8px 8px;
+            border-radius: 0 0 8px 8px;
+            white-space: nowrap;
+            padding: 12px;
+            opacity: .85;
+        }
+        
+        #btnlayermgr
+        {
+            display: none;
+            position: absolute;
+            top: 3px;
+            left: 0px;
+            width: 30px;
+            z-index: 101;
+            /*border: 3px solid #CAED4D;
+            background-color: rgb(38,127,176);*/
+            -webkit-border-radius: 0 0 8px 8px;
+            border-radius: 0 0 8px 8px;
+        }
+        
+        #btnsearch
+        {
+            display: none;
+            position: absolute;
+            top: -3px;
+            right: 0px;
+            width: 35px;
+            z-index: 100;
+            /*border: 3px solid #CAED4D;*/
+            background-color: rgb(38,127,176);
+            -webkit-border-radius: 0 0 8px 8px;
+            border-radius: 0 0 8px 8px;
+        }
+        #navtoolHolder
+        {
+            pointer-events: none;
+            position: absolute;
+            top: -3px;
+            z-index: 98;
+            width: 100%;
+        }
+        #navtools
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 150px;
+            pointer-events: auto;
+        }
+        #btnaoi
+        {
+            display: none;
+            position: relative;
+            float: left;
+            width: 20px;
+            z-index: 98;
+            /*border: 3px solid #CAED4D;*/
+            background-color: rgb(38,127,176);
+            -webkit-border-radius: 0 0 8px 8px;
+            border-radius: 0 0 8px 8px;
+            margin-right: 13px;
+            padding:10px;
+        }
+        
+        #btnzoom
+        {
+            display: none;
+            position: relative;
+            float: left;
+            width: 20px;
+            z-index: 98;
+            /*border: 3px solid #CAED4D;*/
+            background-color: rgb(38,127,176);
+            -webkit-border-radius: 0 0 8px 8px;
+            border-radius: 0 0 8px 8px;
+            margin-right: 13px;
+            padding:10px;
+        }
+        #btninfo
+        {
+            display: none;
+            position: relative;
+            float: left;
+            width: 20px;
+            z-index: 98;
+            /*border: 3px solid #CAED4D;*/
+            background-color: rgb(38,127,176);
+            -webkit-border-radius: 0 0 8px 8px;
+            border-radius: 0 0 8px 8px;
+            padding:10px;
+        }
+        
+        .LayerSelectorText
+        {
+            color: #fff;
+            padding-left: 30px;
+            position: relative;
+            bottom: 2px;
+        }
+        
+        .checkbox
+        {
+            width: 23px;
+            height: 21px;
+            background: transparent url(images/S4p2R.png ) no-repeat 0 50%;
+            margin-bottom: 5px;
+        }
+        
+        .checked
+        {
+            background: transparent url(images/S4p2R.png ) no-repeat 80% 50%;
+            margin-bottom: 5px;
+        }
+        #ServirLogoHolder
+        {
+            pointer-events: none;
+            position: absolute;
+            bottom: 12px;
+            z-index: 100;
+            width: 100%;
+        }
+        .esriSimpleSliderTL
+        {
+            z-index: 101 !important;
+        }
+        .mainSection
+        {
+            line-height: 10px;
+        }
