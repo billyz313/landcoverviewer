@@ -1169,7 +1169,7 @@ $(document).ready(function(){
         $("#compare").hide();
         $("#stats").show();
         $("#donwLayers").hide();        
-        loadStatistics(3);
+        //loadStatistics(3);
         isToggld = false;
         rSizeMap();
 		   
