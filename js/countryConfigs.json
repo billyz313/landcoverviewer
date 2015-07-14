@@ -34,7 +34,7 @@ jsonCallback(
 				    "classficationEpochs":"3",				   
 				    "serviceUrl":"http://maps.rcmrd.org/arcgis/rest/services/Rwanda/RwandaEnvironmentGHGLandCoverMapService/MapServer",
 				    "serviceUrl_vector":"http://servir.rcmrd.org/ArcGIS/rest/services/admin_boundaries/rwanda_admin/MapServer",	
-				    "downLoadURLs":"http://geoportal.rcmrd.org/data/rwanda_landcover_1990_scheme_I.zip,http://geoportal.rcmrd.org/data/rwanda_landcover_2000_scheme_I.zip,http://geoportal.rcmrd.org/data/rwanda_landcover_2010_scheme_I.zip,http://geoportal.rcmrd.org/data/rwanda_landcover_1990_scheme_II.zip, http://geoportal.rcmrd.org/data/rwanda_landcover_2000_scheme_II.zip, http://geoportal.rcmrd.org/data/rwanda_landcover_2010_scheme_II.zip",			    
+				    "downLoadURLs":"http://geoportal.rcmrd.org/data/Rwanda_LandCover_1990_Scheme_I.zip,http://geoportal.rcmrd.org/data/Rwanda_LandCover_2000_Scheme_I.zip,http://geoportal.rcmrd.org/data/Rwanda_LandCover_2010_Scheme_I.zip,http://geoportal.rcmrd.org/data/Rwanda_LandCover_1990_Scheme_II.zip, http://geoportal.rcmrd.org/data/Rwanda_LandCover_2000_Scheme_II.zip, http://geoportal.rcmrd.org/data/Rwanda_LandCover_2010_Scheme_II.zip",			    
 				  	"schm_I_Legend_URLs":"http://maps.rcmrd.org/arcgis/services/Rwanda/RwandaEnvironmentGHGLandCoverMapService/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=3",
 				  	"schm_II_Legend_URLs":"http://maps.rcmrd.org/arcgis/services/Rwanda/RwandaEnvironmentGHGLandCoverMapService/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=0",
 				    "boundaryType":"District,Province,Country",
