@@ -1170,6 +1170,7 @@ $(document).ready(function(){
         $("#stats").show();
         $("#donwLayers").hide();        
         //loadStatistics(3);
+        drawMaterial();
         isToggld = false;
         rSizeMap();
 		   

@@ -27,8 +27,8 @@ function drawMaterial() {
         },
         bars: 'horizontal'
       };
-      var material = new google.charts.Bar(document.getElementById('chart_div'));
+      var material = new google.charts.Bar(document.getElementById('columnchart_material_percnt'));
       material.draw(data, options);
     }
 
-    drawMaterial();
+    
