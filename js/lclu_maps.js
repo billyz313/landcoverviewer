@@ -127,8 +127,8 @@ $(function(){
     
 });
 
-require(["esri/map", "esri/dijit/LayerSwipe", "esri/geometry/Extent", "esri/tasks/query", "esri/layers/ArcGISDynamicMapServiceLayer", "esri/layers/ArcGISTiledMapServiceLayer", "esri/InfoTemplate", "esri/layers/FeatureLayer", "esri/symbols/SimpleFillSymbol", "esri/symbols/SimpleLineSymbol", "esri/renderers/SimpleRenderer", "esri/symbols/TextSymbol", "esri/layers/LabelLayer", "esri/graphic", "esri/lang", "esri/Color", "dojo/number", "esri/arcgis/utils", "dojo/_base/array", "esri/dijit/BasemapToggle", "esri/dijit/BasemapGallery", "dijit/form/HorizontalSlider", "dojo/parser", "dojo/domReady!"], 
-function(Map, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLayer, ArcGISTiledMapServiceLayer, InfoTemplate, FeatureLayer, SimpleFillSymbol, SimpleLineSymbol, SimpleRenderer, TextSymbol, LabelLayer, Graphic, esriLang, Color, number, arcgisUtils, array, BasemapToggle, BasemapGallery, HorizontalSlider, parser){
+require(["esri/map", "esri/toolbars/navigation", "esri/dijit/LayerSwipe", "esri/geometry/Extent", "esri/tasks/query", "esri/layers/ArcGISDynamicMapServiceLayer", "esri/layers/ArcGISTiledMapServiceLayer", "esri/InfoTemplate", "esri/layers/FeatureLayer", "esri/symbols/SimpleFillSymbol", "esri/symbols/SimpleLineSymbol", "esri/renderers/SimpleRenderer", "esri/symbols/TextSymbol", "esri/layers/LabelLayer", "esri/graphic", "esri/lang", "esri/Color", "dojo/number", "esri/arcgis/utils", "dojo/_base/array", "esri/dijit/BasemapToggle", "esri/dijit/BasemapGallery", "dijit/form/HorizontalSlider", "dojo/parser", "dijit/Toolbar", "dojo/domReady!"],
+function (Map, Navigation, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLayer, ArcGISTiledMapServiceLayer, InfoTemplate, FeatureLayer, SimpleFillSymbol, SimpleLineSymbol, SimpleRenderer, TextSymbol, LabelLayer, Graphic, esriLang, Color, number, arcgisUtils, array, BasemapToggle, BasemapGallery, HorizontalSlider, parser, Toolbar) {
     initSliderButtons();
     parser.parse();
     map = new Map("map", 
@@ -144,7 +144,7 @@ function(Map, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLayer, ArcGISTil
          
     });
     
-    navToolbar = new esri.toolbars.Navigation(map);
+    navToolbar = new Navigation(map);
     dojo.connect(navToolbar, "onExtentHistoryChange", function(){
         navToolbar.deactivate();
     });
@@ -207,7 +207,8 @@ function(Map, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLayer, ArcGISTil
     globalLayerSwipe = LayerSwipe;
     
     var swipeWidget = new LayerSwipe({
-        type : "vertical",
+        type: "vertical",
+        region: "right",
         map : map,
         layers : [allLayers[0]]
     }, "swipeDiv");
@@ -311,42 +312,29 @@ function creatLayers(sch){
             }
         };
     }
-    currentSwipe = 0;
-    currentBottom = allLayers.length - 1;
-    globalswipeWidget.destroy();
-    globalswipeWidget = new globalLayerSwipe({
-        type : "vertical",
-        //Try switching to "scope" or "horizontal"
-        map : map,
-        layers : [allLayers[0]]
-    }, "swipeDiv");
-    globalswipeWidget.startup();
-    allLayers[currentSwipe].hide();
-    map.removeLayer(allLayers[currentBottom]);
-    map.addLayer(allLayers[currentBottom]);
-    //allLayers[currentSwipe].setOpacity(currentOpacity);
-    globalswipeWidget.layers = [allLayers[currentSwipe]];
-    allLayers[currentSwipe].show();
-    allLayers[currentBottom].show();
-    //currentSwipe = which;
-    map.reorderLayer(allLayers[currentBottom], 1);
-    map.reorderLayer(allLayers[currentSwipe], 2);
-    //alert(map.layerIds.length);
-    //alert(k); 
+    setSwipe(globalswipeWidget.type);
 }
 
 function loadCountry(cntr){
+    creatLayers(schmType);
+    loadLegend(schmType);
+    popDropdowns();
+    getDownloadLinks();
+}
+
+function loadCountryChange(cntr) {
     //globalswipeWidget.disable();
     //globalswipeWidget.destroy();
     map.graphics.clear();
     map.removeAllLayers();
     setCountryParams(cntr);
     map.centerAndZoom([cntryCenterX, cntryCenterY], cntryZoomLevel);
-    map.removeAllLayers();
+    //map.removeAllLayers();
     creatLayers(schmType);
     loadLegend(schmType);
     popDropdowns();
     getDownloadLinks();
+    map.centerAndZoom([cntryCenterX, cntryCenterY], cntryZoomLevel);
 }
 
 function loadStatistics(lyrIndex){
@@ -355,14 +343,10 @@ function loadStatistics(lyrIndex){
     var bndrs = bndrys.split(",");
     cntryBndType = bndrs[adminLevel] ;
     var layerIndex = lyrIndex - 1;
-    map.graphics.clear();
-    map.removeAllLayers();
-    map.centerAndZoom([cntryCenterX, cntryCenterY], cntryZoomLevel);
-    creatLayers(schmType);
     var qryField = cntryStatsFields.split(",");
     console.log(layerIndex);
     console.log("load Stats Query Field:" + qryField[layerIndex]);
-    globalswipeWidget.destroy();
+    
     var theinfoTemplate = new thInfoTemplate("${" + qryField[layerIndex] + "}");
     bndryServiceURL = serviceUrlVector + "/" + layerIndex;
     var featureLayer = new globaFeatureLayer(bndryServiceURL, 
@@ -416,20 +400,12 @@ function loadStatistics(lyrIndex){
             console.log(t);
             var content = gloabalesriLang.substitute(evt.graphic.attributes, t);
             console.log(content);
-            selectedFeatureName = content ;             
-            //alert(selectedFeatureName); 
-            //google.setOnLoadCallback(drawChart);
-             //getStatistics(selectedFeatureName);
+            selectedFeatureName = content ;  
             drawChart_percnt();
             drawChart_area();
             
         });
 
-       
-        //alert("works")
-    //map.addLayer(featureLayer);
-    //console.log(getStatistics("NORTH"));    
-    //mapClickEvent(featureLayer)
 }
 
 function mapClickEvent(featureLayer){
@@ -1086,6 +1062,9 @@ function showCollapseGraphing(isShow){
         $('#map').css({
             'width' : 50 + '%'
         });
+        $('#swipeDiv').css({
+            'width': 50 + '%'
+        });
         $('#charstHolder').css({
             'height' : 100 + '%'
         });
@@ -1103,6 +1082,9 @@ function showCollapseGraphing(isShow){
         });
         $('#map').css({
             'width' : 100 + '%'
+        });
+        $('#swipeDiv').css({
+            'width': 100 + '%'
         });
         $('#charstHolder').css({
             'height' : 0 + '%'
@@ -1152,16 +1134,20 @@ function statsViewMode(){
    stsViewMode = $('input:radio[name=viewMode]:checked').val();
    loadStatistics(3)
 }
-
+var LastVal = 0;
 $(document).ready(function(){
     $("#btnComprLyrs").click(function(){
-        rSizeMap();
-        showCollapseGraphing(false);
+        //rSizeMap();
+        
         $("#compare").show();
         $("#stats").hide();
         $("#donwLayers").hide();
         loadCountry(cntryID);
         rSizeMap();
+        showCollapseGraphing(false);
+        //map.setZoom(map.getZoom() + 1);
+        //map.setExtent(map.extent);
+        //map.setZoom(map.getZoom() - 1);
     });
     $("#btnStats").click(function(){
         showCollapseGraphing(true);
@@ -1173,7 +1159,7 @@ $(document).ready(function(){
         drawMaterial();
         isToggld = false;
         rSizeMap();
-		   
+        showCollapseGraphing($("#charstHolder").is(':visible'));
     });
     $("#btnDown").click(function(){
         rSizeMap();
@@ -1184,15 +1170,24 @@ $(document).ready(function(){
         loadCountry(cntryID);
         rSizeMap();
     });
-    $('#adminlevel').change(function(){
+    $('#adminlevel').change(function () {
+        var holdtype = globalswipeWidget.type;
         isToggld = false;
-        cntryAdminLevel = $(this).val();          
-        loadStatistics(cntryAdminLevel);
+        cntryAdminLevel = $(this).val();
+        try {
+            loadStatistics(cntryAdminLevel);
+        }
+        catch (e) { }
+        //showCollapseGraphing($("#charstHolder").is(':visible'));
+        globalswipeWidget.type = holdtype;
+        setSwipe(globalswipeWidget.type);
+        showCollapseGraphing($("#charstHolder").is(':visible'));
     });
-    
-    $('#country').change(function(){
+   
+    $('#country').change(function () {
         showCollapseGraphing(false);
-        loadCountry($(this).val());
+        LastVal = $(this).val();
+        loadCountryChange($(this).val());
         isToggld = false;
         rSizeMap();
         showCollapseGraphing(false);
@@ -1230,21 +1225,58 @@ $(document).ready(function(){
 
 function toggleSwipeOrientation(){
     var swipeType = globalswipeWidget.type == "vertical" ? "horizontal" : "vertical";
-    globalswipeWidget.destroy();
-    globalswipeWidget = new globalLayerSwipe({
-        type : swipeType,
-        //Try switching to "scope" or "horizontal"
-        map : map,
-        layers : [allLayers[0]]
-    }, "swipeDiv");
+
+    setSwipe(swipeType);
     
+    /* Left becomes top */
+    
+}
+
+function setSwipe(swipeType)
+{
+    currentSwipe = 0;
+    currentBottom = allLayers.length - 1;
+    try {
+        globalswipeWidget.destroy();
+    }
+    catch (e) { }
+    var swipeDiv = document.createElement('div');
+    swipeDiv.id = "swipeDiv";
+
+    var mapswitcher = document.getElementById("map");
+    mapswitcher.insertBefore(swipeDiv, mapswitcher.firstChild);
+
+    globalswipeWidget = new globalLayerSwipe({
+        type: swipeType,
+        //Try switching to "scope" or "horizontal"
+        region: "right",
+        map: map,
+        layers: [allLayers[0]]
+    }, "swipeDiv");
     globalswipeWidget.startup();
+    //map.removeAllLayers();
+    allLayers[currentSwipe].hide();
+
+    map.removeLayer(allLayers[currentBottom]);
+    map.addLayer(allLayers[currentBottom]);
+    
+    //allLayers[currentSwipe].setOpacity(currentOpacity);
+    globalswipeWidget.layers = [allLayers[currentSwipe]];
+    allLayers[currentSwipe].show();
+    allLayers[currentBottom].show();
+    //currentSwipe = which;
+    map.reorderLayer(allLayers[currentBottom], 1);
+    map.reorderLayer(allLayers[currentSwipe], 2);
+
+
+
     var tlText = swipeType == "horizontal" ? "Top Section:" : "Left Side:";
     var rbText = swipeType == "horizontal" ? "Bottom Section:" : "Right Side:";
-    
+
     $('#leftTopLabel').text(tlText);
     $('#rightBottomLabel').text(rbText);
-    /* Left becomes top */
+    globalswipeWidget.type = swipeType;
+    map.setExtent(map.extent);
     
 }
 
