@@ -161,7 +161,7 @@ function (Map, Navigation, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLay
     $("#map_zoom_slider").removeClass("esriSimpleSliderTL");
     map.reorderLayer(allLayers[currentBottom], 1);
     map.reorderLayer(allLayers[currentSwipe], 2);
-    
+     
     
     function addLayerToSystem(which, hide){
         allLayers.push(new ArcGISTiledMapServiceLayer(eval('landcover.' + which)));
@@ -173,7 +173,7 @@ function (Map, Navigation, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLay
     }
 
     intDivs();
-
+    map.resize();
 });
 
 function addDaynamicLayerToSystem(theId, which, hide, serviceUrl){
@@ -191,7 +191,7 @@ function addDaynamicLayerToSystem(theId, which, hide, serviceUrl){
 
 }
 
-
+ 
 
 
 //function rSizeMap(){
@@ -406,7 +406,7 @@ function openHtmlShadowBox(HTMLmessage, title){
     });
 }
 
-//function getLegend(){
+//function getLegend(){ 
     
 //    var serviceUrl = legendList[legendCnt][0];
 //    var lyrsInfo = legendList[legendCnt][1];
@@ -448,4 +448,8 @@ function openHtmlShadowBox(HTMLmessage, title){
     
 //    );
     
+
 //}
+
+//}
+
