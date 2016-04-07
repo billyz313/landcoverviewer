@@ -50,7 +50,7 @@ var resizeTimer;
 var isToggld;
 
 
-//New file
+
 
 
 function initSliderButtons(){
@@ -448,9 +448,6 @@ function openHtmlShadowBox(HTMLmessage, title){
     
 //    );
     
-<<<<<<< HEAD
-//}
-=======
 //}
 
 var cntryName;
@@ -918,4 +915,3 @@ function getLegend(){
     
 }
 
->>>>>>> origin/gh-pages
