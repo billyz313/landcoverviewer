@@ -161,7 +161,7 @@ function (Map, Navigation, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLay
     $("#map_zoom_slider").removeClass("esriSimpleSliderTL");
     map.reorderLayer(allLayers[currentBottom], 1);
     map.reorderLayer(allLayers[currentSwipe], 2);
-    
+     
     
     function addLayerToSystem(which, hide){
         allLayers.push(new ArcGISTiledMapServiceLayer(eval('landcover.' + which)));
