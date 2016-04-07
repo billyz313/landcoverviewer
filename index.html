@@ -3,218 +3,169 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <title>SERVIR Eastern and Southern Africa - Land Cover Viewer Tool</title>
-    <link rel="stylesheet" type="text/css" href="http://js.arcgis.com/3.7/js/esri/css/esri.css">
-    <link rel="stylesheet" type="text/css" href="http://serverapi.arcgisonline.com/jsapi/arcgis/3.0/js/dojo/dijit/themes/claro/claro.css">
+    <title>SERVIR Global - Land Cover Viewer Tool</title>
+    <link rel="stylesheet" type="text/css" href="https://js.arcgis.com/3.7/js/esri/css/esri.css">
+    <link rel="stylesheet" type="text/css" href="https://serverapi.arcgisonline.com/jsapi/arcgis/3.0/js/dojo/dijit/themes/claro/claro.css">
     <link rel="stylesheet" href="https://js.arcgis.com/3.8/js/dojo/dijit/themes/tundra/tundra.css">
     <link rel='SHORTCUT ICON' href='/Portals/0/favicon.ico' type='image/x-icon' />
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+   
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
     <link href="css/Style.css" rel="stylesheet" />
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="http://code.highcharts.com/highcharts.js"></script>
-    <script src="http://code.highcharts.com/modules/exporting.js"></script>
-    <!--<script src="js/jquery-ui-1.10.4.custom.min.js"></script>-->
     <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <!--<script src="//js.arcgis.com/3.7/"></script>-->
-    <script src="http://js.arcgis.com/3.12/"></script>
+    <script src="https://js.arcgis.com/3.12/"></script>
     <script src="js/shadowbox.js" type="text/javascript"></script>
     <link href="css/shadowbox.css" rel="stylesheet" type="text/css" />
-    <script src="js/lclu_maps.js"></script>
+    <!--<script src="js/lclu_maps.js"></script>-->
 
-    <script src="js/statistics.js"></script>
+    <script src="js/landcover_maps.js"></script>
     <link href="css/pageLevelcss2.css" rel="stylesheet" />
     <script type="text/javascript">
-        google.load("visualization", "1", { packages: ["corechart", 'bar'] });                
+        
+
+
+        function openLayerManager(toggleWidth, speed) {
+            $("#LayerManager").hide();
+            var adjustnumHeight = $("#LayerManager").height('auto').height();
+            $("#LayerManager").height(0);
+            $("#LayerManager").show();
+            var adjustnumWidth = $(window).width() - 30;
+            if (adjustnumWidth > toggleWidth) {
+                adjustnumWidth = toggleWidth;
+            }
+            $("#LayerManager").animate({
+                width: '+=' + adjustnumWidth + 'px',
+                height: '+=' + adjustnumHeight + 'px'
+            }, speed);
+            $("#btnlayermgr").css('left', 'auto');
+            $("#btnlayermgr").css('background-color', 'inherit');
+
+            $("#btnlayermgr").css('padding', '0px');
+            $("#btnlayermgr").css('top', '3px');
+            var num = toggleWidth - 12;
+            $("#btnlayermgr").animate({
+                left: '+=' + num + 'px'
+            }, speed);
+        }
     </script>
     <!--script src="js/statistics.js"></script-->
 </head>
-<body class="claro">    
+<body class="claro">
     <div data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design:'headline',gutters:false"
-        style="width: 100%; height: 100%; margin: 0;">
+         style="width: 100%; height: 100%; margin: 0;">
         <div id="mainHolder" style="width: 100%; height: 100%; margin: 0;">
-        <div id="map" style="float:left; width: 100%; height:100%; margin: 0;">
-            
-            <div id="LayerManager">
-                <div id="Disasters">
-                    <table style="width: 100%;">
-                        <tr>
-                            <td colspan="2" align="center">
-                                <span style="color: #fff;">Select Country to View</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <select id="country">
-                                    <option value="0" selected="selected">Tanzania</option>
-                                    <option value="1">Rwanda</option>
-                                    <option value="2">Malawi</option>
-                                    <option value="3">Botswana</option>
-                                    <option value="4">Zambia</option>
-                                    <option value="5">Namibia</option>
-                                    <option value="6">Ethiopia</option>
-                                    <option value="7">Uganda</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" align="center">
-                                <span style="color: #fff;">Select Classfication Scheme</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="radio" name="schmType" id="sch_1" value="1" checked="checked" />
-                                <label for="sch_1">
-                                    <span style="color: #fff;">Scheme I</span></label>
-                                <input type="radio" name="schmType" id="sch_2" value="2" />
-                                <label for="sch_2">
-                                    <span style="color: #fff;">Scheme II</span></label>
-                            </td>
-                        </tr>
-                    </table>
-                    <br />
-                    <button id="btnComprLyrs">
-                        Compare</button>
-                    <button id="btnStats">
-                        Statistics</button>
-                    <button id="btnDown">
-                        Download</button>
-                    <div id="compare">
-                        <table style="width: 100%;">
-                           
-                            <tr>
-                                <td colspan="2" align="center">
-                                    <span style="color: #fff;">Select Land Cover Year</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="mgrLabelWidth">
-                                    <span unselectable="on" class="LayerSelectorText" id="leftTopLabel">Left Side: </span>
-                                </td>
-                                <td>
-                                    <select id="leftSide">
-                                        <option value="0" selected="selected">2001</option>
-                                        <option value="1">2002</option>
-                                        <option value="2">2003</option>
-                                        <option value="3">2004</option>
-                                        <option value="4">2005</option>
-                                        <option value="5">2006</option>
-                                        <option value="6">2007</option>
-                                        <option value="7">2008</option>
-                                        <option value="8">2009</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span unselectable="on" class="LayerSelectorText" id="rightBottomLabel">Right Side:
-                                    </span>
-                                </td>
-                                <td>
-                                    <select id="rightSide">
-                                        <option value="0">2001</option>
-                                        <option value="1">2002</option>
-                                        <option value="2">2003</option>
-                                        <option value="3">2004</option>
-                                        <option value="4">2005</option>
-                                        <option value="5">2006</option>
-                                        <option value="6">2007</option>
-                                        <option value="7">2008</option>
-                                        <option value="8" selected="selected">2009</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" style="text-align: center;">
-                                    <div class="toggle-btn-grp joint-toggle">
-                                        <label onclick="" class="toggle-btn success">
-                                            <input type="radio" name="group3" checked="checked" />Horizontal</label><label onclick=""
-                                                class="toggle-btn"><input type="radio" name="group3" />Vertical</label>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div id="stats" style="color: #fff;">
-                        <table style="width: 100%;">
-                            <tr>
-                                <td colspan="2" align="center">
-                                    <span style="color: #fff;">Select Admin Level to View Statistics</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <select id="adminlevel">
-                                        <option value="3" selected="selected">Admin Level 1 (Country)</option>
-                                        <option value="2">Admin Level 2 (Region/Province)</option>
-                                        <option value="1">Admin Level 3 (District/County)</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" align="left">
-                                    <span style="color: #fff;">Select Preview to hover on <br/> or Select Admin Unit for Statistics</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2" align="left">
-                                    <input type="radio" name="viewMode" id="prM" value="mouse-over" checked="checked" />
-                                    <label for="prM">
-                                        <span style="color: #fff;">Preview Mode</span></label>
-                                    <input type="radio" name="viewMode" id="slctM" value="mouse-up" />
-                                    <label for="slctM">
-                                        <span style="color: #fff;">Select Mode</span></label>
-                                </td>
-                            </tr>
+            <div id="map" style="float:left; width: 100%; height:100%; margin: 0;">
 
-                                                     
-                        </table>
-                    </div>
-                    <div style="color: #fff;" id="donwLayers">
+                <div id="LayerManager">
+                    <div id="Disasters">
+                      
                         <br />
-                        <br />
-                        <a href="#" target="_blank">download the layers</a>
-                    </div>
-                    <div id="infoDiv">
-                        <table style="width: 100%;">
-                            <tr>
-                                <td colspan="2" style="height: 32px;">
-                                    <table style="width: 100%">
-                                        <tr>
-                                            <td style="width: 33%; text-align: center;">
-                                                <img src="images/metadata.png" alt="Metadata Info" title="Metadata Info" id="btnmetadatainfo"
-                                                    onclick="openHtmlShadowBox($('#metadatainfo').html(), 'Land Cover Maps Metedata')"
-                                                    style="width: 30px; display: none;" />
-                                            </td>
-                                            <td style="width: 33%; text-align: center;">
-                                                <img src="images/information.png" alt="About this viewer" title="About this viewer"
-                                                    id="btnviewerinfo" onclick="openHtmlShadowBox($('#viewerinfo').html(), 'About this viewer')"
-                                                    style="width: 30px; display: none;" />
-                                            </td>
-                                            <td style="width: 34%; text-align: center;">
-                                                <img src="images/Servir_Logo_white.png" alt="About SERVIR" title="About SERVIR" id="btnAboutSERVIR"
-                                                    onclick="openHtmlShadowBox($('#servirinfo').html(), 'About SERVIR')" style="width: 30px;
+                        <div id="compare">
+                            <table style="width: 100%;">
+
+                                <tr>
+                                    <td colspan="2" align="center">
+                                        <span style="color: #fff;">Select Land Cover Year</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="mgrLabelWidth">
+                                        <span unselectable="on" class="LayerSelectorText" id="leftTopLabel">Left Side: </span>
+                                    </td>
+                                    <td>
+                                        <select id="leftSide">
+                                            <option value="0" selected="selected">2001</option>
+                                            <option value="1">2002</option>
+                                            <option value="2">2003</option>
+                                            <option value="3">2004</option>
+                                            <option value="4">2005</option>
+                                            <option value="5">2006</option>
+                                            <option value="6">2007</option>
+                                            <option value="7">2008</option>
+                                            <option value="8">2009</option>
+                                            <option value="9">2010</option>
+                                            <option value="10">2011</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span unselectable="on" class="LayerSelectorText" id="rightBottomLabel">
+                                            Right Side:
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <select id="rightSide">
+                                            <option value="0">2001</option>
+                                            <option value="1">2002</option>
+                                            <option value="2">2003</option>
+                                            <option value="3">2004</option>
+                                            <option value="4">2005</option>
+                                            <option value="5">2006</option>
+                                            <option value="6">2007</option>
+                                            <option value="7">2008</option>
+                                            <option value="8" >2009</option>
+                                            <option value="9">2010</option>
+                                            <option value="10" selected="selected">2011</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;">
+                                        <div class="toggle-btn-grp joint-toggle">
+                                            <label onclick="" class="toggle-btn success">
+                                                <input type="radio" name="group3" checked="checked" />Horizontal
+                                            </label><label onclick=""
+                                                           class="toggle-btn"><input type="radio" name="group3" />Vertical</label>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--<div style="color: #fff;" id="donwLayers">
+                            <br />
+                            <br />
+                            <a href="#" target="_blank">download the layers</a>
+                        </div>-->
+                        <div id="infoDiv">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td colspan="2" style="height: 32px;">
+                                        <table style="width: 100%">
+                                            <tr>
+                                                <td style="width: 33%; text-align: center;">
+                                                    <img src="images/metadata.png" alt="Metadata Info" title="Metadata Info" id="btnmetadatainfo"
+                                                         onclick="openHtmlShadowBox($('#metadatainfo').html(), 'Land Cover Maps Metedata')"
+                                                         style="width: 30px; display: none;" />
+                                                </td>
+                                                <td style="width: 33%; text-align: center;">
+                                                    <img src="images/information.png" alt="About this viewer" title="About this viewer"
+                                                         id="btnviewerinfo" onclick="openHtmlShadowBox($('#viewerinfo').html(), 'About this viewer')"
+                                                         style="width: 30px; display: none;" />
+                                                </td>
+                                                <td style="width: 34%; text-align: center;">
+                                                    <img src="images/Servir_Logo_white.png" alt="About SERVIR" title="About SERVIR" id="btnAboutSERVIR"
+                                                         onclick="openHtmlShadowBox($('#servirinfo').html(), 'About SERVIR')" style="width: 30px;
                                                     display: none;" />
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <img src="images/ic_action_settings.png" alt="Layer Manager" title="Layer Manager"
-                id="btnlayermgr" onclick="toggleLayerManager()" />
-            <div id="swipeDiv" >
-            </div>
-            <div id="mapswitcher">
-                <div data-dojo-id="titlePaneDiv" id="titlePaneDiv" data-dojo-type="dijit/TitlePane" 
-                     data-dojo-props="title:'Legend', closable:true, open:false">
+                <img src="images/ic_action_settings.png" alt="Layer Manager" title="Layer Manager"
+                     id="btnlayermgr" onclick="toggleLayerManager()" />
+                <div id="swipeDiv">
+                </div>
+                <div id="mapswitcher">
+                    <div data-dojo-id="titlePaneDiv1" id="titlePaneDiv1" data-dojo-type="dijit/TitlePane"
+                         data-dojo-props="title:'Legend', closable:true, open:false">
                     <script type="dojo/method">
-                        dijit.byId("titlePaneDiv").watch("open", function(param, oldValue, newValue) {
-                        if(titlePaneDiv.open)
+                        dijit.byId("titlePaneDiv1").watch("open", function(param, oldValue, newValue) {
+                        if(titlePaneDiv1.open)
                         {
                         // opening
                         if($('#mobilefinder').css('display') == 'block')//too small to open both at same time
@@ -228,14 +179,12 @@
                         }
                         });
                     </script>
-                    <div data-dojo-type="dijit/layout/ContentPane" style="width: 300px; height: 400px;
-                        overflow: auto;">
+                    <div data-dojo-type="dijit/layout/ContentPane" style="overflow: auto;">
                         <div id="legendHolder">
-                            <img src="http://maps.rcmrd.org/arcgis/services/Tanzania/TanzaniaEnvironmentGHGLandCoverMapService/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=3"
-                                 style="max-width: 150%;" />
+                            <img src="https://gis1.servirglobal.net/arcgis/services/Global/MODIS_Landcover_Type1_2011/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=0"
+                                 style="" />
                         </div>
-                        <div id="statsholder">
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -247,21 +196,20 @@
                     <a href="https://servirglobal.net" target="_blank">
                         <img src="images/Servir_Logo_Flat_Color_sm.png" style="padding: 5px; margin-top: 5px;
                             cursor: pointer; max-width: 40%; min-width: 90px !important; pointer-events: auto;"
-                            title="SERVIR">
+                             title="SERVIR">
                     </a>
                 </div>
-            </div>             
-        </div>
-            <div id="charstHolder" style="float: right; width: 50%; height: 100%;">
-                <!--div id="chart_div" style="width:300px;height:300px;"></div-->
-                <div id="columnchart_material_percnt" style="width: 100%; height: 50%;">
-
-                </div>
-                <!--div id="columnchart_material_area" style="width: 100%; height: 50%;">
-                </div-->
             </div>
-            
         </div>
+        <div id="charstHolder" style="float: right; width: 50%; height: 100%;">
+            <!--div id="chart_div" style="width:300px;height:300px;"></div-->
+            <div id="columnchart_material_percnt" style="width: 100%; height: 50%;">
+            </div>
+            <!--div id="columnchart_material_area" style="width: 100%; height: 50%;">
+            </div-->
+        </div>
+
+    </div>
     </div>
     <div id="metadatainfo" style="display: none;">
         <p style="margin: 5px;">
@@ -272,17 +220,23 @@
             based on seasonality, dry season images preferred. This Land Cover maps were developed
             for the different epochs depending on the country requirements and data availability.
             Flexibility in image selection was allowed from previous and next year of those
-            epochs. Two classification schemes were used to produce these maps:</p>
+            epochs. Two classification schemes were used to produce these maps:
+        </p>
         <p>
             <ul>
-                <li>Classification <b>Scheme I</b> was based on Intergovernmental Panel on Climate Change
+                <li>
+                    Classification <b>Scheme I</b> was based on Intergovernmental Panel on Climate Change
                     (IPCC) 6 land over categories for Schema I: Forestland, Grassland, Wetland, Cropland,
-                    Settlement and Other land. </li>
-                <li>Classification <b>Scheme II</b> was informed by country specific interest, definitions,
+                    Settlement and Other land.
+                </li>
+                <li>
+                    Classification <b>Scheme II</b> was informed by country specific interest, definitions,
                     descriptions, mapping goals and policy statements and documents with guidance from
                     IPCC Good Practice guidelines. Scheme II is such that it meets the country specific
-                    mapping standards and can be rolled back to the IPCC categories. </li>
-                <li><b>Data Quality:</b> These land cover products were generated from Landsat Thematic
+                    mapping standards and can be rolled back to the IPCC categories.
+                </li>
+                <li>
+                    <b>Data Quality:</b> These land cover products were generated from Landsat Thematic
                     Mapper (Landsat 5) data using supervised classification method. It involved the
                     generation of training areas and then using maximum likelihood classification method
                     to develop the land cover product. Other post classification procedures such as
@@ -290,7 +244,8 @@
                     to generate the final products. Accuracy assessment was conducted using actual field
                     data and point interpretation from Landsat imagery which were randomly generated.
                     The two most commonly used indices for assessing the map accuracy were the Overall
-                    accuracy and the KAPPA coefficient. </li>
+                    accuracy and the KAPPA coefficient.
+                </li>
             </ul>
         </p>
         <p style="margin: 5px;">
@@ -301,35 +256,43 @@
         </p>
         <p style="margin: 5px;">
             More info can be found at <a href="https://servirglobal.net/Africa.aspx" target="_blank"
-                title="LP DAAC" style="color: #CAED4D; word-wrap: break-word;">SERVIR Eastern and
-                Southern Africa</a></p>
+                                         title="LP DAAC" style="color: #CAED4D; word-wrap: break-word;">
+                SERVIR Eastern and
+                Southern Africa
+            </a>
+        </p>
     </div>
     <div id="viewerinfo" style="display: none;">
         <p style="margin: 5px;">
-            The derived land-cover maps are based on a classification of satellite and ancillary data, which can include agricultural census, land-use surveys, and forest maps, and are used to guide and verify the classification of satellite imagery into land-cover maps. RCMRD has verified the land-use/land-cover maps through ground verification campaigns in each country, with the ministries of forest and/or environment as appropriate. Baseline data are provided in the form of Landsat satellite imagery and land-cover maps for 1990 (Malawi and Rwanda), 2000, and 2010. A joint Technical Advisory Board, with participants from the EPA and SERVIR, continues to guide SERVIR-Eastern and Southern Africa to ensure effective integration of the products from these GHG emissions inventories for participating countries.</p>
+            The derived land-cover maps are based on a classification of satellite and ancillary data, which can include agricultural census, land-use surveys, and forest maps, and are used to guide and verify the classification of satellite imagery into land-cover maps. RCMRD has verified the land-use/land-cover maps through ground verification campaigns in each country, with the ministries of forest and/or environment as appropriate. Baseline data are provided in the form of Landsat satellite imagery and land-cover maps for 1990 (Malawi and Rwanda), 2000, and 2010. A joint Technical Advisory Board, with participants from the EPA and SERVIR, continues to guide SERVIR-Eastern and Southern Africa to ensure effective integration of the products from these GHG emissions inventories for participating countries.
+        </p>
     </div>
     <div id="servirinfo" style="display: none;">
         <p style="margin: 5px;">
             SERVIR - the Regional Visualization and Monitoring System - helps government officials,
             managers, scientists, researchers, students, and the general public make decisions
             by providing Earth observations and predictive models based on data from orbiting
-            satellites.</p>
+            satellites.
+        </p>
         <p style="margin: 5px;">
             The SERVIR system helps nations in Mesoamerica, Africa, and the Himalayan regions
             cope with eight areas of societal benefit identified by the Group on Earth Observations
             (<a target="_blank" href="http://www.earthobservations.org/about_geo.shtml" title="The Group on Earth Observations"
                 style="color: #CAED4D;">GEO</a>): disasters, ecosystems, biodiversity, weather,
-            water, climate, health, and agriculture.</p>
+            water, climate, health, and agriculture.
+        </p>
         <p style="margin: 5px;">
             Decision makers use SERVIR to improve their ability to monitor air quality, extreme
             weather, biodiversity, and changes in land cover, and the system has been used over
             35 times to respond to environmental threats such as wildfires, floods, landslides,
             and harmful algal blooms. In addition, SERVIR analyzes, provides information about,
             and offers adaptation strategies for nations affected by climate change. In a very
-            real sense, SERVIR provides basic information for living on planet Earth.</p>
+            real sense, SERVIR provides basic information for living on planet Earth.
+        </p>
         <p style="margin: 5px;">
             More info can be found at <a href="https://servirglobal.net" title="SERVIR Global"
-                style="color: #CAED4D;">https://servirglobal.net</a></p>
+                                         style="color: #CAED4D;">https://servirglobal.net</a>
+        </p>
     </div>
     <span id="mobilefinder"></span><span id="tinymobilefinder"></span>
 </body>
