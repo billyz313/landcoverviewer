@@ -449,7 +449,7 @@ function openHtmlShadowBox(HTMLmessage, title){
 //    );
     
 //}
-=======
+
 var cntryName;
 var cntryID;
 var cntryCenterX;
