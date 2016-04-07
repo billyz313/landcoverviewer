@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var cntryName;
 var cntryID;
 var cntryCenterX;
