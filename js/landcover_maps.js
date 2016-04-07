@@ -448,4 +448,8 @@ function openHtmlShadowBox(HTMLmessage, title){
     
 //    );
     
+<<<<<<< HEAD
 //}
+=======
+//}
+>>>>>>> origin/gh-pages
