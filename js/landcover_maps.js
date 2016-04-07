@@ -50,7 +50,7 @@ var resizeTimer;
 var isToggld;
 
 
-
+//New file
 
 
 function initSliderButtons(){
