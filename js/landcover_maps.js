@@ -50,59 +50,105 @@ var resizeTimer;
 var isToggld;
 
 
-//New file
-
-
-function initSliderButtons(){
+function initSliderButtons() {
     $(".toggle-btn:not('.noscript') input[type=radio]").addClass("visuallyhidden");
-    $(".toggle-btn:not('.noscript') input[type=radio]").change(function(){
-        if($(this).attr("name")){
+    $(".toggle-btn:not('.noscript') input[type=radio]").change(function () {
+        if ($(this).attr("name")) {
             $(this).parent().addClass("success").siblings().removeClass("success");
             toggleSwipeOrientation();
         }
-        else{
+        else {
             $(this).parent().toggleClass("success");
         }
     });
 }
 
-$(function(){
+$(function () {
     Shadowbox.init({
-        continuous : false,
-        counterType : "none"
-    }, function(){
+        continuous: false,
+        counterType: "none"
+    }, function () {
         $('#btnAboutSERVIR').show();
         $('#btnmetadatainfo').show();
         $('#btnviewerinfo').show();
     });
-    
+
 });
 
 //ArcGIS js requires
-require(["esri/map", "esri/toolbars/navigation", "esri/dijit/LayerSwipe", "esri/geometry/Extent", "esri/tasks/query", "esri/layers/ArcGISDynamicMapServiceLayer", "esri/layers/ArcGISTiledMapServiceLayer", "esri/InfoTemplate", "esri/layers/FeatureLayer", "esri/symbols/SimpleFillSymbol", "esri/symbols/SimpleLineSymbol", "esri/renderers/SimpleRenderer", "esri/symbols/TextSymbol", "esri/layers/LabelLayer", "esri/graphic", "esri/lang", "esri/Color", "dojo/number", "esri/arcgis/utils", "dojo/_base/array", "esri/dijit/BasemapToggle", "esri/dijit/BasemapGallery", "dijit/form/HorizontalSlider", "dojo/parser", "dijit/Toolbar", "dojo/domReady!"],
-function (Map, Navigation, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLayer, ArcGISTiledMapServiceLayer, InfoTemplate, FeatureLayer, SimpleFillSymbol, SimpleLineSymbol, SimpleRenderer, TextSymbol, LabelLayer, Graphic, esriLang, Color, number, arcgisUtils, array, BasemapToggle, BasemapGallery, HorizontalSlider, parser, Toolbar) {
+require(["esri/map",
+        "esri/toolbars/navigation",
+        "esri/dijit/LayerSwipe",
+        "esri/geometry/Extent",
+        "esri/tasks/query",
+        "esri/layers/ArcGISDynamicMapServiceLayer",
+        "esri/layers/ArcGISTiledMapServiceLayer",
+        "esri/InfoTemplate",
+        "esri/layers/FeatureLayer",
+        "esri/symbols/SimpleFillSymbol",
+        "esri/symbols/SimpleLineSymbol",
+        "esri/renderers/SimpleRenderer",
+        "esri/symbols/TextSymbol",
+        "esri/layers/LabelLayer",
+        "esri/graphic",
+        "esri/lang",
+        "esri/Color",
+        "dojo/number",
+        "esri/arcgis/utils",
+        "dojo/_base/array",
+        "esri/dijit/BasemapToggle",
+        "esri/dijit/BasemapGallery",
+        "dijit/form/HorizontalSlider",
+        "dojo/parser",
+        "dijit/Toolbar",
+        "dojo/domReady!"],
+        function (Map,
+                    Navigation,
+                    LayerSwipe,
+                    Extent,
+                    Query,
+                    ArcGISDynamicMapServiceLayer,
+                    ArcGISTiledMapServiceLayer,
+                    InfoTemplate,
+                    FeatureLayer,
+                    SimpleFillSymbol,
+                    SimpleLineSymbol,
+                    SimpleRenderer,
+                    TextSymbol,
+                    LabelLayer,
+                    Graphic,
+                    esriLang,
+                    Color,
+                    number,
+                    arcgisUtils,
+                    array,
+                    BasemapToggle,
+                    BasemapGallery,
+                    HorizontalSlider,
+                    parser,
+                    Toolbar) {
     initSliderButtons();
     parser.parse();
     //Creates and centers map
-    map = new Map("map", 
+    map = new Map("map",
     {
-        center : [-23, 33],
-        basemap : "hybrid",
-        sliderPosition : "bottom-left",
-        zoom : 4
+        center: [-23, 33],
+        basemap: "hybrid",
+        sliderPosition: "bottom-left",
+        zoom: 4
     });
-	
-    map.on("load", function(){
-         map.graphics.enableMouseEvents();
-       
+
+    map.on("load", function () {
+        map.graphics.enableMouseEvents();
+
     });
-    
+
     navToolbar = new Navigation(map);
-    dojo.connect(navToolbar, "onExtentHistoryChange", function(){
+    dojo.connect(navToolbar, "onExtentHistoryChange", function () {
         navToolbar.deactivate();
     });
-	         
-    /*******************Load variables to global access******************************/         
+
+    /*******************Load variables to global access******************************/
     globalArcGISDynamicMapServiceLayer = ArcGISDynamicMapServiceLayer;
     globaFeatureLayer = FeatureLayer;
     thInfoTemplate = InfoTemplate;
@@ -113,13 +159,13 @@ function (Map, Navigation, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLay
     globalGraphic = Graphic;
     globalLabelLayer = LabelLayer;
     globalSimpleRenderer = SimpleRenderer;
-    globalColor= Color;
+    globalColor = Color;
     globalQuery = Query;
     globalExtent = Extent;
-    
+
     /*************************************Add layers to the map******************************/
     var baseUrl = "https://gis1.servirglobal.net/arcgis/rest/services/Global/";
-    
+
     addDaynamicLayerToSystem(0, "l2001", true, baseUrl + "MODIS_Landcover_Type1_2001/MapServer?");
     addDaynamicLayerToSystem(1, "l2002", true, baseUrl + "MODIS_Landcover_Type1_2002/MapServer?");
     addDaynamicLayerToSystem(2, "l2003", true, baseUrl + "MODIS_Landcover_Type1_2003/MapServer?");
@@ -131,43 +177,43 @@ function (Map, Navigation, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLay
     addDaynamicLayerToSystem(8, "l2009", true, baseUrl + "MODIS_Landcover_Type1_2009/MapServer?");
     addDaynamicLayerToSystem(9, "l2010", true, baseUrl + "MODIS_Landcover_Type1_2010/MapServer?");
     addDaynamicLayerToSystem(10, "l2011", true, baseUrl + "MODIS_Landcover_Type1_2011/MapServer?");
-    
+
     currentSwipe = 0;
-    
+
     currentBottom = allLayers.length - 1;
-    
-    
+
+
     allLayers[currentSwipe].show();
-    
+
     allLayers[currentBottom].show();
     globalArcGISTiledMapServiceLayer = ArcGISTiledMapServiceLayer;
-    
+
     globalLayerSwipe = LayerSwipe;
-    
+
     var swipeWidget = new LayerSwipe({
         type: "vertical",
         region: "right",
-        map : map,
-        layers : [allLayers[0]]
+        map: map,
+        layers: [allLayers[0]]
     }, "swipeDiv");
-    
+
     swipeWidget.startup();
     globalswipeWidget = swipeWidget;
     $("#btnlayermgr").show();
     toggleLayerManager();
-    
-    
+
+
     $("#map_zoom_slider").addClass("esriSimpleSliderBL");
     $("#map_zoom_slider").removeClass("esriSimpleSliderTL");
     map.reorderLayer(allLayers[currentBottom], 1);
     map.reorderLayer(allLayers[currentSwipe], 2);
-     
-    
-    function addLayerToSystem(which, hide){
+
+
+    function addLayerToSystem(which, hide) {
         allLayers.push(new ArcGISTiledMapServiceLayer(eval('landcover.' + which)));
         allLayers[allLayers.length - 1].id = which;
         map.addLayer(allLayers[allLayers.length - 1]);
-        if(hide == true){
+        if (hide == true) {
             allLayers[allLayers.length - 1].hide();
         }
     }
@@ -176,12 +222,12 @@ function (Map, Navigation, LayerSwipe, Extent, Query, ArcGISDynamicMapServiceLay
     map.resize();
 });
 
-function addDaynamicLayerToSystem(theId, which, hide, serviceUrl){
+function addDaynamicLayerToSystem(theId, which, hide, serviceUrl) {
     //theId is the layer Id index as it is on the map document that forms the web service  
     var layer = new globalArcGISDynamicMapServiceLayer(serviceUrl);
     layer.setVisibleLayers([0]);
     layer.setDisableClientCaching(true);
-    if(hide == true){
+    if (hide == true) {
         layer.hide();
     }
     allLayers.push(layer);
@@ -191,9 +237,9 @@ function addDaynamicLayerToSystem(theId, which, hide, serviceUrl){
 
 }
 
- 
 
 
+/*****Legacy map resize function*********/
 //function rSizeMap(){
 //clearTimeout(resizeTimer);
 //        resizeTimer = setTimeout(function(){
@@ -204,33 +250,33 @@ function addDaynamicLayerToSystem(theId, which, hide, serviceUrl){
 //}
 
 
-function intDivs(){
+function intDivs() {
     //hide other div elements on the layer manager and show the compare layers div
     $("#fieldVal").show();
 
 }
 
-function loadLegend(schmType){
-    
-    if(schmType == 1){
+function loadLegend(schmType) {
+
+    if (schmType == 1) {
         $("#legendHolder").find('img').remove();
         $("#legendHolder").append('<img src="' + cntrySchm_I_legend + '" style="width:auto;" />');
-        }
-    else{
+    }
+    else {
         $("#legendHolder").find('img').remove();
         $("#legendHolder").append('<img src="' + cntrySchm_II_legend + '" style="width:auto;" />');
-       
+
     };
-    
+
 }
 
 
-function changeSwipeLayer(which){
-    if(which == currentBottom){
+function changeSwipeLayer(which) {
+    if (which == currentBottom) {
         alert("Can't compare layer to itself");
         $('#leftSide').prop('selectedIndex', currentSwipe);
     }
-    else{
+    else {
         allLayers[currentSwipe].hide();
         map.removeLayer(allLayers[currentBottom]);
         map.addLayer(allLayers[currentBottom]);
@@ -244,13 +290,13 @@ function changeSwipeLayer(which){
 }
 
 
-function changeBottomCompare(which){
-    if(which == currentSwipe){
+function changeBottomCompare(which) {
+    if (which == currentSwipe) {
         alert("Can't compare layer to itself");
         $('#rightSide').prop('selectedIndex', currentBottom);
     }
-    else{
-        
+    else {
+
         allLayers[currentBottom].hide();
         map.removeLayer(allLayers[which]);
         map.addLayer(allLayers[which]);
@@ -263,19 +309,19 @@ function changeBottomCompare(which){
 }
 
 
-function checkAdjustSizeOfLayerManager(){
-    if($("#LayerManager").width() == 0){}
-    else{
+function checkAdjustSizeOfLayerManager() {
+    if ($("#LayerManager").width() == 0) { }
+    else {
         $("#LayerManager").width(0, 0);
         var theAdjustmentWidth = 275;
-        if($('#mobilefinder').css('display') == 'block'){
-            if(titlePaneDiv.open){
+        if ($('#mobilefinder').css('display') == 'block') {
+            if (titlePaneDiv.open) {
                 titlePaneDiv.toggle();
             }
-            if($('#tinymobilefinder').css('display') == 'block'){
+            if ($('#tinymobilefinder').css('display') == 'block') {
                 theAdjustmentWidth = 170;
             }
-            else{
+            else {
                 theAdjustmentWidth = 225;
             }
             toggleSwipeOrientation();
@@ -283,7 +329,7 @@ function checkAdjustSizeOfLayerManager(){
         }
         openLayerManager(theAdjustmentWidth, 0);
     }
-    
+
 }
 
 
@@ -291,26 +337,26 @@ function checkAdjustSizeOfLayerManager(){
 
 
 
-function toggleLayerManager(){
-    isToggld==true
-    if($("#LayerManager").width() == 0){
+function toggleLayerManager() {
+    isToggld == true
+    if ($("#LayerManager").width() == 0) {
         var theAdjustmentWidth = 275;
-        if($('#mobilefinder').css('display') == 'block'){
-            if(titlePaneDiv.open){
+        if ($('#mobilefinder').css('display') == 'block') {
+            if (titlePaneDiv.open) {
                 titlePaneDiv.toggle();
-                
+
             }
-            if($('#tinymobilefinder').css('display') == 'block'){
+            if ($('#tinymobilefinder').css('display') == 'block') {
                 theAdjustmentWidth = 170;
             }
-            else{
+            else {
                 theAdjustmentWidth = 225;
             }
         }
         openLayerManager(theAdjustmentWidth, 250);
     }
-    else{
-        
+    else {
+
         $("#LayerManager").width(0);
         $("#LayerManager").height(0);
         $("#btnlayermgr").css('right', 'auto');
@@ -323,38 +369,37 @@ function toggleLayerManager(){
 
 
 var LastVal = 0;
-$(document).ready(function(){
-    $("#btnComprLyrs").click(function(){
-       
+$(document).ready(function () {
+    $("#btnComprLyrs").click(function () {
+
         $("#compare").show();
-        
+
     });
-   
-    
-    $('#leftSide').change(function(){
+
+
+    $('#leftSide').change(function () {
         changeSwipeLayer($(this).val());
     });
-    $('#rightSide').change(function(){
+    $('#rightSide').change(function () {
         changeBottomCompare($(this).val());
     });
-    $(window).resize(function(){
+    $(window).resize(function () {
         checkAdjustSizeOfLayerManager();
     });
-    
-   
+
+
 });
 
-function toggleSwipeOrientation(){
+function toggleSwipeOrientation() {
     var swipeType = globalswipeWidget.type == "vertical" ? "horizontal" : "vertical";
 
     setSwipe(swipeType);
-    
+
     /* Left becomes top */
-    
+
 }
 
-function setSwipe(swipeType)
-{
+function setSwipe(swipeType) {
     currentSwipe = 0;
     currentBottom = allLayers.length - 1;
     try {
@@ -379,7 +424,7 @@ function setSwipe(swipeType)
 
     map.removeLayer(allLayers[currentBottom]);
     map.addLayer(allLayers[currentBottom]);
-    
+
     globalswipeWidget.layers = [allLayers[currentSwipe]];
     allLayers[currentSwipe].show();
     allLayers[currentBottom].show();
@@ -395,32 +440,36 @@ function setSwipe(swipeType)
     $('#rightBottomLabel').text(rbText);
     globalswipeWidget.type = swipeType;
     map.setExtent(map.extent);
-    
+
 }
 
-function openHtmlShadowBox(HTMLmessage, title){
+function openHtmlShadowBox(HTMLmessage, title) {
     Shadowbox.open({
-        content : HTMLmessage,
-        player : "html",
-        title : title
+        content: HTMLmessage,
+        player: "html",
+        title: title
     });
 }
-
+/***This could be used to get the produced legend from the webservice 
+    - legendList would have to be populated with the serviceUrl and lyrsInfo
+    - Being that this is legacy code it could easily be updated to include 
+    - all of that data in a json object.
+**************************/
 //function getLegend(){ 
-    
+
 //    var serviceUrl = legendList[legendCnt][0];
 //    var lyrsInfo = legendList[legendCnt][1];
-    
+
 //    $.getJSON(serviceUrl + '/legend?f=json&callback=?', 
 //    function(data){
-        
+
 //        //Iterate through each sublayers
 //        for(i = 0; i < lyrsInfo.length; i ++ ){
-            
+
 //            var layerId = lyrsInfo[i].id;
 //            var legendTitle = lyrsInfo[i].title;
-            
-            
+
+
 //            //Check for legend title for the layer
 //            if((legendTitle == null) || (legendTitle == "")){
 //                legendTitle = data.layers[layerId].layerName;
@@ -434,20 +483,20 @@ function openHtmlShadowBox(HTMLmessage, title){
 //            });
 //            $('#legendDiv').append('<br>');
 //            //Add extra line break 
-            
+
 //        }
-        
+
 //        //Call getLegend function recursively to ensure new legend creation starts only after completion of previous legend creation
-        
+
 //        legendCnt = legendCnt + 1;
-        
+
 //        if(legendCnt < legendList.length){
 //            getLegend();
 //        }
 //    }
-    
+
 //    );
-    
+
 
 //}
 
